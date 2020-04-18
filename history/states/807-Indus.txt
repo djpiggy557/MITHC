@@ -1,0 +1,29 @@
+state=
+{
+	id=807
+	name="Indus"
+	
+	state_category = town
+	
+	manpower = 294748
+	resources={
+		steel=5 # was: 8
+	}
+
+	history=
+	{
+		owner = RAJ
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		add_core_of = PAK
+		add_core_of = RAJ
+	}
+
+	provinces={
+		1147 1971 1980 4003 4110 4382 7084 
+
+	}
+}

@@ -1,0 +1,30 @@
+state=
+{
+	id=802
+	name="Shandong"
+	
+	state_category = town
+	
+	manpower = 294748
+	resources={
+		steel=5 # was: 8
+	}
+
+	history=
+	{
+		owner = JAP
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		victory_points = { 6583 5 }
+		add_core_of = JAP
+		add_core_of = CHI
+	}
+
+	provinces={
+		 4205 10018 1200 1104 4186 7105 4157 7089 1084 12074 4089 12093 11944 10119 1184 9971 
+
+	}
+}

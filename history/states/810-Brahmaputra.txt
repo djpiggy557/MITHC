@@ -1,0 +1,29 @@
+state=
+{
+	id=810
+	name="Brahmaputra"
+	
+	state_category = town
+	
+	manpower = 294748
+	resources={
+		steel=5 # was: 8
+	}
+
+	history=
+	{
+		owner = BHU
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		add_core_of = BHU
+		add_core_of = RAJ
+	}
+
+	provinces={
+		1116 10810 12730 7455 10349  
+
+	}
+}

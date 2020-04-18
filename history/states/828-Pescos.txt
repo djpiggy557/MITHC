@@ -1,0 +1,30 @@
+state=
+{
+	id=828
+	name="Pescos"
+	
+	state_category = town
+	
+	manpower = 294748
+	resources={
+		steel=5 # was: 8
+	}
+
+	history={
+			victory_points = {
+			7132 5 
+		}
+		owner = USA
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		12720 10867 12684 2102 10642 
+
+	}
+}

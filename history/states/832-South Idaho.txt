@@ -1,0 +1,30 @@
+state=
+{
+	id=832
+	name="South Idaho"
+	
+	state_category = town
+	
+	manpower = 294748
+	resources={
+		steel=5 # was: 8
+	}
+
+	history={
+			victory_points = {
+			7132 5 
+		}
+		owner = PSA
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		add_core_of = PSA
+	}
+
+	provinces={
+		12607 
+
+	}
+}

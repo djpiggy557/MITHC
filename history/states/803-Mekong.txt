@@ -1,0 +1,29 @@
+state=
+{
+	id=803
+	name="Mekong"
+	
+	state_category = town
+	
+	manpower = 294748
+	resources={
+		steel=5 # was: 8
+	}
+
+	history=
+	{
+		owner = SIA
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		add_core_of = SIA
+		add_core_of = LAO
+	}
+
+	provinces={
+		 10456 10330 10356 1592 
+
+	}
+}

@@ -1,0 +1,31 @@
+state=
+{
+	id=824
+	name="Jinhua"
+	
+	state_category = town
+	
+	manpower = 294748
+	resources={
+		steel=5 # was: 8
+	}
+
+	history={
+			victory_points = {
+			7132 5 
+		}
+		owner = CHI
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		add_core_of = JAP
+		add_core_of = CHI
+	}
+
+	provinces={
+		1195 7086 7146 7174 9944 9972 10014 10086 11920 11947 12059   
+
+	}
+}

@@ -1,0 +1,32 @@
+state=
+{
+	id=817
+	name="Haixi"
+	
+	state_category = town
+	
+	manpower = 294748
+	resources={
+		steel=5 # was: 8
+	}
+
+	history={
+			victory_points = {
+			7132 5 
+		}
+		owner = TIB
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		add_core_of = TIB
+		add_core_of = CHI
+		add_core_of = XSM
+	}
+
+	provinces={
+		4964 12899 8037 4914  
+
+	}
+}

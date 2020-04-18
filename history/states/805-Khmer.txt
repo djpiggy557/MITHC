@@ -1,0 +1,29 @@
+state=
+{
+	id=805
+	name="Khmer"
+	
+	state_category = town
+	
+	manpower = 294748
+	resources={
+		steel=5 # was: 8
+	}
+
+	history=
+	{
+		owner = SIA
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		add_core_of = SIA
+		add_core_of = CAM
+	}
+
+	provinces={
+		12447 12460 4302 10467 4251 10134 10177 1353 
+
+	}
+}

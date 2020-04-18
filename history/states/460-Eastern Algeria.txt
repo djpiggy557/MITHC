@@ -1,0 +1,33 @@
+
+state={
+	id=460
+	name="STATE_460" # Constantine
+	manpower = 2343837
+	
+	state_category = town
+
+	history={
+		owner = ITA
+		add_core_of = ALG
+		add_core_of = FRA
+		victory_points = {
+			7081 1 
+		}
+		victory_points = {
+			12051 3 
+		}
+		victory_points = {
+			12034 1 
+		}
+		buildings = {
+			infrastructure = 4
+			7081 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		1058 1160 7065 7081 9976 10078 11953 12051 12034 1141 9943 
+	}
+}

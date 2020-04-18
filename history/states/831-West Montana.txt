@@ -1,0 +1,30 @@
+state=
+{
+	id=831
+	name="West Montana"
+	
+	state_category = town
+	
+	manpower = 294748
+	resources={
+		steel=5 # was: 8
+	}
+
+	history={
+			victory_points = {
+			7132 5 
+		}
+		owner = USA
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		1851 12585 12572 10593 10624 4857 7760 4863 7880 7883 10706 1767 10587 
+
+	}
+}

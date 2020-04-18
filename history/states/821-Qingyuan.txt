@@ -1,0 +1,32 @@
+state=
+{
+	id=821
+	name="Qingyuan"
+	
+	state_category = town
+	
+	manpower = 294748
+	resources={
+		steel=5 # was: 8
+	}
+
+	history={
+			victory_points = {
+			7132 5 
+		}
+		owner = CHI
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		add_core_of = JAP
+		add_core_of = CHI
+		add_core_of = GXC
+	}
+
+	provinces={
+		1087 1131 1187 4092 7152 11941 12077 
+
+	}
+}

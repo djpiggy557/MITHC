@@ -1,0 +1,31 @@
+state=
+{
+	id=823
+	name="Sanming"
+	
+	state_category = town
+	
+	manpower = 294748
+	resources={
+		steel=5 # was: 8
+	}
+
+	history={
+			victory_points = {
+			7132 5 
+		}
+		owner = CHI
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		add_core_of = JAP
+		add_core_of = CHI
+	}
+
+	provinces={
+		1006 1094 1138 1166 1193 4053 4070 4113 7099 7131 10012 10042 10054 10084 12057 12084   
+
+	}
+}

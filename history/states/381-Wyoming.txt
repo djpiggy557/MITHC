@@ -1,0 +1,20 @@
+
+state={
+	id=381
+	name="STATE_381"
+	manpower = 225564
+	state_category = rural
+	
+	history={
+		owner = BSA
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = BSA
+	}
+
+	provinces={
+		1815 7688 7888 12561 12633 12651 
+	}
+	
+}

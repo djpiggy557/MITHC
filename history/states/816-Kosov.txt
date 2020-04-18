@@ -1,0 +1,32 @@
+state=
+{
+	id=816
+	name="Kosovo"
+	
+	state_category = town
+	
+	manpower = 294748
+	resources={
+		steel=5 # was: 8
+	}
+
+	history={
+			victory_points = {
+			7132 5 
+		}
+		owner = ITA
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		add_core_of = ITA
+		add_core_of = SER
+		add_core_of = ALB
+	}
+
+	provinces={
+		867 833 9874 6940 9849 
+
+	}
+}

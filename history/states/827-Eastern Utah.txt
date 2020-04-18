@@ -1,0 +1,30 @@
+state=
+{
+	id=827
+	name="Eastern Utah"
+	
+	state_category = town
+	
+	manpower = 294748
+	resources={
+		steel=5 # was: 8
+	}
+
+	history={
+			victory_points = {
+			7132 5 
+		}
+		owner = BSA
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		add_core_of = BSA
+	}
+
+	provinces={
+		7818 7764 1756 4668 10582  
+
+	}
+}

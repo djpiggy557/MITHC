@@ -1,0 +1,30 @@
+state=
+{
+	id=814
+	name="Central Greece"
+	
+	state_category = town
+	
+	manpower = 294748
+	resources={
+		steel=5 # was: 8
+	}
+
+	history={
+			victory_points = {
+			1205 1
+		}
+		owner = GRE
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		add_core_of = GRE
+	}
+
+	provinces={
+		  1205 11895 11786 3980 
+
+	}
+}

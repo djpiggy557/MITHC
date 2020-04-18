@@ -1,0 +1,30 @@
+state=
+{
+	id=812
+	name="Dardanells"
+	
+	state_category = town
+	
+	manpower = 294748
+	resources={
+		steel=5 # was: 8
+	}
+
+	history=
+	{
+		owner = GER
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		add_core_of = GER
+		add_core_of = TUR
+		add_core_of = GRE
+	}
+
+	provinces={
+		  849 6864 9887 
+
+	}
+}
