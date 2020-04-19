@@ -69,7 +69,7 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = fascist
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -80,9 +80,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Ghazi I"
+	name = "Faisal II"
 	desc = "POLITICS_GHAZI_I_DESC"
-	picture = "GFX_portrait_iraq_ghazi"
+	picture = "portrait_faisal"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -91,9 +91,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Rashid Ali al-Gaylani"
+	name = "Faisal II"
 	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_fascism1.dds"
+	picture = "portrait_faisal.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {

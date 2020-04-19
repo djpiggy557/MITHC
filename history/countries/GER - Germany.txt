@@ -330,7 +330,7 @@ set_popularities = {
 	communism = 20
 }
 
-create_faction = "Europa System"
+create_faction = "European Confederation"
 add_to_faction = GER
 add_to_faction = FRA
 add_to_faction = ENG

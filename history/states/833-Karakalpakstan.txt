@@ -1,0 +1,31 @@
+state=
+{
+	id=833
+	name="Karakalpakstan"
+	
+	state_category = town
+	
+	manpower = 294748
+	resources={
+		steel=5 # was: 8
+	}
+
+	history={
+			victory_points = {
+			7132 5 
+		}
+		owner = RKT
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		add_core_of = RKT
+		add_core_of = UZB
+	}
+
+	provinces={
+		 10485 12233 12474 13207 10348 7541 12454 10395 10435 12324 12465 
+
+	}
+}

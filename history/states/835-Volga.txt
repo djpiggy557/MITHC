@@ -1,0 +1,30 @@
+state=
+{
+	id=835
+	name="Volga"
+	
+	state_category = town
+	
+	manpower = 294748
+	resources={
+		steel=5 # was: 8
+	}
+
+	history={
+			victory_points = {
+			7132 5 
+		}
+		owner = RKM
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		add_core_of = RKM
+	}
+
+	provinces={
+		9354 11292 11243 3282 9259 11356 6253 9373 9307 6312 6357 9244  
+
+	}
+}

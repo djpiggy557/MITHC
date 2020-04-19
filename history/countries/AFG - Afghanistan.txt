@@ -65,16 +65,16 @@ set_politics = {
 }
 
 set_popularities = {
-	fascism = 15
-	communism = 10
-	neutrality = 75
+	fascism = 20
+	communism = 0
+	neutrality = 80
 }
 
 # Mohammad Hashim Khan (Prime Minister) other potential candidate
 create_country_leader = {
 	name = "Mohammed Zahir Shah"
 	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
+	picture = "portrait_zahir.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -90,8 +90,8 @@ create_country_leader = {
 		elections_allowed = no
 	}
 	set_popularities = {
-		fascism = 20
-		communism = 10
+		fascism = 30
+		communism = 0
 		neutrality = 70
 	}
 }

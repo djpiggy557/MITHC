@@ -133,23 +133,23 @@ if = {
 
 set_convoys = 25
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1933.5.17"
 	election_frequency = 60
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 75
-	fascism = 20
-	communism = 5
+	democratic = 0
+	fascism = 100
+	communism = 0
 }
 
 create_country_leader = {
-	name = "J. B. M. Hertzog"
+	name = "Johannes Van Rensburg"
 	desc = "POLITICS_J_B_M_HERTZOG_DESC"
-	picture = "GFX_SAF_james_hertzog"
+	picture = "portrait_johannes.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = fascism_ideology
 	traits = {
 		#
 	}
@@ -184,7 +184,7 @@ create_country_leader = {
 	desc = "POLITICS_DF_MALAN_DESC"
 	picture = "GFX_SAF_daniel_malan"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = despotism
 	traits = {
 		#
 	}

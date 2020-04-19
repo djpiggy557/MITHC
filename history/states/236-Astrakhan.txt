@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = SOV
+		owner = RKT
 		victory_points = {
 			9753 3 
 		}
@@ -15,7 +15,9 @@ state={
 			infrastructure = 3
 			air_base = 1
 		}
-		add_core_of = SOV
+		add_core_of = RKT
+		add_core_of = KAZ
+		add_core_of = RKK
 	}
 
 	provinces={
