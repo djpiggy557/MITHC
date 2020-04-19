@@ -173,9 +173,9 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "William Dudley Pelley"
+	name = "Governor General Yamori"
 	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
-	picture = "gfx/leaders/USA/Portrait_USA_William_Dudley_Pelley.dds"
+	picture = "portrait_yamori.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {

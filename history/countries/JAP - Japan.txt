@@ -1,6 +1,6 @@
 ﻿capital = 282
 
-oob = "JAP_1936"
+oob = "JAP_1939"
 
 set_stability = 0.2 #baseline, THE EMPEROR PROTECTS
 set_war_support = 0.8
@@ -326,7 +326,19 @@ if = {
 		autonomous_state = autonomy_integrated_puppet
 	}
 	set_autonomy = {
-		target = MAN
+		target = SIB
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = PNG
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = MAL
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = CAM
 		autonomous_state = autonomy_integrated_puppet
 	}
 }
@@ -339,11 +351,23 @@ if = {
 	}
 	set_autonomy = {
 		target = MEN
-		autonomous_state = autonomy_puppet
+		autonomous_state = autonomy_integrated_puppet
 	}
 	set_autonomy = {
-		target = MAN
-		autonomous_state = autonomy_puppet
+		target = SIB
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = PNG
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = MAL
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = CAM
+		autonomous_state = autonomy_integrated_puppet
 	}
 }
 if = {
@@ -352,11 +376,23 @@ if = {
 	}
 	set_autonomy = {
 		target = MEN
-		autonomous_state = autonomy_wtt_imperial_protectorate
+		autonomous_state = autonomy_integrated_puppet
 	}
 	set_autonomy = {
-		target = MAN
-		autonomous_state = autonomy_wtt_imperial_protectorate
+		target = SIB
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = PNG
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = MAL
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = CAM
+		autonomous_state = autonomy_integrated_puppet
 	}
 }
 
@@ -381,6 +417,7 @@ add_to_faction = MAL
 add_to_faction = INS
 add_to_faction = PNG
 add_to_faction = CHI
+add_to_faction = HAW
 
 
 create_country_leader = {

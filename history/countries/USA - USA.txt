@@ -1,6 +1,6 @@
 ﻿capital = 358
 
-oob = "USA_1936"
+oob = "USA_1939"
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "USA_1936_naval_mtg"
@@ -278,9 +278,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "William Dudley Pelley"
+	name = "George Lincoln Rockwell"
 	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
-	picture = "Portrait_USA_William_Dudley_Pelley.dds"
+	picture = "portrait_rockwell.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
