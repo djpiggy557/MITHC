@@ -68,9 +68,9 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 0
-	fascism = 100
+	fascism = 70
 	communism = 0
-	neutrality = 0
+	neutrality = 30
 }
 
 create_country_leader = {
@@ -96,9 +96,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Georg Lindemann"
+	name = "Johannes Frießner"
 	desc = ""
-	picture = "portrait_lindemann.dds"
+	picture = "gfx/leaders/RNO/portrait_freissner.dds"
 	expire = "1953.3.1"
 	ideology = fascism_ideology
 	traits = {

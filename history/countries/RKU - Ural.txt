@@ -64,13 +64,13 @@ set_politics = {
 	ruling_party = fascism
 	last_election = "1933.12.20"
 	election_frequency = 48
-	elections_allowed = mo
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 0
-	fascism = 70
+	fascism = 100
 	communism = 0
-	neutrality = 30
+	neutrality = 0
 }
 
 create_country_leader = {
@@ -96,9 +96,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Hermann Hoth"
+	name = "Rudof Schmidt"
 	desc = ""
-	picture = "gfx/leaders/RKK/Portrait_Hermann_Hoth.dds"
+	picture = "portrait_schmidt.dds"
 	expire = "1953.3.1"
 	ideology = fascism_ideology
 	traits = {

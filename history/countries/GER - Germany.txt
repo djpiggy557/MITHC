@@ -32,6 +32,28 @@ set_fuel_ratio = 0.8
 		target = USA
 		autonomous_state = autonomy_puppet
 	}
+	set_autonomy = {
+		target = RKS
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = RKT
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = RNO
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = RNW
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = RKN
+		autonomous_state = autonomy_puppet
+	}
+
+
 
 # Starting tech
 set_technology = {
