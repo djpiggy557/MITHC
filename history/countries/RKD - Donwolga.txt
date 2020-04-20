@@ -64,7 +64,7 @@ set_politics = {
 	ruling_party = fascism
 	last_election = "1933.12.20"
 	election_frequency = 48
-	elections_allowed = mo
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 0
@@ -96,9 +96,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Hermann Hoth"
+	name = "Dietrich Klagges"
 	desc = ""
-	picture = "gfx/leaders/RKK/Portrait_Hermann_Hoth.dds"
+	picture = "Dietrich_Klagges.dds"
 	expire = "1953.3.1"
 	ideology = fascism_ideology
 	traits = {
