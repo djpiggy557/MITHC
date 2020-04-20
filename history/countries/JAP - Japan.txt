@@ -341,6 +341,10 @@ if = {
 		target = CAM
 		autonomous_state = autonomy_integrated_puppet
 	}
+	set_autonomy = {
+		target = CHI
+		autonomous_state = autonomy_integrated_puppet
+	}
 }
 if = {
 	limit = { 

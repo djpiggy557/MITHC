@@ -236,9 +236,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wang Jingwei"
+	name = "Zhou Fohai"
 	desc = "POLITICS_WANG_JINGWEI_DESC"
-	picture = "GFX_portrait_chi_wang_jingwei"
+	picture = "portrait_fohai.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {

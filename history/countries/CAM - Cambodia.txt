@@ -81,9 +81,9 @@ set_popularities = {
 create_country_leader = {
 	name = "Norodom Sihanouk" 
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord1.dds"
+	picture = "portrait_norodom.dds"
 	expire = "1953.3.1"
-	ideology = fascist_ideology
+	ideology = fascism_ideology
 	traits = {
 		
 	}
@@ -104,7 +104,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Norodom Sihanouk" 
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+	picture = "portrait_norodom.dds"
 	expire = "1953.3.1"
 	ideology = conservatism
 	traits = {

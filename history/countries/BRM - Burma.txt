@@ -59,7 +59,7 @@ set_popularities = {
 create_country_leader = {
 	
 	name = "Baw Maw"
-	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	picture = "portrait_baw_maw.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {

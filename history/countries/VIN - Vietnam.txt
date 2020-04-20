@@ -91,9 +91,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Bảo Đại" 
+	name = "Bao Dai" 
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_communism.dds"
+	picture = "portrait_bao_dai.dds"
 	expire = "1953.3.1"
 	ideology = fascism_ideology
 	traits = {
