@@ -345,6 +345,10 @@ if = {
 		target = CHI
 		autonomous_state = autonomy_integrated_puppet
 	}
+	set_autonomy = {
+		target = PSA
+		autonomous_state = autonomy_integrated_puppet
+	}
 }
 if = {
 	limit = { 
@@ -373,6 +377,14 @@ if = {
 		target = CAM
 		autonomous_state = autonomy_integrated_puppet
 	}
+	set_autonomy = {
+		target = CHI
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = PSA
+		autonomous_state = autonomy_integrated_puppet
+	}
 }
 if = {
 	limit = { 
@@ -396,6 +408,14 @@ if = {
 	}
 	set_autonomy = {
 		target = CAM
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = CHI
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = PSA
 		autonomous_state = autonomy_integrated_puppet
 	}
 }
@@ -427,7 +447,7 @@ add_to_faction = HAW
 create_country_leader = {
 	name = "Hirohito"
 	desc = "POLITICS_Hirohito_DESC"
-	picture = "Portrait_Japan_Hirohito.dds"
+	picture = "portrait_hirohito_1950.dds"
 	expire = "1989.1.1"
 	ideology = fascism_ideology
 	traits = {
