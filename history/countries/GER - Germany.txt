@@ -60,6 +60,10 @@ set_fuel_ratio = 0.8
 		target = RKW
 		autonomous_state = autonomy_puppet
 	}
+set_autonomy = {
+		target = RKD
+		autonomous_state = autonomy_puppet
+	}
 
 
 
@@ -387,7 +391,7 @@ activate_mission = GER_mefo_bills_mission
 create_country_leader = {
 	name = "Adolf Hitler"
 	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Portrait_Germany_Adolf_Hitler.dds"
+	picture = "portrait_dolf.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
