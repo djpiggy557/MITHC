@@ -1,4 +1,4 @@
-﻿capital = 202 #Kiev
+﻿capital = 231
 
 oob = "UKR_1936"
 
@@ -71,6 +71,10 @@ set_popularities = {
 	fascism = 70
 	communism = 0
 	neutrality = 30
+}
+
+add_ideas = {
+	RK_reichskommissariat_idea
 }
 
 create_country_leader = {

@@ -1,4 +1,4 @@
-﻿capital = 202 #Kiev
+﻿capital = 195
 
 oob = "UKR_1936"
 
