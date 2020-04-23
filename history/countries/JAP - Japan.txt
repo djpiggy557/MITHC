@@ -349,6 +349,10 @@ if = {
 		target = PSA
 		autonomous_state = autonomy_integrated_puppet
 	}
+	set_autonomy = {
+		target = AGG
+		autonomous_state = autonomy_integrated_puppet
+	}
 }
 if = {
 	limit = { 
@@ -385,6 +389,10 @@ if = {
 		target = PSA
 		autonomous_state = autonomy_integrated_puppet
 	}
+	set_autonomy = {
+		target = AGG
+		autonomous_state = autonomy_integrated_puppet
+	}
 }
 if = {
 	limit = { 
@@ -416,6 +424,10 @@ if = {
 	}
 	set_autonomy = {
 		target = PSA
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = AGG
 		autonomous_state = autonomy_integrated_puppet
 	}
 }

@@ -116,7 +116,7 @@ bookmarks = {
 		}
 
 		# minors from DLC ####
-		"POL"={
+		"BUL"={
 			minor = yes
 			history = "POL_BLITZKRIEG_DESC"
 			ideology = neutrality
@@ -229,7 +229,7 @@ bookmarks = {
 			}
 		}
 		
-		"YUG"={
+		"CRO"={
 			minor = yes
 			history = "YUG_BLITZKRIEG_DESC"
 			ideology = neutrality
@@ -259,7 +259,7 @@ bookmarks = {
 				CHI_war_of_resistance
 			}
 		}
-		"PRC"={
+		"SAU"={
 			minor = yes
 			history = "PRC_BLITZKRIEG_DESC"
 			ideology = communism
@@ -274,7 +274,7 @@ bookmarks = {
 				PRC_anti_japanese_expedition
 			}
 		}
-		"MAN"={
+		"MEN"={
 			minor = yes
 			history = "MAN_BLITZKRIEG_DESC"
 			ideology = fascism
@@ -290,7 +290,7 @@ bookmarks = {
 			}
 		}
 
-		"GXC"={
+		"EGY"={
 			minor = yes
 			history = "WARLORDS_BLITZKRIEG_DESC"
 			ideology = fascism
@@ -303,7 +303,7 @@ bookmarks = {
 				CHI_heavy_weapons_development
 			}
 		}		
-		"YUN"={
+		"BRM"={
 			minor = yes
 			history = "WARLORDS_BLITZKRIEG_DESC"
 			ideology = fascism
@@ -316,7 +316,7 @@ bookmarks = {
 				CHI_heavy_weapons_development
 			}
 		}		
-		"XSM"={
+		"PHI"={
 			minor = yes
 			history = "WARLORDS_BLITZKRIEG_DESC"
 			ideology = fascism
@@ -329,7 +329,7 @@ bookmarks = {
 				CHI_heavy_weapons_development
 			}
 		}		
-		"SIK"={
+		"SIA"={
 			minor = yes
 			history = "WARLORDS_BLITZKRIEG_DESC"
 			ideology = fascism

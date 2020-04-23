@@ -60,8 +60,12 @@ set_fuel_ratio = 0.8
 		target = RKW
 		autonomous_state = autonomy_puppet
 	}
-set_autonomy = {
+	set_autonomy = {
 		target = RKD
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = QUE
 		autonomous_state = autonomy_puppet
 	}
 

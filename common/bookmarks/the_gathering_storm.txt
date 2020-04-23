@@ -158,9 +158,9 @@ bookmarks = {
 
 
 		# minors from DLC ####
-		"POL"={
+		"NOR"={
 			minor = yes
-			history = "POL_GATHERING_STORM_DESC"
+			history = "NOR_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
 				
@@ -239,7 +239,7 @@ bookmarks = {
 				RAJ_the_smiling_buddha
 			}
 		}
-		"CZE"={
+		"UKR"={
 			minor = yes
 			history = "CZE_GATHERING_STORM_DESC"
 			ideology = democratic
@@ -283,7 +283,7 @@ bookmarks = {
 			}
 		}
 		
-		"YUG"={
+		"CRO"={
 			minor = yes
 			history = "YUG_GATHERING_STORM_DESC"
 			ideology = neutrality
@@ -313,7 +313,7 @@ bookmarks = {
 				CHI_invite_the_flying_tigers
 			}
 		}
-		"PRC"={
+		"PHI"={
 			minor = yes
 			history = "PRC_GATHERING_STORM_DESC"
 			ideology = communism
@@ -328,7 +328,7 @@ bookmarks = {
 				PRC_anti_japanese_expedition
 			}
 		}
-		"MAN"={
+		"MEN"={
 			minor = yes
 			history = "MAN_GATHERING_STORM_DESC"
 			ideology = fascism
@@ -344,7 +344,7 @@ bookmarks = {
 			}
 		}
 		
-		"GXC"={
+		"BRM"={
 			minor = yes
 			history = "WARLORDS_GATHERING_STORM_DESC"
 			ideology = fascism
@@ -358,7 +358,7 @@ bookmarks = {
 				CHI_join_the_chinese_soviet
 			}
 		}		
-		"YUN"={
+		"VIN"={
 			minor = yes
 			history = "WARLORDS_GATHERING_STORM_DESC"
 			ideology = fascism
@@ -372,7 +372,7 @@ bookmarks = {
 				CHI_join_the_chinese_soviet
 			}
 		}		
-		"SHX"={
+		"INS"={
 			minor = yes
 			history = "WARLORDS_GATHERING_STORM_DESC"
 			ideology = fascism
@@ -386,7 +386,7 @@ bookmarks = {
 				CHI_join_the_chinese_soviet
 			}
 		}		
-		"XSM"={
+		"PSA"={
 			minor = yes
 			history = "WARLORDS_GATHERING_STORM_DESC"
 			ideology = fascism
@@ -400,7 +400,7 @@ bookmarks = {
 				CHI_join_the_chinese_soviet
 			}
 		}		
-		"SIK"={
+		"BSA"={
 			minor = yes
 			history = "WARLORDS_GATHERING_STORM_DESC"
 			ideology = fascism
