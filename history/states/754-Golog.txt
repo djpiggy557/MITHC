@@ -8,9 +8,9 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = rural
 	history={
-		owner = CHI
+		owner = ROC
 		add_core_of = XSM
-		add_core_of = CHI
+		add_core_of = ROC
 		victory_points = {
 			12732 3 
 		}
@@ -28,7 +28,7 @@ state={
 					}
 
 				}
-				CHI = {
+				ROC = {
 					transfer_state = PREV
 
 				}

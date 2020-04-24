@@ -342,7 +342,7 @@ if = {
 		autonomous_state = autonomy_integrated_puppet
 	}
 	set_autonomy = {
-		target = CHI
+		target = ROC
 		autonomous_state = autonomy_integrated_puppet
 	}
 	set_autonomy = {
@@ -382,7 +382,7 @@ if = {
 		autonomous_state = autonomy_integrated_puppet
 	}
 	set_autonomy = {
-		target = CHI
+		target = ROC
 		autonomous_state = autonomy_integrated_puppet
 	}
 	set_autonomy = {
@@ -419,7 +419,7 @@ if = {
 		autonomous_state = autonomy_integrated_puppet
 	}
 	set_autonomy = {
-		target = CHI
+		target = ROC
 		autonomous_state = autonomy_integrated_puppet
 	}
 	set_autonomy = {

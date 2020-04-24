@@ -3,9 +3,9 @@ state={
 	name="STATE_604"
 
 	history={
-		owner = CHI
+		owner = ROC
 		add_core_of = XSM
-		add_core_of = CHI
+		add_core_of = ROC
 		victory_points = {
 			7940 10 
 		}
@@ -22,7 +22,7 @@ state={
 					}
 
 				}
-				CHI = {
+				ROC = {
 					transfer_state = PREV
 
 				}

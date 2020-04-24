@@ -7,7 +7,7 @@ state={
 	history={
 		owner = JAP
 		add_core_of = GXC
-		add_core_of = CHI
+		add_core_of = ROC
 		add_core_of = JAP
 		
 		victory_points = {
@@ -29,7 +29,7 @@ state={
 					NOT = { has_dlc = "Waking the Tiger" }
 				}
 				remove_core_of = GXC
-				CHI = { transfer_state = PREV }
+				ROC = { transfer_state = PREV }
 			}
 			controller = JAP
 		}

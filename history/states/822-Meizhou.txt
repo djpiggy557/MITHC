@@ -14,14 +14,14 @@ state=
 			victory_points = {
 			7132 5 
 		}
-		owner = CHI
+		owner = ROC
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
 			industrial_complex = 3
 		}
 		add_core_of = JAP
-		add_core_of = CHI
+		add_core_of = ROC
 		add_core_of = GXC
 	}
 

@@ -5,7 +5,7 @@ state={
 	history={
 		owner = MEN
 		add_core_of = XSM
-		add_core_of = CHI
+		add_core_of = ROC
 		add_core_of = MON
 		buildings = {
 			infrastructure = 2
@@ -19,7 +19,7 @@ state={
 					}
 
 				}
-				CHI = {
+				ROC = {
 					transfer_state = PREV
 
 				}

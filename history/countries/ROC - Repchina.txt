@@ -1,6 +1,6 @@
 ﻿capital = 594
 
-oob = "CHI_1936"
+oob = "GXC_1936"
 
 set_stability = 0.6
 set_war_support = 0.4
@@ -22,7 +22,7 @@ if = {
 
 1939.1.1 = {
 	
-	oob = "CHI_1939"
+	oob = "GXC_1939"
 
 	add_political_power = 1198
 	
@@ -72,14 +72,12 @@ set_convoys = 5
 
 set_politics = {
 	ruling_party = fascism
-	last_election = "1935.9.15"
-	election_frequency = 72
+	last_election = "1936.1.1"
+	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 0
 	fascism = 100
-	communism = 0
 }
 
 create_country_leader = {
@@ -91,4 +89,15 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+
+create_corps_commander = {
+	name = "Chen Jitang"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
 }

@@ -397,14 +397,14 @@ if = {
 			veteran_communist
 		}
 	}
-	create_country_leader = {
-		name = "José Antonio Primo de Rivera"
-		desc = "POLITICS_JOSE_ANTONIO_PRIMO_DE_RIVERA_DESC"
-		picture = "GFX_portrait_SPA_jose_antonio_primo_de_rivera"
+create_country_leader = {
+		name = "Francisco Franco"
+		desc = "POLITICS_FRANCISCO_FRANCO_DESC"
+		picture = "Portrait_50s_franco.dds"
 		expire = "1965.1.1"
-		ideology = falangism
+		ideology = fascism_ideology
 		traits = {
-			sins_of_the_father
+
 		}
 	}
 	create_country_leader = {

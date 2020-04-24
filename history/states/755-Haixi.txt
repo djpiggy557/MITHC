@@ -8,9 +8,9 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = pastoral
 	history={
-		owner = CHI
+		owner = ROC
 		add_core_of = XSM
-		add_core_of = CHI
+		add_core_of = ROC
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
@@ -24,7 +24,7 @@ state={
 					}
 
 				}
-				CHI = {
+				ROC = {
 					transfer_state = PREV
 
 				}
