@@ -460,42 +460,6 @@ add_namespace = {
 }
 
 create_field_marshal = {
-	name = "Gerd von Rundstedt"
-	picture = "Portrait_Germany_Gerd_von_Rundstedt.dds"
-	traits = { defensive_doctrine urban_assault_specialist old_guard }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
-	id = 1
-}
-
-create_field_marshal = {
-	name = "Günther von Kluge"
-	picture = "Portrait_Germany_Gunther_von_Kluge.dds"
-	traits = {  offensive_doctrine armor_officer }
-	skill = 3
-	id = 2
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Friedrich Paulus"
-	picture = "Portrait_Germany_Friedrich_Paulus.dds"
-	traits = { trait_cautious armor_officer }
-	skill = 1
-	id = 3
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
 	name = "Erwin Rommel"
 	picture = "Portrait_Germany_Erwin_Rommel.dds"
 	traits = { trickster trait_reckless war_hero armor_officer media_personality }
@@ -507,7 +471,7 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Erich von Manstein"
 	picture = "Portrait_Germany_Erich_von_Manstein.dds"
 	traits = { trickster armor_officer brilliant_strategist trait_engineer }
@@ -519,7 +483,7 @@ create_corps_commander = {
 	logistics_skill = 4
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Heinz Guderian"
 	picture = "Portrait_Germany_Heinz_Guderian.dds"
 	traits = { trickster brilliant_strategist panzer_leader armor_officer career_officer }
@@ -544,19 +508,6 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ewald von Kleist"
-	desc = ""
-	picture = "Portrait_Germany_Ewald_von_Kleist.dds"
-	traits = { armor_officer trait_cautious }
-	skill = 2
-	id = 8
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
 	name = "Fedor von Bock"
 	picture = "Portrait_Germany_Fedor_von_Bock.dds"
 	traits = { harsh_leader trait_cautious }
@@ -566,66 +517,6 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 4
 	logistics_skill = 2
-}
-
-create_field_marshal = {
-	name = "Walter Model"
-	picture = "Portrait_Germany_Walter_Model.dds"
-	traits = { defensive_doctrine brilliant_strategist trait_cautious politically_connected }
-	skill = 3
-	id = 10
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Maximilian von Weichs"
-	picture = "Portrait_Germany_Maximilian_von_Weichs.dds"
-	traits = { cavalry_officer }
-	skill = 4
-	id = 11
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Wilhelm Ritter von Leeb"
-	picture = "Portrait_Germany_Wilhelm_Ritter_von_Leeb.dds"
-	traits = { old_guard infantry_officer }
-	skill = 3
-	id = 13
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Georg-Hans Reinhardt"
-	picture = "Portrait_Germany_Georg_von_Reinhardt.dds"
-	traits = { trait_cautious armor_officer }
-	skill = 3
-	id = 14
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Walter Krüger"
-	picture = "Portrait_Germany_Walter_Kruger.dds"
-	traits = { armor_officer trait_reckless politically_connected}
-	skill = 3
-	id = 15
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 3
 }
 
 create_corps_commander = {
@@ -638,42 +529,6 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 4
 	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Erwin von Witzleben"
-	picture = "Portrait_Germany_Erwin_von_Witzleben.dds"
-	traits = { infantry_officer career_officer }
-	skill = 4
-	id = 17
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Hermann Hoth"
-	picture = "Portrait_Germany_Herman_Hoth.dds"
-	traits = { trait_reckless armor_officer }
-	skill = 3
-	id = 18
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Johannes Blaskowitz"
-	picture = "Portrait_Germany_Johannes_Blaskowitz.dds"
-	traits = { infantry_officer }
-	skill = 3
-	id = 19
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -701,30 +556,6 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Georg von Küchler"
-	picture = "Portrait_Germany_Georg_von_Kuchler.dds"
-	traits = {  }
-	skill = 4
-	id = 22
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Alfred Jodl"
-	picture = "Portrait_Germany_Alfred_Jodl.dds"
-	traits = { politically_connected career_officer }
-	skill = 3
-	id = 23
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
 	name = "Sepp Dietrich"
 	picture = "Portrait_Germany_Josef_Dietrich.dds"
 	traits = { armor_officer politically_connected brilliant_strategist trait_reckless }
@@ -746,18 +577,6 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Albert Kesselring"
-	picture = "Portrait_Germany_Albert_Kesselring.dds"
-	traits = { brilliant_strategist trait_cautious war_hero }
-	skill = 4
-	id = 32
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 4
 }
 
 create_corps_commander = {
@@ -788,6 +607,160 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Felix Steiner"
 	gfx = "GFX_portrait_ger_felix_steiner"
+	traits = {  }
+	skill = 3
+	id = 35
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Adolf Heusinger"
+	gfx = "portrait_adolf_heusinger.dds"
+	traits = {  }
+	skill = 3
+	id = 35
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Hans Speidel"
+	gfx = "portrait_speidel.dds"
+	traits = {  }
+	skill = 3
+	id = 35
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Heinrich Trettner"
+	gfx = "portrait_trettner.dds"
+	traits = {  }
+	skill = 3
+	id = 35
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Ulrich de Maiziere"
+	gfx = "portrait_maiziere.dds"
+	traits = {  }
+	skill = 3
+	id = 35
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Josef Moll"
+	gfx = "portrait_moll.dds"
+	traits = {  }
+	skill = 3
+	id = 35
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Smilo von Luttwitz"
+	gfx = "portrait_luttwitz.dds"
+	traits = {  }
+	skill = 3
+	id = 35
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Friedrich Foertsch"
+	gfx = "portrait_foertsch.dds"
+	traits = {  }
+	skill = 3
+	id = 35
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Albert Schnez"
+	gfx = "portrait_schnez.dds"
+	traits = {  }
+	skill = 3
+	id = 35
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Alfred Zerbel"
+	gfx = "portrait_zerbel.dds"
+	traits = {  }
+	skill = 3
+	id = 35
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Hellmuth Mader"
+	gfx = "portrait_hellmuth.dds"
+	traits = {  }
+	skill = 3
+	id = 35
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Heinz Georg Lemm"
+	gfx = "portrait_georglemm.dds"
+	traits = {  }
+	skill = 3
+	id = 35
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Heinz Gunther Guderian"
+	gfx = "portrait_guderianjr.dds"
+	traits = {  }
+	skill = 3
+	id = 35
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Bern von Baer"
+	gfx = "portrait_vonbaer.dds"
+	traits = {  }
+	skill = 3
+	id = 35
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Wolf Graf von Baudissin"
+	gfx = "portrait_baudissin.dds"
 	traits = {  }
 	skill = 3
 	id = 35
