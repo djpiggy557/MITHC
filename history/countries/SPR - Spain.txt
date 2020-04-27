@@ -187,9 +187,9 @@ set_stability = 0.5
 			elections_allowed = no
 		}
 		set_popularities = {
-			democratic = 22
-			fascism = 76
-			communism = 2
+			democratic = 0
+			fascism = 100
+			communism = 0
 		}
 	}
 
@@ -240,15 +240,15 @@ set_stability = 0.5
 			remove_unit_leader_trait = trait_SPA_nationalist_sympathies
 		}
 		set_politics = {
-			ruling_party = neutrality
+			ruling_party = fascism
 			last_election = "1934.3.26"
 			election_frequency = 60
 			elections_allowed = no
 		}
 		set_popularities = {
-			democratic = 17
-			neutrality = 38
-			fascism = 45
+			democratic = 0
+			neutrality = 0
+			fascism = 100
 		}
 	}
 	
@@ -537,7 +537,7 @@ if = {
 	create_field_marshal = {
 		name = "Francisco Franco"
 		id = 1108
-		gfx = "GFX_portrait_spain_francisco_franco"
+		gfx = "Portrait_50s_franco.dds"
 		traits = { organisational_leader logistics_wizard expert_delegator }
 		skill = 3
 	    attack_skill = 3

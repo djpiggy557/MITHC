@@ -82,7 +82,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Faisal II"
 	desc = "POLITICS_GHAZI_I_DESC"
-	picture = "portrait_faisal"
+	picture = "portrait_faisal.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -114,20 +114,20 @@ create_country_leader = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = fascism
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
-		fascism = 30
-		neutrality = 70
+		fascism = 90
+		neutrality = 10
 	}
 
 	create_country_leader = {
 		name = "Faisal II"
 		desc = "POLITICS_FAISAL_II_DESC"
-		picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_land_1.dds"
+		picture = "portrait_faisal.dds"
 		expire = "1965.1.1"
 		ideology = despotism
 		traits = {

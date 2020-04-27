@@ -214,9 +214,9 @@ set_convoys = 70
 
 	# Didn't take office until '40, added for flavor
 	create_country_leader = {
-		name = "Peter Fraser"
+		name = "Sidney Holland"
 		desc = "POLITICS_PETER_FRASER_DESC"
-		picture = "Portrait_NewZealand_Peter_Fraser.dds"
+		picture = "portrait_holland.dds"
 		expire = "1965.1.1"
 		ideology = socialism
 		traits = {

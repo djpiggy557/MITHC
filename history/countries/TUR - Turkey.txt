@@ -146,10 +146,10 @@ set_stability = 0.55
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = fascism
 		last_election = "1939.2.8"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 
 	create_country_leader = {
@@ -157,7 +157,7 @@ set_stability = 0.55
 		desc = "POLITICS_ISMET_INÖNÜ_DESC"
 		picture = "Portrait_Turkey_Ismet_Inonu.dds"
 		expire = "1965.1.1"
-		ideology = nazism
+		ideology = despotism
 		traits = {
 			#
 		}

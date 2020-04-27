@@ -203,7 +203,7 @@ create_country_leader = {
 		create_country_leader = {
 			name = "Miklós Horthy"
 			desc = "POLITICS_MIKLOS_HORTHY_DESC"
-			picture = "Portrait_Hungary_Miklos_Horthy.dds"
+			picture = "portrait_horthy.dds"
 			expire = "1965.1.1"
 			ideology = fascism_ideology
 			traits = {
@@ -217,12 +217,13 @@ create_country_leader = {
 		ruling_party = fascism
 		last_election = "1939.5.29"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 	set_popularities = {
-		democratic = 27
-		fascism = 70
-		communism = 3
+		democratic = 0
+		fascism = 60
+		communism = 0
+		neutrality = 40
 	}
 }
 
