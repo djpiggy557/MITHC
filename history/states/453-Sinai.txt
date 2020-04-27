@@ -8,7 +8,7 @@ state={
 	
 	
 	history = {
-		owner = ITA
+		owner = ITL
 		buildings = {
 			infrastructure = 2
 		}

@@ -7,12 +7,12 @@ state={
 		rubber=3 # was: 4
 	}
 	history={
-		owner = ITA
+		owner = IEA
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = ITA
+		add_core_of = IEA
 		victory_points = {
 			12989 1
 		}

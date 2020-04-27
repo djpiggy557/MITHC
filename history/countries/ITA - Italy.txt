@@ -4,23 +4,35 @@ oob = "ITA_1936"
 
 set_autonomy = {
 		target = CRO
-		autonomous_state = autonomy_puppet
+		autonomous_state = autonomy_satellite
 	}
 	set_autonomy = {
 		target = MNT
-		autonomous_state = autonomy_puppet
+		autonomous_state = autonomy_integrated_puppet
 	}
 	set_autonomy = {
 		target = SER
-		autonomous_state = autonomy_puppet
+		autonomous_state = autonomy_reichskommissariat
 	}
 	set_autonomy = {
 		target = GRE
-		autonomous_state = autonomy_puppet
+		autonomous_state = autonomy_reichskommissariat
 	}
 	set_autonomy = {
 		target = EGY
-		autonomous_state = autonomy_puppet
+		autonomous_state = autonomy_reichsprotectorate
+	}
+	set_autonomy = {
+		target = ITL
+		autonomous_state = autonomy_colony
+	}
+	set_autonomy = {
+		target = IEA
+		autonomous_state = autonomy_colony
+	}
+	set_autonomy = {
+		target = INA
+		autonomous_state = autonomy_colony
 	}
 
 create_faction = "Mediterranean Pact"

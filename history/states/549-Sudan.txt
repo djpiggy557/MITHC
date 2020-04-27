@@ -11,8 +11,8 @@ state={
 		victory_points = {
 			2096 1
 		}
-		owner = ITA
-		add_core_of = ITA
+		owner = IEA
+		add_core_of = IEA
 		buildings = {
 			infrastructure = 3
 		}

@@ -1224,13 +1224,13 @@ ideas = {
 					limit = {
 						has_dlc = "Man the Guns"
 					}
-					has_completed_focus = USA_america_first
+					has_completed_focus = USA_adopt_the_flna
 				}
 			}
 			visible = { has_dlc = "Man the Guns" }
 
 			
-			traits = { editor }
+			traits = { anti_communist_crusader }
 			cost = 50
 			do_effect = {
 		
@@ -1254,7 +1254,7 @@ ideas = {
 					limit = {
 						has_dlc = "Man the Guns"
 					}
-					has_completed_focus = USA_america_first
+					has_completed_focus = USA_declare_a_new_capital
 				}
 			}
 
@@ -1307,7 +1307,7 @@ ideas = {
 					limit = {
 						has_dlc = "Man the Guns"
 					}
-					has_completed_focus = USA_america_first
+					has_completed_focus = USA_nrp_orpo_conversion
 					not = { focus_progress = { focus = USA_neutrality_act progress > 0 } }
 					not = { focus_progress = { focus = USA_limited_intervention progress > 0 } }
 				}
@@ -1351,6 +1351,9 @@ ideas = {
 			allowed = {
 				original_tag = USA
 			}
+			available = {
+				has_completed_focus = USA_KKK_organized_hitler_youth
+			}
 			
 			traits = { silent_workhorse }
 		}
@@ -1361,7 +1364,7 @@ ideas = {
 				original_tag = USA
 			}
 			
-			traits = { anti_communist_crusader }
+			traits = { editor }
 		}
 
 		USA_charles_coughlin = {
@@ -1370,6 +1373,9 @@ ideas = {
 			
 			allowed = {
 				original_tag = USA
+			}
+			available = {
+				has_completed_focus = USA_unite_with_the_christian_front
 			}
 			
 			traits = { compassionate_gentleman }
@@ -1393,7 +1399,7 @@ ideas = {
 				original_tag = USA
 			}
 			available = {
-				not = { has_idea = harry_white }
+				has_completed_focus = USA_unite_with_the_christian_front
 			}
 			
 			traits = { financial_expert }
@@ -1405,6 +1411,9 @@ ideas = {
 			
 			allowed = {
 				original_tag = USA
+			}
+			available = {
+				NOT = { has_completed_focus = USA_purge_the_friends_of_new_germany }
 			}
 			
 			traits = { war_industrialist }

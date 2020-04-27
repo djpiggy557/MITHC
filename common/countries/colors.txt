@@ -776,3 +776,31 @@ ROC = {
 	color = hsv { 0.18 0.6 0.9 } #255 244 190
 	color_ui = hsv { 0.18 0.3 0.9 }
 }
+ITL = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
+INA = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
+IEA = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
+DGH = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
+DNG = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
+DSE = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
+MTA = {
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
+}

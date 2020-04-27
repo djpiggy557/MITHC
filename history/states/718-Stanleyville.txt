@@ -9,12 +9,12 @@ state={
 	}
 
 	history={
-		owner = GER
+		owner = MTA
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = GER
+		add_core_of = MTA
 	}
 
 	provinces={

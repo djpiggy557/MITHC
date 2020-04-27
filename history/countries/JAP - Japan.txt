@@ -224,10 +224,10 @@ create_import = {
 	complete_national_focus = JAP_bicycle_battalions
 	complete_national_focus = JAP_small_arms_modernization
 
-	declare_war_on = {
-		target = CHI
-		type = puppet_wargoal_focus
-	}
+	#declare_war_on = {
+	#	target = CHI
+	#	type = puppet_wargoal_focus
+	#}
 	#declare_war_on = {
 	#	target = GXC
 	#	type = puppet_focus
@@ -323,7 +323,7 @@ if = {
 	}
 	set_autonomy = {
 		target = MEN
-		autonomous_state = autonomy_integrated_puppet
+		autonomous_state = autonomy_wtt_imperial_associate 
 	}
 	set_autonomy = {
 		target = SIB
@@ -339,7 +339,7 @@ if = {
 	}
 	set_autonomy = {
 		target = CAM
-		autonomous_state = autonomy_integrated_puppet
+		autonomous_state = autonomy_wtt_imperial_associate 
 	}
 	set_autonomy = {
 		target = ROC
@@ -352,6 +352,38 @@ if = {
 	set_autonomy = {
 		target = AGG
 		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = INS
+		autonomous_state = autonomy_wtt_imperial_associate 
+	}
+	set_autonomy = {
+		target = BRM
+		autonomous_state = autonomy_wtt_imperial_subject
+	}
+	set_autonomy = {
+		target = RAJ
+		autonomous_state = autonomy_wtt_imperial_subject
+	}
+	set_autonomy = {
+		target = LAO
+		autonomous_state = autonomy_wtt_imperial_associate 
+	}
+	set_autonomy = {
+		target = VIE
+		autonomous_state = autonomy_wtt_imperial_associate 
+	}
+	set_autonomy = {
+		target = SIA
+		autonomous_state = autonomy_wtt_imperial_subject
+	}
+	set_autonomy = {
+		target = HAW
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = PHI
+		autonomous_state = autonomy_wtt_imperial_subject
 	}
 }
 if = {
@@ -363,7 +395,7 @@ if = {
 	}
 	set_autonomy = {
 		target = MEN
-		autonomous_state = autonomy_integrated_puppet
+		autonomous_state = autonomy_wtt_imperial_associate 
 	}
 	set_autonomy = {
 		target = SIB
@@ -379,7 +411,7 @@ if = {
 	}
 	set_autonomy = {
 		target = CAM
-		autonomous_state = autonomy_integrated_puppet
+		autonomous_state = autonomy_wtt_imperial_associate 
 	}
 	set_autonomy = {
 		target = ROC
@@ -392,6 +424,38 @@ if = {
 	set_autonomy = {
 		target = AGG
 		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = INS
+		autonomous_state = autonomy_wtt_imperial_associate 
+	}
+	set_autonomy = {
+		target = BRM
+		autonomous_state = autonomy_wtt_imperial_subject
+	}
+	set_autonomy = {
+		target = RAJ
+		autonomous_state = autonomy_wtt_imperial_subject
+	}
+	set_autonomy = {
+		target = LAO
+		autonomous_state = autonomy_wtt_imperial_associate 
+	}
+	set_autonomy = {
+		target = VIE
+		autonomous_state = autonomy_wtt_imperial_associate 
+	}
+	set_autonomy = {
+		target = SIA
+		autonomous_state = autonomy_wtt_imperial_subject
+	}
+	set_autonomy = {
+		target = HAW
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = PHI
+		autonomous_state = autonomy_wtt_imperial_subject
 	}
 }
 if = {
@@ -400,7 +464,7 @@ if = {
 	}
 	set_autonomy = {
 		target = MEN
-		autonomous_state = autonomy_integrated_puppet
+		autonomous_state = autonomy_wtt_imperial_associate 
 	}
 	set_autonomy = {
 		target = SIB
@@ -416,7 +480,7 @@ if = {
 	}
 	set_autonomy = {
 		target = CAM
-		autonomous_state = autonomy_integrated_puppet
+		autonomous_state = autonomy_wtt_imperial_associate 
 	}
 	set_autonomy = {
 		target = ROC
@@ -429,6 +493,38 @@ if = {
 	set_autonomy = {
 		target = AGG
 		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = INS
+		autonomous_state = autonomy_wtt_imperial_associate 
+	}
+	set_autonomy = {
+		target = BRM
+		autonomous_state = autonomy_wtt_imperial_subject
+	}
+	set_autonomy = {
+		target = RAJ
+		autonomous_state = autonomy_wtt_imperial_subject
+	}
+	set_autonomy = {
+		target = LAO
+		autonomous_state = autonomy_wtt_imperial_associate 
+	}
+	set_autonomy = {
+		target = VIE
+		autonomous_state = autonomy_wtt_imperial_associate 
+	}
+	set_autonomy = {
+		target = SIA
+		autonomous_state = autonomy_wtt_imperial_subject
+	}
+	set_autonomy = {
+		target = HAW
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = PHI
+		autonomous_state = autonomy_wtt_imperial_subject
 	}
 }
 

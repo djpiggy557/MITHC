@@ -7,9 +7,10 @@ state={
 	state_category = town
 
 	history={
-		owner = ITA
+		owner = INA
 		add_core_of = ALG
 		add_core_of = FRA
+		add_core_of = INA
 		victory_points = {
 			7081 1 
 		}
