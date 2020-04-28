@@ -1,10 +1,12 @@
 ﻿capital = 110
 
 oob = "NOR_1936"
-set_autonomy = {
+
+	set_autonomy = {
 		target = DEN
-		autonomous_state = autonomy_puppet
+		autonomous_state = autonomy_integrated_puppet
 	}
+	
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "NOR_1936_naval_mtg"
