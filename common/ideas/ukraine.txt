@@ -1,0 +1,232 @@
+ideas = {
+
+	political_advisor = {
+	
+		taras_brorovets = {
+
+			picture = generic_political_advisor_europe_1
+
+			allowed = {
+				original_tag = UKR
+			}
+			
+			traits = { popular_figurehead }
+		}
+
+		ivan_poltavets = {
+
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = UKR
+			}
+			
+			traits = { fortification_engineer }
+		}
+
+		andriy_melnyk = {
+
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = UKR
+			}
+			
+			traits = { quartermaster_general }
+		}
+
+		yaroslav_baranovsky = {
+
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = UKR
+			}
+			
+			traits = { economist }
+		}
+
+		mykola_ore_scyborgorsky = {
+
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = UKR
+			}
+			
+			traits = { ideological_crusader }
+		}
+
+		oleh_olzhych = {
+
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = UKR
+			}
+			
+			traits = { editor }
+		}
+
+		dmytro_donstov = {
+
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = UKR
+			}
+			
+			traits = { silent_workhorse }
+		}
+
+		volodymyr_bahaziy = {
+
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = UKR
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		dmytro_klach = {
+
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = UKR
+			}
+			
+			traits = { prince_of_terror }
+		}
+
+		levko_lukyanenko = {
+
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = UKR
+			}
+			
+			traits = { compassionate_gentleman }
+		}
+
+		yuriy_shukhevych = {
+
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = UKR
+			}
+			
+			traits = { backroom_backstabber }
+		}
+	}
+
+	army_chief = {
+
+		pavlo_shandruk = {
+
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = UKR
+			}		
+			
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		petro_dyachenko = {
+
+			picture = generic_army_europe_4
+			
+			allowed = {
+				original_tag = UKR
+			}
+			
+			traits = { army_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		andriy_melnyk = {
+
+			picture = generic_army_europe_4
+			
+			allowed = {
+				original_tag = UKR
+			}
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+
+		high_command = {
+
+		pavel_tereshchenko = {
+			ledger = army
+
+			
+			allowed = {
+				original_tag = UKR
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 2
+			}
+
+		roman_shukhevych = {
+			ledger = army
+
+			
+			allowed = {
+				original_tag = UKR
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 2
+			}
+		
+		senik_omelyan = {
+			ledger = army
+
+			
+			allowed = {
+				original_tag = UKR
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 2
+			}
+
+		dmytro_klach = {
+			ledger = army
+
+			
+			allowed = {
+				original_tag = UKR
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 2
+			}
+		}
+	}
+}

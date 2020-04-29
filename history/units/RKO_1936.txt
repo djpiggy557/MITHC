@@ -1,0 +1,257 @@
+﻿division_template = {
+	name = "Rifleman-Division"
+	division_names_group = GER_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+  		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Schutzmannschaft" 			
+
+	division_names_group = GER_MOT_02
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		
+		motorized = { x = 2 y = 0 }
+	    motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+        mot_recon = { x = 0 y = 0 }
+	 	engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Baltische-Legion"					# SS regiments (elite equipment & training)
+	division_names_group = GER_SS_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	support = {
+        artillery = { x = 0 y = 0 }			
+	}
+	priority = 2
+}
+division_template = {
+	name = "Kavallerie-Brigade"				# 1. Kavalerrie Brigaden
+	division_names_group = GER_Cav_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 2 }
+	}
+	support = {
+	    recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	######## LAND OOB ########
+	##### Ostland Army #####
+	division= {	
+		name = "2nd Battalion Wilnow"
+		location = 3320  # Wilna
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "17th Battalion Vidzeme"
+		location = 9317
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "18th Battalion Kurzemes"
+		location = 6222
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "18th Battalion Riga"
+		location = 9340  #Riga
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "22nd Battalion Daugavas"
+		location = 7482
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "23rd Battalion Gauja"
+		location = 10493
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "25th Battalion Abavas"
+		location = 3194
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "27th Battalion Burtnieku"
+		location = 9501
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "28th Battalion Bartas"
+		location = 9262  # Liepaja
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "29th Estonian Guard Battalion"
+		location = 3152  #Reval
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "34th Estonian Battalion"
+		location = 6408
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "36th Battalion Arensburg"
+		location = 185
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "266th Battalion Rezeknes"
+		location = 9240
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "268th Battalion Erglu"
+		location = 6314  # Palanga
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "272nd Battalion Daugavgrivas"
+		location = 560
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "284th Battalion Ilmien"
+		location = 9221  # Dorpat
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = ""
+		location = 
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = ""
+		location = 
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = ""
+		location = 
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = ""
+		location = 
+		division_template = ""
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = ""
+		location = 
+		division_template = ""
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = ""
+		location = 
+		division_template = ""
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = ""
+		location = 
+		division_template = ""
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = ""
+		location = 
+		division_template = ""
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = ""
+		location = 
+		division_template = ""
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = ""
+		location = 
+		division_template = ""
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = ""
+		location = 
+		division_template = ""
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = ""
+		location = 
+		division_template = ""
+		start_experience_factor = 0.3
+	}
+	
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "UKR"
+		}
+		requested_factories = 1
+		progress = 0.25
+		efficiency = 100
+	}
+}

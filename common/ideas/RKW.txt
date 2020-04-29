@@ -1,0 +1,190 @@
+ideas = {
+
+	political_advisor = {
+	
+		ivan_yermachenka = {
+
+			picture = generic_political_advisor_europe_1
+
+			allowed = {
+				original_tag = RKW
+			}
+			
+			traits = { popular_figurehead }
+		}
+
+		 radaslau_astrouski = {
+
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = RKW
+			}
+			
+			traits = { fortification_engineer }
+		}
+
+		 jozef_sazycz = {
+
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = RKW
+			}
+			
+			traits = { quartermaster_general }
+		}
+
+		 iwan_kasiak = {
+
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = RKW
+			}
+			
+			traits = { economist }
+		}
+
+		 radaslau_astrouski = {
+
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = RKW
+			}
+			
+			traits = { ideological_crusader }
+		}
+
+		 vincent_hadleuski = {
+
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = RKW
+			}
+			
+			traits = { editor }
+		}
+
+		 jozef_najdziuk = {
+
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = RKW
+			}
+			
+			traits = { silent_workhorse }
+		}
+
+		 fabian_jeremicz = {
+
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = RKW
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		 michal_vituska = {
+
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = RKW
+			}
+			
+			traits = { prince_of_terror }
+		}
+
+		 larysa_hienijus = {
+
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = RKW
+			}
+			
+			traits = { compassionate_gentleman }
+		}
+
+		 radoslaw_ostrowski = {
+
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = RKW
+			}
+			
+			traits = { backroom_backstabber }
+		}
+	}
+
+	army_chief = {
+
+		 michal_vituska = {
+
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = RKW
+			}		
+			
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+		high_command = {
+
+		  franciszek_kuszel = {
+			ledger = army
+
+			
+			allowed = {
+				original_tag = RKW
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 2
+			}
+
+		 barys_rahula = {
+			ledger = army
+
+			
+			allowed = {
+				original_tag = RKW
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 2
+			}
+		
+		 francisak_kusal = {
+			ledger = army
+
+			
+			allowed = {
+				original_tag = RKW
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 2
+			}
+		}
+	}
+}

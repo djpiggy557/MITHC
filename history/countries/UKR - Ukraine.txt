@@ -61,61 +61,134 @@ if = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = schutzstaffel
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
 	democratic = 0
-	fascism = 75
-	communism = 0
-	neutrality = 25
+	fascism = 10
+	nsap = 10
+	schutzstaffel = 80
+	neutrality = 0
 }
 
-create_country_leader = {
-	name = "Kost Levytsky"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Nikita Sergeyevich Khrushchev"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	expire = "1953.3.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
 
 create_country_leader = {
 	name = "Erich Koch"
 	desc = ""
 	picture = "gfx/leaders/UKR/portrait_Koch.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology
+	ideology = collaboratism
 	traits = {
 		
 	}
 }
 
-#create_country_leader = {
-#	name = ""
-#	desc = ""
-#	picture = ""
-#	expire = "1953.3.1"
-#	ideology = oligarchism
-#	traits = {
-#		
-#	}
-#}
+create_country_leader = {
+	name = "Andriy Melnyk"
+	desc = ""
+	picture = ""
+	expire = "1953.3.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}
 
+create_corps_commander = {
+	name = "Andriy Melnyk"
+	picture = ""
+	traits = { infantry_officer }
+	skill = 4
+	id = 1
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 3
+}
 
+create_corps_commander = {
+	name = "Pavel Tereshchenko"
+	picture = ""
+	traits = { infantry_officer }
+	skill = 4
+	id = 2
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 3
+}
 
+create_corps_commander = {
+	name = "Pavlo Shandruk"
+	picture = ""
+	traits = { infantry_officer }
+	skill = 4
+	id = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Petro Dyachenko"
+	picture = ""
+	traits = { infantry_officer }
+	skill = 4
+	id = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Georg Keppler"
+	picture = ""
+	traits = { infantry_officer }
+	skill = 4
+	id = 5
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Friedrich Jeckeln"
+	picture = ""
+	traits = { infantry_officer }
+	skill = 4
+	id = 6
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Herbert Gille"
+	picture = ""
+	traits = { infantry_officer }
+	skill = 4
+	id = 7
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Theodor Eicke"
+	picture = ""
+	traits = { infantry_officer }
+	skill = 4
+	id = 8
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 3
+}

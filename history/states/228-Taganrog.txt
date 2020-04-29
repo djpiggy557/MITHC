@@ -1,7 +1,7 @@
 
 state={
 	id=228
-	name="STATE_228" # Voroshilovgrad
+	name="Luhansk" # Voroshilovgrad
 	manpower = 2167411
 	
 	state_category = town

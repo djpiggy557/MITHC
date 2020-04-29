@@ -370,7 +370,7 @@ if = {
 		autonomous_state = autonomy_wtt_imperial_associate 
 	}
 	set_autonomy = {
-		target = VIE
+		target = VIN
 		autonomous_state = autonomy_wtt_imperial_associate 
 	}
 	set_autonomy = {
@@ -442,7 +442,7 @@ if = {
 		autonomous_state = autonomy_wtt_imperial_associate 
 	}
 	set_autonomy = {
-		target = VIE
+		target = VIN
 		autonomous_state = autonomy_wtt_imperial_associate 
 	}
 	set_autonomy = {
@@ -511,7 +511,7 @@ if = {
 		autonomous_state = autonomy_wtt_imperial_associate 
 	}
 	set_autonomy = {
-		target = VIE
+		target = VIN
 		autonomous_state = autonomy_wtt_imperial_associate 
 	}
 	set_autonomy = {

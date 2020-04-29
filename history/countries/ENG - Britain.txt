@@ -294,14 +294,15 @@ create_country_leader = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = mosleyism
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = yes ##suspended through duration of war, which is handled via event
 }
 set_popularities = {
-	democratic = 0
-	fascism = 100
+	democratic = 5
+	fascism = 45
+	Mosleyism = 50
 	communism = 0
 }
 
@@ -361,7 +362,7 @@ create_country_leader = {
 	desc = "POLITICS_OSWALD_MOSLEY_DESC"
 	picture = "Portrait_edward_vii.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = flashism
 	traits = {
 		champion_of_peace_1
 		economic_reformer

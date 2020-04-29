@@ -1649,64 +1649,6 @@ ideas = {
 			}
 		}
 
-		ernst_thalmann = {
-
-			
-			allowed = {
-				original_tag = GER
-			}
-			
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			
-			traits = { communist_revolutionary }
-
-			do_effect = {
-				NOT = {
-					has_government = communism
-				}
-			}
-			
-			ai_will_do = {
-				factor = 0
-			}
-		}	
-			
-		kurt_schumacher = {
-
-			
-			allowed = {
-				original_tag = GER
-			}
-			
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-				if = {
-					limit = { has_dlc = "Waking the Tiger" }
-					has_completed_focus = GER_reestablish_free_elections
-				}
-			}
-			
-			traits = { democratic_reformer }
-
-			do_effect = {
-				NOT = {
-					has_government = democratic
-				}
-			}
-			
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		
 		joseph_goebbels = {
 
 			
@@ -1882,7 +1824,7 @@ ideas = {
 			}
 		}
 
-		GER_julius_leber = {
+		alfred_rosenburg = {
 
 			
 			allowed = {
@@ -1901,7 +1843,7 @@ ideas = {
 			}
 		}
 
-		GER_theodor_heuss = {
+		lettow_von_worbeck = {
 
 			
 			allowed = {
@@ -1913,7 +1855,7 @@ ideas = {
 				has_completed_focus = GER_reestablish_free_elections
 			}
 			
-			traits = { liberal_journalist }
+			traits = { popular_figurehead }
 
 			ai_will_do = {
 				factor = 0

@@ -362,15 +362,18 @@ create_import = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = nsap
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
-	fascism = 60
-	communism = 20
+	democratic = 0
+	nsap = 70
+	fascism = 15
+	sturmabteilung = 5
+	schutzstaffel = 10
+	communism = 0
 }
 
 create_faction = "European Confederation"
@@ -401,7 +404,7 @@ create_country_leader = {
 	desc = "POLITICS_ADOLF_HITLER_DESC"
 	picture = "portrait_dolf.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = nazist
 	traits = {
 		dictator
 	}
@@ -617,7 +620,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Adolf Heusinger"
-	gfx = "portrait_adolf_heusinger.dds"
+	portrait_path = "gfx/leaders/GER/portrait_adolf_heusinger.dds"
 	traits = {  }
 	skill = 3
 	id = 356
@@ -628,7 +631,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Hans Speidel"
-	gfx = "portrait_speidel.dds"
+	portrait_path = "gfx/leaders/GER/portrait_speidel.dds"
 	traits = {  }
 	skill = 3
 	id = 37
@@ -639,7 +642,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Heinrich Trettner"
-	gfx = "portrait_trettner.dds"
+	portrait_path = "gfx/leaders/GER/portrait_trettner.dds"
 	traits = {  }
 	skill = 3
 	id = 38
@@ -650,7 +653,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Ulrich de Maiziere"
-	gfx = "portrait_maiziere.dds"
+	portrait_path = "gfx/leaders/GER/portrait_maiziere.dds"
 	traits = {  }
 	skill = 3
 	id = 39
@@ -661,7 +664,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Josef Moll"
-	gfx = "portrait_moll.dds"
+	portrait_path = "gfx/leaders/GER/portrait_moll.dds"
 	traits = {  }
 	skill = 3
 	id = 40
@@ -672,7 +675,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Smilo von Luttwitz"
-	gfx = "portrait_luttwitz.dds"
+	portrait_path = "gfx/leaders/GER/portrait_luttwitz.dds"
 	traits = {  }
 	skill = 2
 	id = 41
@@ -683,7 +686,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Friedrich Foertsch"
-	gfx = "portrait_foertsch.dds"
+	portrait_path = "gfx/leaders/GER/portrait_foertsch.dds"
 	traits = {  }
 	skill = 2
 	id = 42
@@ -694,7 +697,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Albert Schnez"
-	gfx = "portrait_schnez.dds"
+	portrait_path = "gfx/leaders/GER/portrait_schnez.dds"
 	traits = {  }
 	skill = 2
 	id = 43
@@ -705,7 +708,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Alfred Zerbel"
-	gfx = "portrait_zerbel.dds"
+	portrait_path = "gfx/leaders/GER/portrait_zerbel.dds"
 	traits = {  }
 	skill = 2
 	id = 44
@@ -716,7 +719,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Hellmuth Mader"
-	gfx = "portrait_hellmuth.dds"
+	portrait_path = "gfx/leaders/GER/portrait_hellmuth.dds"
 	traits = {  }
 	skill = 2
 	id = 45
@@ -727,7 +730,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Heinz Georg Lemm"
-	gfx = "portrait_georglemm.dds"
+	portrait_path = "gfx/leaders/GER/portrait_georglemm.dds"
 	traits = {  }
 	skill = 2
 	id = 46
@@ -738,7 +741,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Heinz Gunther Guderian"
-	gfx = "portrait_guderianjr.dds"
+	portrait_path = "gfx/leaders/GER/portrait_guderianjr.dds"
 	traits = {  }
 	skill = 1
 	id = 47
@@ -749,7 +752,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Bern von Baer"
-	gfx = "portrait_vonbaer.dds"
+	portrait_path = "gfx/leaders/GER/portrait_vonbaer.dds"
 	traits = {  }
 	skill = 2
 	id = 48
@@ -760,7 +763,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Wolf Graf von Baudissin"
-	gfx = "portrait_baudissin.dds"
+	portrait_path = "gfx/leaders/GER/portrait_baudissin.dds"
 	traits = {  }
 	skill = 2
 	id = 49

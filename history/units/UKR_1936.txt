@@ -1,0 +1,262 @@
+﻿division_template = {
+	name = "UNA-Division"
+	division_names_group = GER_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+  		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Schutzmannschaft" 			
+
+	division_names_group = GER_MOT_02
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		
+		motorized = { x = 2 y = 0 }
+	    motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+        mot_recon = { x = 0 y = 0 }
+	 	engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Ukrainische-Legion"					# SS regiments (elite equipment & training)
+	division_names_group = GER_SS_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	support = {
+        artillery = { x = 0 y = 0 }			
+	}
+	priority = 2
+}
+division_template = {
+	name = "Kosakendivision"				# 1. Kavalerrie Brigaden
+	division_names_group = GER_Cav_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 2 }
+	}
+	support = {
+	    recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	######## LAND OOB ########
+	##### Ukranian Nationalist Army #####
+	division= {	
+		name = "1st Galician Division"
+		location = 6557  # Rowne
+		division_template = "Ukrainische-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Free Ukraine Division"
+		location = 3568  # Tschernigow
+		division_template = "Ukrainische-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Oleg Division"
+		location = 9566  # Shostka
+		division_template = "Ukrainische-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Gruppe B"
+		location = 525  # Kiroffo
+		division_template = "Ukrainische-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Hudyma Reserve"
+		location = 11504  # Poltava
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = " Malets Reserve"
+		location = 488 # Cherkasy
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Ukrainische Freie Kosaken"
+		location = 6474  # Donetsk
+		division_template = "Kosakendivision"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Ukrainische Legion Roland"
+		location = 3457  # Khmelnytskyi
+		division_template = "UNA-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Ukrainische Legion Nachtigal"
+		location = 6593  # Schitomir
+		division_template = "UNA-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Bukovinian Kuren"
+		location = 462
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Kiev Kuren"
+		location = 525  # Kiroffo
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Muravyov Kuren"
+		location = 9466
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Volyn Legion"
+		location = 513
+		division_template = "Ukrainische-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "103rd Battalion"
+		location = 11441
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "108th Battalion"
+		location = 6593  # Schitomir
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "109th Battalion"
+		location = 11464
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "114th Battalion"
+		location = 525  # Kiroffo
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "115th Battalion"
+		location = 9568
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "116th Battalion"
+		location = 3543  # Bila Tserkva
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "118th Battalion"
+		location = 504
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "136th Battalion"
+		location = 3568  # Tschernigow
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "201st Battalion"
+		location = 11437  # Dniper
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "204th Battalion"
+		location = 3412
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "154th Battalion"
+		location = 3686  # Theodorichshafen
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "155th Battalion"
+		location = 705
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "150th Battalion"
+		location = 6704
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "152nd Battalion"
+		location = 3722
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "153rd Battalion"
+		location = 9677
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "102nd Battalion"
+		location = 572
+		division_template = "Schutzmannschaft"
+		start_experience_factor = 0.3
+	}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "UKR"
+		}
+		requested_factories = 1
+		progress = 0.25
+		efficiency = 100
+	}
+}

@@ -1349,6 +1349,391 @@ units = {
 		division_template = "Gebirgs-Division"
 		start_experience_factor = 0.3
 	}
+
+
+
+	division= {	# "Walloon Legion"
+		division_name = {
+				is_name_ordered = no
+				name_order = 0
+		}
+		location = 3516
+		division_template = "SS-Regiment"
+		start_experience_factor = 0.3
+	}
+
+	division= {	# "Flemish Legion"
+		division_name = {
+				is_name_ordered = no
+				name_order = 0
+		}
+		location = 6598
+		division_template = "SS-Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	# "St. Wenceslas Legion"
+		division_name = {
+				is_name_ordered = no
+				name_order = 0
+		}
+		location = 11542
+		division_template = "SS-Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	# "Frikorps Danmark"
+		division_name = {
+				is_name_ordered = no
+				name_order = 0
+		}
+		location = 11251
+		division_template = "SS-Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	# "Nordland Legion"
+		division_name = {
+				is_name_ordered = no
+				name_order = 0
+		}
+		location = 3022
+		division_template = "SS-Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	# "Wiking Legion"
+		division_name = {
+				is_name_ordered = no
+				name_order = 0
+		}
+		location = 192
+		division_template = "SS-Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	# "Estnische Legion"
+		division_name = {
+				is_name_ordered = no
+				name_order = 0
+		}
+		location = 3152
+		division_template = "SS-Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	# "Charlemagne Legion"
+		division_name = {
+				is_name_ordered = no
+				name_order = 0
+		}
+		location = 11506
+		division_template = "SS-Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	# "Perrot Legion"
+		division_name = {
+				is_name_ordered = no
+				name_order = 0
+		}
+		location = 3552
+		division_template = "SS-Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	# "Maria Theresia Legion"
+		division_name = {
+				is_name_ordered = no
+				name_order = 0
+		}
+		location = 9660
+		division_template = "SS-Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	# "Hunyadi Legion"
+		division_name = {
+				is_name_ordered = no
+				name_order = 0
+		}
+		location = 11610
+		division_template = "SS-Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	# "Indische Legion"
+		division_name = {
+				is_name_ordered = no
+				name_order = 0
+		}
+		location = 9833
+		division_template = "SS-Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	# "Niederlande Legion"
+		division_name = {
+				is_name_ordered = no
+				name_order = 0
+		}
+		location = 391
+		division_template = "SS-Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	# "Handschar Legion"
+		division_name = {
+				is_name_ordered = no
+				name_order = 0
+		}
+		location = 9596
+		division_template = "SS-Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	# "Kama Legion"
+		division_name = {
+				is_name_ordered = no
+				name_order = 0
+		}
+		location = 3654
+		division_template = "SS-Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	# "Latvian Legion"
+		division_name = {
+				is_name_ordered = no
+				name_order = 0
+		}
+		location = 9340
+		division_template = "SS-Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	# "Nederland Legion"
+		division_name = {
+				is_name_ordered = no
+				name_order = 0
+		}
+		location = 9335
+		division_template = "SS-Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	# "Norwegen Legion"
+		division_name = {
+				is_name_ordered = no
+				name_order = 0
+		}
+		location = 53
+		division_template = "SS-Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	# "Galizien Legion"
+		division_name = {
+				is_name_ordered = no
+				name_order = 0
+		}
+		location = 11479
+		division_template = "SS-Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	# "Kaminski Legion"
+		division_name = {
+				is_name_ordered = no
+				name_order = 0
+		}
+		location = 9449
+		division_template = "SS-Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	# "30th Legion"
+		division_name = {
+				is_name_ordered = no
+				name_order = 0
+		}
+		location = 11370
+		division_template = "SS-Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	# "Cossack Legion"
+		division_name = {
+				is_name_ordered = no
+				name_order = 0
+		}
+		location = 9461
+		division_template = "SS-Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	# "Turkestanisches Legion"
+		division_name = {
+				is_name_ordered = no
+				name_order = 0
+		}
+		location = 9645
+		division_template = "SS-Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	# "Ostmuselmanisches Legion"
+		division_name = {
+				is_name_ordered = no
+				name_order = 0
+		}
+		location = 12320
+		division_template = "SS-Regiment"
+		start_experience_factor = 0.3
+	}
+	division= {	# "Kaukasischer Legion"
+		division_name = {
+				is_name_ordered = no
+				name_order = 0
+		}
+		location = 1599
+		division_template = "SS-Regiment"
+		start_experience_factor = 0.3
+	}
+
+
+	division= {	
+		name = "Turkoman Division"
+		location = 3734
+		division_template = "Infanterie-Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "Kalmykian Cavalry Corps"
+		location = 11724
+		division_template = "Kavallerie-Brigade"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+
+	division= {	
+		name = "Nachtigall Battalion"
+		location = 3686
+		division_template = "Infanterie-Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "Freiwilligen-Stamm-Division"
+		location = 9628
+		division_template = "Infanterie-Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "Wolgabulgarische Legion"
+		location = 6502
+		division_template = "Infanterie-Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "Turkestan Legion"
+		location = 7661
+		division_template = "Infanterie-Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "Bergkaukasien Legion"
+		location = 3672
+		division_template = "Infanterie-Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "Nordkaukasien Legion"
+		location = 9663
+		division_template = "Infanterie-Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "Kaukasisch-Mohammedanische Legion"
+		location = 6763
+		division_template = "Infanterie-Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "Aserbaidschanische Legion"
+		location = 1610
+		division_template = "Infanterie-Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "Armenische Legion"
+		location = 6642
+		division_template = "Infanterie-Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "Georgische Legion"
+		location = 3653
+		division_template = "Infanterie-Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "Kosaken-Kavallerie-Division"
+		location = 
+		division_template = "Kavallerie-Brigade"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "Ukrainian Liberation Army"
+		location = 11683
+		division_template = "Infanterie-Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "1st KONR Division"
+		location = 11349
+		division_template = "Infanterie-Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "2nd KONR Divsion"
+		location = 382
+		division_template = "Infanterie-Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "3rd KONR Divsion"
+		location = 413
+		division_template = "Infanterie-Division"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
 	
 }
 

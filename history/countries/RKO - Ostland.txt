@@ -1,6 +1,6 @@
 ﻿capital = 12
 
-oob = "UKR_1936"
+oob = "RKO_1936"
 
 set_research_slots = 3
 
@@ -61,38 +61,17 @@ if = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = schutzstaffel
 	last_election = "1933.12.20"
 	election_frequency = 48
-	elections_allowed = mo
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 0
-	fascism = 70
-	communism = 0
-	neutrality = 30
-}
-
-create_country_leader = {
-	name = "Kost Levytsky"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Nikita Sergeyevich Khrushchev"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	expire = "1953.3.1"
-	ideology = marxism
-	traits = {
-		
-	}
+	fascism = 12
+	nsap = 8
+	schutzstaffel = 80
+	neutrality = 0
 }
 
 create_country_leader = {
@@ -100,7 +79,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/OST/portait_hinrich_lohse.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology
+	ideology = collaboratism
 	traits = {
 		
 	}
