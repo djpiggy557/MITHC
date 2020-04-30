@@ -1202,7 +1202,7 @@ ideas = {
 			}			
 		}
 	
-	}
+}
 	
 	
 	
@@ -1343,6 +1343,7 @@ ideas = {
 			
 			traits = { editor }
 		}
+	}
 
 		USA_charles_coughlin = {
 			
@@ -1359,6 +1360,7 @@ ideas = {
 			
 			traits = { compassionate_gentleman }
 		}
+	}
 
 		USA_edward_fields = {
 			
@@ -1367,6 +1369,7 @@ ideas = {
 			allowed = {
 				original_tag = USA
 			}
+		}
 			available = {
 				NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
 			
@@ -1433,7 +1436,9 @@ ideas = {
 
 		}
 	}
-	
+}
+
+
 
 	army_chief = {
 		
@@ -1489,6 +1494,7 @@ ideas = {
 				factor = 1
 			}
 		}
+		
 		walter_krueger = {
 			
 			picture = USA_walter_krueger
@@ -1507,7 +1513,7 @@ ideas = {
 				factor = 1
 			}
 		}	
-	}
+}
 	
 	air_chief = {
 		
@@ -2422,6 +2428,5 @@ ideas = {
 			
 			traits = { rocket_scientist }
 		}
-	}
+     }
 	
-}
