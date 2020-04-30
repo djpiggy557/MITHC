@@ -1,0 +1,269 @@
+﻿division_template = {
+	name = "Wehrmacht-Legion"
+	division_names_group = GER_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+  		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Gebirgs-Division"						# Gebirgs-Divisions
+	division_names_group = GER_Mnt_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Schutzmannschaft" 			
+
+	division_names_group = GER_MOT_02
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		
+		motorized = { x = 2 y = 0 }
+	    motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+        mot_recon = { x = 0 y = 0 }
+	 	engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Kaukasien-Legion"					# SS regiments (elite equipment & training)
+	division_names_group = GER_SS_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	support = {
+        artillery = { x = 0 y = 0 }			
+	}
+	priority = 2
+}
+division_template = {
+	name = "Kavallerie-Brigade"				# 1. Kavalerrie Brigaden
+	division_names_group = GER_Cav_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 2 }
+	}
+	support = {
+	    recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	######## LAND OOB ########
+	##### Kaukasus Army #####
+	division= {	
+		name = "795 Battalion"
+		location = 9626
+		division_template = "Wehrmacht-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "796 Battalion"
+		location = 717
+		division_template = "Wehrmacht-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Giorgi Saakadze Battalion"
+		location = 3734
+		division_template = "Wehrmacht-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "798 Battalion"
+		location = 9663
+		division_template = "Wehrmacht-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "799 Battalion"
+		location = 3653
+		division_template = "Wehrmacht-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Tamara Battalion"
+		location = 6669
+		division_template = "Wehrmacht-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "823 Battalion"
+		location = 1530
+		division_template = "Wehrmacht-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "824 Battalion"
+		location = 4605
+		division_template = "Wehrmacht-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Waffengruppe Georgien"
+		location = 3734
+		division_template = "Kaukasien-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Bergmann Battalion"
+		location = 1599
+		division_template = ""Kaukasien-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "808th Battalion"
+		location = 12441
+		division_template = "Wehrmacht-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Zeytun Battalion"
+		location = 719
+		division_template = "Kaukasien-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "810th Battalion"
+		location = 1467
+		division_template = "Wehrmacht-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "813th Battalion"
+		location = 6642
+		division_template = "Wehrmacht-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "814th Battalion"
+		location = 3564
+		division_template = "Wehrmacht-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "815th Battalion"
+		location = 12380
+		division_template = "Wehrmacht-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "816th Battalion"
+		location = 11708
+		division_template = "Wehrmacht-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "I125 Battalion"
+		location = 765
+		division_template = "Wehrmacht-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "I98 Battalion"
+		location = 9426
+		division_template = "Wehrmacht-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "II9 Battalion"
+		location = 3726
+		division_template = "Wehrmacht-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Osttürkische Legion"
+		location = 7661
+		division_template = "Wehrmacht-Legion"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Ostmuselmanisches Legion"
+		location = 1610
+		division_template = "Wehrmacht-Legion"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name = "Kaukasischer Legion"
+		location = 4614
+		division_template = "Wehrmacht-Legion"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name = "Kaukasisch-Mohammedanische Legion"
+		location = 775
+		division_template = "Wehrmacht-Legion"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name = "Nordkaukasien Legion"
+		location = 3627
+		division_template = "Wehrmacht-Legion"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name = "Bergkaukasien Legion"
+		location = 9628
+		division_template = "Wehrmacht-Legion"
+		start_experience_factor = 0.3
+	}
+division= {	
+		name = "Freiwilligen-Stamm-Division"
+		location = 11696
+		division_template = "Wehrmacht-Legion"
+		start_experience_factor = 0.3
+	}
+	
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "UKR"
+		}
+		requested_factories = 1
+		progress = 0.25
+		efficiency = 100
+	}
+}

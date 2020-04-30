@@ -1269,33 +1269,6 @@ ideas = {
 				factor = 1
 			}
 		}
-		harold_ickes = {
-			
-			
-			allowed = {
-				original_tag = "USA"
-			}
-			
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			
-			traits = { democratic_reformer }
-	
-			do_effect = {
-				NOT = {
-					has_government = democratic
-				}
-			}
-			
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		
 		USA_james_madole = {
 			
 			
@@ -1353,16 +1326,20 @@ ideas = {
 			}
 			available = {
 				has_completed_focus = USA_KKK_organized_hitler_youth
+				NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
 			}
 			
 			traits = { silent_workhorse }
 		}
+		
 		USA_generoso_popejr = {
 			picture = generic_political_advisor_europe_1
 			
 			allowed = {
 				original_tag = USA
 			}
+			available = {
+				NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
 			
 			traits = { editor }
 		}
@@ -1377,6 +1354,8 @@ ideas = {
 			available = {
 				has_completed_focus = USA_unite_with_the_christian_front
 			}
+			available = {
+				NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
 			
 			traits = { compassionate_gentleman }
 		}
@@ -1388,6 +1367,8 @@ ideas = {
 			allowed = {
 				original_tag = USA
 			}
+			available = {
+				NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
 			
 			traits = { smooth_talking_charmer }
 		}
@@ -1400,8 +1381,9 @@ ideas = {
 			}
 			available = {
 				has_completed_focus = USA_unite_with_the_christian_front
+				NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
 			}
-			
+
 			traits = { financial_expert }
 		}
 
@@ -1426,6 +1408,9 @@ ideas = {
 			allowed = {
 				original_tag = USA
 			}
+			available = {
+				NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
+			}
 			
 			traits = { armaments_organizer }
 		}
@@ -1436,6 +1421,8 @@ ideas = {
 				has_intelligence_agency = yes
 				threat > 0.5
 			}
+			available = {
+				NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
 			
 			allowed = {
 				original_tag = USA

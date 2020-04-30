@@ -72,7 +72,7 @@ division_template = {
 
 units = {
 	######## LAND OOB ########
-	##### Ostland Army #####
+	##### Ruthenian Army #####
 	division= {	
 		name = "48th Battalion"
 		location = 3350  # Bobruysk
