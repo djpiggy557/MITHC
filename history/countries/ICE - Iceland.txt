@@ -18,7 +18,7 @@ set_technology = {
 	tech_recon = 1
 }
 
-1939.1.1 = {
+1960.1.1 = {
 
 	add_political_power = 1198
 	
@@ -83,7 +83,7 @@ set_popularities = {
 	communism = 2
 }
 
-1939.1.1 = {
+1960.1.1 = {
 	set_politics = {
 		ruling_party = democratic
 		last_election = "1936.10.19"

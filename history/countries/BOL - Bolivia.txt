@@ -13,7 +13,7 @@ set_technology = {
 }
 set_country_flag = monroe_doctrine
 
-1939.1.1 = {
+1960.1.1 = {
 
 	add_political_power = 1198
 	
@@ -97,7 +97,7 @@ create_country_leader = {
 	}
 }
 
-1939.1.1 = {
+1960.1.1 = {
 	set_politics = {
 		ruling_party = neutrality
 		last_election = "1934.11.11"

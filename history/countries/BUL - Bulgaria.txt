@@ -16,7 +16,7 @@ set_technology = {
 	fuel_silos = 1
 }
 
-1939.1.1 = {
+1960.1.1 = {
 
 	add_political_power = 1198
 	
@@ -89,7 +89,7 @@ set_popularities = {
 }
 
 
-1939.1.1 = {
+1960.1.1 = {
 	set_politics = {
 		ruling_party = neutrality
 		last_election = "1938.3.27"

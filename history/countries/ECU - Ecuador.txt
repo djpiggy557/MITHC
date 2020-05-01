@@ -12,7 +12,7 @@ set_country_flag = monroe_doctrine
 set_war_support = 0.1
 set_convoys = 5
 
-1939.1.1 = {
+1960.1.1 = {
 
 	add_political_power = 1198
 	
@@ -79,7 +79,7 @@ create_country_leader = {
 	}
 }
 
-1939.1.1 = {
+1960.1.1 = {
 	create_country_leader = {
 		name = "Aurelio Mosquera"
 		desc = "POLITICS_AURELIO_MOSQUERA_DESC"

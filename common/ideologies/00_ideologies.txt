@@ -166,7 +166,7 @@ ideologies = {
 			hidden_modifier = { join_faction_tension = -0.1 }
 		}
 
-		ai_fascist = yes # uses the fascist AI behaviour
+		ai_neutral = yes
 	}
 	
 	neutrality = {
@@ -271,7 +271,7 @@ ideologies = {
 			hidden_modifier = { join_faction_tension = -0.1 }
 		}
 
-		ai_fascist = yes # uses the fascist AI behaviour
+		ai_neutral = yes
 	}
 
 	schutzstaffel = {
@@ -321,7 +321,7 @@ ideologies = {
 			hidden_modifier = { join_faction_tension = -0.1 }
 		}
 
-		ai_fascist = yes # uses the fascist AI behaviour
+		ai_neutral = yes
 	}
 
 	sturmabteilung = {
@@ -365,7 +365,7 @@ ideologies = {
 			hidden_modifier = { join_faction_tension = -0.1 }
 		}
 
-		ai_fascist = yes # uses the fascist AI behaviour
+		ai_neutral = yes
 	}
 
 	nsap = {
@@ -409,6 +409,6 @@ ideologies = {
 			hidden_modifier = { join_faction_tension = -0.1 }
 		}
 
-		ai_fascist = yes # uses the fascist AI behaviour
+		ai_neutral = yes
 	}
 }

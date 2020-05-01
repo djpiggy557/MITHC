@@ -19,7 +19,7 @@ set_technology = {
 	fuel_refining = 1
 }
 
-1939.1.1 = {
+1960.1.1 = {
 	add_ideas = {
 		limited_conscription
 	}
@@ -90,7 +90,7 @@ set_popularities = {
 	neutrality = 0
 }
 
-1939.1.1 = {
+1960.1.1 = {
 	set_politics = {
 		ruling_party = fascism
 		last_election = "1939.4.2"

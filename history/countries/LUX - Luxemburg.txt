@@ -13,7 +13,7 @@ set_technology = {
 }
 set_war_support = 0.1
 set_stability = 0.8
-1939.1.1 = {
+1960.1.1 = {
 
 	add_political_power = 1198
 	
@@ -73,7 +73,7 @@ set_popularities = {
 	communism = 5
 }
 
-1939.1.1 = {
+1960.1.1 = {
 	set_politics = {
 		ruling_party = democratic
 		last_election = "1937.6.6"

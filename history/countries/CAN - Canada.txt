@@ -66,7 +66,7 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-1939.1.1 = {
+1960.1.1 = {
 	add_political_power = 1198
 	
 	
@@ -371,7 +371,7 @@ if = {
 }
 
 # 1939 Start #
-1939.1.1 = {
+1960.1.1 = {
 	if = {
 		limit = { not = { has_dlc = "Man the Guns" } }
 		# Ship variants #

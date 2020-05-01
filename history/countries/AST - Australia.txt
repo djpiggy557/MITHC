@@ -67,7 +67,7 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-1939.1.1 = {
+1960.1.1 = {
 	add_political_power = 1198
 	oob = "AST_1939"
 	
@@ -239,7 +239,7 @@ create_country_leader = {
 
 set_convoys = 100
 
-1939.1.1 = {
+1960.1.1 = {
 	set_politics = {
 		ruling_party = democratic
 		last_election = "1937.10.23"
@@ -461,7 +461,7 @@ if = {
 	}
 }
 
-1939.1.1 = {
+1960.1.1 = {
 	if = {
 		limit = {
 			not = { has_dlc = "Man the Guns" }

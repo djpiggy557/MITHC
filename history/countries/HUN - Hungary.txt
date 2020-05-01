@@ -28,7 +28,7 @@ if = {
 	}
 }
 
-1939.1.1 = {
+1960.1.1 = {
 	remove_ideas = HUN_treaty_of_triannon
 
 	add_political_power = 1198
@@ -193,7 +193,7 @@ create_country_leader = {
 	}
 }
 
-1939.1.1 = {
+1960.1.1 = {
 	if = {
 		limit = {
 			has_dlc = "Death or Dishonor"

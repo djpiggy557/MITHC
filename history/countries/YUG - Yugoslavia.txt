@@ -64,7 +64,7 @@ if = {
 	}
 }
 
-1939.1.1 = {
+1960.1.1 = {
 
 	add_ideas = {
 		limited_conscription
@@ -195,7 +195,7 @@ set_popularities = {
 	neutrality = 60
 }
 
-1939.1.1 = {
+1960.1.1 = {
 	set_politics = {
 		ruling_party = neutrality
 		last_election = "1938.12.1"
@@ -403,7 +403,7 @@ if = {
 }
 
 # 1939 Start #
-1939.1.1 = {
+1960.1.1 = {
 	if = {
 		limit = { not = { has_dlc = "Man the Guns" } }
 		# Ship variants #

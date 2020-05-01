@@ -55,7 +55,7 @@ if = {
 	add_opinion_modifier = { target = ENG modifier = SAF_anti_british_sentiment }
 }
 
-1939.1.1 = {
+1960.1.1 = {
 
 	add_political_power = 1198
 	oob = "SAF_1939"
@@ -155,7 +155,7 @@ create_country_leader = {
 	}
 }
 
-1939.1.1 = {
+1960.1.1 = {
 	set_politics = {
 		ruling_party = fascism
 		last_election = "1938.5.18"

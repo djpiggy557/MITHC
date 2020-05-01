@@ -46,7 +46,7 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-1939.1.1 = {
+1960.1.1 = {
 
 	add_political_power = 1198
 	oob = "NZL_1939"
@@ -204,7 +204,7 @@ create_country_leader = {
 
 set_convoys = 70
 
-1939.1.1 = {
+1960.1.1 = {
 	set_politics = {
 		ruling_party = democratic
 		last_election = "1938.10.15"
@@ -320,7 +320,7 @@ if = {
 }
 
 # 1939 Start #
-1939.1.1 = {
+1960.1.1 = {
 	if = {
 		limit = { not = { has_dlc = "Man the Guns" } }
 		# Ship variants #

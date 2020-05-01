@@ -85,7 +85,7 @@ if = {
 }
 
 
-1939.1.1 = {
+1960.1.1 = {
 	add_ideas = {
 		limited_conscription
 	}
@@ -496,7 +496,7 @@ if = {
 
 
 # 1939 Start #
-1939.1.1 = {
+1960.1.1 = {
 	if = {
 		limit = { not = { has_dlc = "Man the Guns" } }
 		# Ship variants #

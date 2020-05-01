@@ -15,7 +15,7 @@ set_technology = {
 
 set_convoys = 5
 
-1939.1.1 = {
+1960.1.1 = {
 
 	add_political_power = 1198
 	

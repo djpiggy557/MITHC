@@ -61,7 +61,7 @@ if = {
 	}
 }
 
-1939.1.1 = {
+1960.1.1 = {
 	add_political_power = 1198
 
 	set_global_flag = flag_mexico_cedillo_has_revolted

@@ -58,7 +58,7 @@ if = {
 	}
 }
 
-1939.1.1 = {
+1960.1.1 = {
 
 	add_political_power = 1198
 	
@@ -144,7 +144,7 @@ set_popularities = {
 	neutrality = 0
 }
 
-1939.1.1 = {
+1960.1.1 = {
 	set_politics = {
 		ruling_party = fascism
 		last_election = "1936.10.19"
@@ -314,7 +314,7 @@ if = {
 }
 
 # 1939 Start #
-1939.1.1 = {
+1960.1.1 = {
 	if = {
 		limit = { not = { has_dlc = "Man the Guns" } }
 		# Ship variants #

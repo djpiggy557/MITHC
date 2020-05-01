@@ -51,7 +51,7 @@ add_ideas = {
 	limited_conscription
 }
 
-1939.1.1 = {
+1960.1.1 = {
 	add_political_power = 1198
 	
 	#generic focuses
@@ -124,7 +124,7 @@ set_popularities = {
 	neutrality = 80
 }
 
-1939.1.1 = {
+1960.1.1 = {
 	set_politics = {
 		ruling_party = neutrality
 		last_election = "1939.7.1"
