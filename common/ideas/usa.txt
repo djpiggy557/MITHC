@@ -1202,15 +1202,123 @@ ideas = {
 			}			
 		}
 	
-}
+	}
 	
 	
 	
 	
 	political_advisor = {
 	
+		USA_charles_coughlin = {
+			
+			
+			allowed = {
+				original_tag = "USA"
+			}
+			available = {
+					NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
+					has_completed_focus = USA_unite_with_the_christian_front
+					}
 
+			
+			traits = { ideological_crusader }
+
+			do_effect = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			
+			ai_will_do = {
+				factor = 10
+				modifier = {
+					is_historical_focus_on = yes
+					has_game_rule = {
+						rule = USA_ai_behavior
+						option = DEFAULT
+					}
+					factor = 0
+				}
+				modifier = {
+					is_historical_focus_on = yes
+					not = { has_dlc = "Man the Guns" }
+					factor = 0
+				}
+			}
+		}	
+		USA_lester_maddox = {
+			
+			picture = USA_harry_white
+			allowed = {
+				original_tag = "USA"
+			}
+			allowed_civil_war = {
+				has_government = communism
+			}
+		
+			visible = { has_dlc = "Man the Guns" }
+			
+			traits = { financial_expert }
+			cost = 0
+			do_effect = {
+		
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		USA_henry_ford = {
+			
+			picture = generic_political_advisor_europe_1
+			allowed = {
+				original_tag = "USA"
+			}
+			allowed_civil_war = {
+				has_government = communism
+			}
+		available = {
+					NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
+					}
+			
+			visible = { has_dlc = "Man the Guns" }
+			
+			traits = { economist }
+			cost = 0
+			do_effect = {
+		
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
 		USA_palao_revel = {
+			
+			picture = USA_whittaker_chambers
+			allowed = {
+				original_tag = "USA"
+			}
+			allowed_civil_war = {
+				has_government = communism
+			}
+			available = {
+					NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
+					has_completed_focus = USA_adopt_the_flna
+					}
+			visible = { has_dlc = "Man the Guns" }
+			
+			traits = { editor }
+			cost = 0
+			do_effect = {
+		
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		USA_hugo_black = {
 			
 			picture = generic_political_advisor_europe_1
 			allowed = {
@@ -1219,18 +1327,11 @@ ideas = {
 			allowed_civil_war = {
 				not = { has_government = communism }
 			}
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus = USA_adopt_the_flna
-				}
-			}
+	
 			visible = { has_dlc = "Man the Guns" }
 
 			
-			traits = { anti_communist_crusader }
+			traits = { editor }
 			cost = 50
 			do_effect = {
 		
@@ -1240,7 +1341,7 @@ ideas = {
 				factor = 1
 			}
 		}
-		USA_henry_ford = {
+		USA_richard_butler = {
 			
 			picture = generic_political_advisor_europe_2
 			allowed = {
@@ -1251,14 +1352,12 @@ ideas = {
 			}
 			available = {
 				if = {
-					limit = {
-						has_dlc = "Man the Guns"
+					NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
+					has_completed_focus = USA_christian_commonwealth
 					}
-					has_completed_focus = USA_declare_a_new_capital
 				}
-			}
+			
 
-			visible = { has_dlc = "Man the Guns" }
 			traits = { captain_of_industry }
 			cost = 50
 			do_effect = {
@@ -1269,6 +1368,34 @@ ideas = {
 				factor = 1
 			}
 		}
+		USA_william_pelley = {
+			
+			
+			allowed = {
+				original_tag = "USA"
+			}
+			
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }	
+					NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
+					has_completed_focus = USA_turn_the_silver_legion_ss
+				}
+			}
+			
+			traits = { prince_of_terror }
+	
+			do_effect = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
 		USA_james_madole = {
 			
 			
@@ -1276,19 +1403,14 @@ ideas = {
 				original_tag = "USA"
 			}
 			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
+					NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
 					has_completed_focus = USA_nrp_orpo_conversion
-					not = { focus_progress = { focus = USA_neutrality_act progress > 0 } }
-					not = { focus_progress = { focus = USA_limited_intervention progress > 0 } }
-				}
+					}
 				if = {
 					limit = { has_dlc = "Man the Guns" }	
 					NOT = { has_autonomy_state = autonomy_supervised_state }
 				}
-			}
+			
 
 			
 			traits = { fascist_demagogue }
@@ -1325,13 +1447,12 @@ ideas = {
 				original_tag = USA
 			}
 			available = {
-				has_completed_focus = USA_KKK_organized_hitler_youth
-				NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
-			}
+					NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
+					has_completed_focus = USA_kkk_organized_hitler_youth
+					}
 			
 			traits = { silent_workhorse }
 		}
-		
 		USA_generoso_popejr = {
 			picture = generic_political_advisor_europe_1
 			
@@ -1339,13 +1460,14 @@ ideas = {
 				original_tag = USA
 			}
 			available = {
-				NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
+					NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
+					has_completed_focus = USA_silence_la_guardia
+					}
 			
-			traits = { editor }
+			traits = { anti_communist_crusader }
 		}
-	}
 
-		USA_charles_coughlin = {
+		USA_jb_stoner = {
 			
 			picture = generic_political_advisor_europe_5
 			
@@ -1353,14 +1475,11 @@ ideas = {
 				original_tag = USA
 			}
 			available = {
-				has_completed_focus = USA_unite_with_the_christian_front
-			}
-			available = {
-				NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
+					NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
+					}
 			
 			traits = { compassionate_gentleman }
 		}
-	}
 
 		USA_edward_fields = {
 			
@@ -1369,9 +1488,9 @@ ideas = {
 			allowed = {
 				original_tag = USA
 			}
-		}
 			available = {
-				NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
+					NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
+					}
 			
 			traits = { smooth_talking_charmer }
 		}
@@ -1383,10 +1502,10 @@ ideas = {
 				original_tag = USA
 			}
 			available = {
-				has_completed_focus = USA_unite_with_the_christian_front
-				NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
-			}
-
+					NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
+					has_completed_focus = USA_keep_the_south_protestant
+					}
+			
 			traits = { financial_expert }
 		}
 
@@ -1398,52 +1517,47 @@ ideas = {
 				original_tag = USA
 			}
 			available = {
-				NOT = { has_completed_focus = USA_purge_the_friends_of_new_germany }
-			}
+					NOT = { has_completed_focus = USA_purge_the_friends_of_new_germany }
+					}
 			
 			traits = { war_industrialist }
 		}
 
-		USA_richard_butler = {
+		USA_george_wallace = {
 			
 			picture = generic_political_advisor_europe_3
 			
 			allowed = {
 				original_tag = USA
 			}
-			available = {
-				NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
-			}
 			
 			traits = { armaments_organizer }
 		}
 		
-		USA_jb_stoner = {
+		USA_jedgar_hoover = {
 		
 			available = {
 				has_intelligence_agency = yes
-				threat > 0.5
 			}
-			available = {
-				NOT = { has_completed_focus = USA_second_night_of_the_long_knives }
 			
 			allowed = {
 				original_tag = USA
 				has_dlc = "La Resistance"
 			}
+			available = {
+					 has_completed_focus = USA_second_night_of_the_long_knives 
+					}
 			
 			traits = { head_of_intelligence }
 
 		}
 	}
-}
-
-
+	
 
 	army_chief = {
 		
 	
-		markw_clark = {
+		douglas_macarthur = {
 			
 			
 			allowed = {
@@ -1463,7 +1577,7 @@ ideas = {
 			}
 		}
 		
-		delos_carleton = {
+		george_marshall = {
 			
 			
 			allowed = {
@@ -1479,7 +1593,7 @@ ideas = {
 			}
 		}
 		
-		charles_herron = {
+		dwight_eisenhower = {
 			
 			
 			allowed = {
@@ -1494,7 +1608,6 @@ ideas = {
 				factor = 1
 			}
 		}
-		
 		walter_krueger = {
 			
 			picture = USA_walter_krueger
@@ -1513,7 +1626,7 @@ ideas = {
 				factor = 1
 			}
 		}	
-}
+	}
 	
 	air_chief = {
 		
@@ -2428,5 +2541,6 @@ ideas = {
 			
 			traits = { rocket_scientist }
 		}
-     }
+	}
 	
+}
