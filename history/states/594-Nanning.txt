@@ -31,10 +31,9 @@ state={
 				remove_core_of = GXC
 				ROC = { transfer_state = PREV }
 			}
-			JAP = {
+			ROC = {
 				set_province_controller = 4121
 				set_province_controller = 4177
-				set_province_controller = 1962
 			} 			
 		}
 	}
