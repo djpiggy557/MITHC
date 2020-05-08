@@ -73,9 +73,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Rudof Schmidt"
+	name = "Alfred Meyer"
 	desc = ""
-	picture = "portrait_schmidt.dds"
+	picture = "portrait_Alfred_Meyer.dds"
 	expire = "1953.3.1"
 	ideology = schutzstaffelism
 	traits = {
