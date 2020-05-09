@@ -15,6 +15,12 @@ state={
 
 		add_core_of = ITA
 		add_core_of = EGY
+		
+		1960.8.14 = {
+			owner = AFD
+			add_core_of = AFD
+			add_core_of = EGY
+		}
 
 	}
 

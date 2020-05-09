@@ -6,7 +6,10 @@ state={
 
 	history={
 		victory_points = {
-			6626 1 
+			6626 1
+		}
+		victory_points = {
+			11564 1
 		}
 		owner = ITA
 		add_core_of = ITA
@@ -20,11 +23,16 @@ state={
 			}
 
 		}
+		1960.8.14 = {
+			owner = GER
+			add_core_of = ITA
+			add_core_of = GER
+		}
 
 	}
 
 	provinces={
-		599 6626 11595 11735 
+		599 6626 11595 11735 11564 
 	}
 	manpower=1063159
 	buildings_max_level_factor=1.000

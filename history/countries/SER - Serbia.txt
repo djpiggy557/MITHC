@@ -128,11 +128,11 @@ set_popularities = {
 set_stability = 0.6
 
 create_country_leader = {
-	name = "Draza Mihailovic"
+	name = "Milan Aćimović"
 	desc = ""
-	picture = "gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
+	picture = "portrait_acimovic.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = nazist
 	traits = {
 		#
 	}
@@ -169,4 +169,19 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+
+1960.1.1 = {
+set_politics = {
+	ruling_party = nsap
+	last_election = "1936.1.1"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 0
+	fascism = 30
+	communism = 0
+	neutrality = 10
+	nsap = 60
 }

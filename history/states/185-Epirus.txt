@@ -25,6 +25,14 @@ state={
 		}
 		add_core_of = GRE
 		add_core_of = ITA
+		add_core_of = ALB
+		
+		1960.8.14 = {
+			owner = GRE
+			add_core_of = GRE
+			add_core_of = ITA
+			add_core_of = ALB
+		}
 	}
 
 	provinces={

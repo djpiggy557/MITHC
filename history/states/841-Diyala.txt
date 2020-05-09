@@ -1,0 +1,33 @@
+state=
+{
+	id=841
+	name="Diyala"
+	
+	state_category = town
+	
+	manpower = 294748
+	resources={
+		steel=5 # was: 8
+	}
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		add_core_of = IRQ
+		
+		1960.8.14 = {
+			owner = AFD
+			add_core_of = AFD
+			add_core_of = IRQ
+		}
+		
+	}
+
+	provinces={
+		6826 8123 10793 
+	}
+}

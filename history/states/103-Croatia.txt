@@ -12,9 +12,6 @@ state={
 		victory_points = {
 			3924 3
 		}
-		victory_points = {
-			11564 1 
-		}
 		buildings = {
 			infrastructure = 5
 			dockyard = 1
@@ -29,9 +26,15 @@ state={
 		add_core_of = ITA
 		#add_claim_by = ITA #added by focus
 		add_core_of = CRO
+
+			1960.8.14 = {
+			owner = CRO
+			add_core_of = ITA
+			add_core_of = CRO
+		}
 	}
 
 	provinces={
-		591 3868 3924 6889 11564 11816 11901 
+		591 3868 3924 6889 11816 11901 
 	}
 }

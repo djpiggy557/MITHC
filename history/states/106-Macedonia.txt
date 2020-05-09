@@ -19,11 +19,17 @@ state={
 		}
 		add_core_of = SER
 		add_core_of = GRE
+		
+		1960.8.14 = {
+			owner = MAC
+			add_core_of = MAC
+			add_core_of = BUL
+		}
 
 	}
 
 	provinces={
-		907 974 3833 3865 3882 6886 11856 11868 11857 11832 
+		907 974 3833 3865 3882 6886 11856 11857 11832 
 	}
 	manpower=1374200
 	buildings_max_level_factor=1.000

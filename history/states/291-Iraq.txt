@@ -28,6 +28,12 @@ state={
 			}
 		}
 		add_core_of = IRQ
+		
+		1960.8.14 = {
+			owner = AFD
+			add_core_of = AFD
+			add_core_of = IRQ
+		}
 	}
 
 	provinces={

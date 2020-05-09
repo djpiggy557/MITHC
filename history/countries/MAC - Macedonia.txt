@@ -41,14 +41,27 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
+	ruling_party = nsap
+	last_election = "1934.7.1"
+	election_frequency = 72
+	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 33
-	neutrality = 33
-	communism = 34
+	democratic = 0
+	fascism = 20
+	communism = 0
+	neutrality = 10
+	nsap = 70
+}
+
+create_country_leader = {
+	name = "Ivan Mihailov"
+	desc = ""
+	picture = "Portrait_Ivan_Mihailov.dds"
+	expire = "1965.1.1"
+	ideology = nazist
+	traits = {
+		#
+	}
 }

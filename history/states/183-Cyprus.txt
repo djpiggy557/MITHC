@@ -25,6 +25,11 @@ state= {
 				naval_base = 2
 			}
 		}
+		
+		1960.8.14 = {
+			owner = TUR
+			add_core_of = TUR
+		}
 
 	}
 	provinces= { 7193 11984 }

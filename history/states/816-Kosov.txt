@@ -23,6 +23,12 @@ state=
 		add_core_of = ITA
 		add_core_of = SER
 		add_core_of = ALB
+		1960.8.14 = {
+			owner = ALB
+			add_core_of = ALB
+			add_core_of = SER
+			add_core_of = ITA
+		}
 	}
 
 	provinces={

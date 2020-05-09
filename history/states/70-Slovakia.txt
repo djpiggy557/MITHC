@@ -12,9 +12,6 @@ state={
 	history={
 		owner = HUN
 		victory_points = {
-			9692 10
-		}
-		victory_points = {
 			11539 5
 		}
 		buildings = {
@@ -33,6 +30,6 @@ state={
 	}
 
 	provinces={
-		541 3484 3537 9539 9692 11522 11539 
+		541 3537 11522 11539 
 	}
 }

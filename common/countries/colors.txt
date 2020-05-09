@@ -56,7 +56,7 @@ ITA = {
 	color_ui = rgb { 87 165 82 }
 }
 ROM = {
-	color = rgb { 215 196 72 }
+	color = rgb { 3 84 25 }
 	color_ui = rgb { 255 255 120 }
 }
 YUG = {
@@ -68,7 +68,7 @@ SWI = {
 	color_ui = rgb { 193 81 81 }
 }
 TUR = {
-	color = rgb { 171 190 152 }
+	color = rgb { 138 3 3 }
 	color_ui = rgb { 222 247 198 }
 }
 GRE = {
@@ -104,7 +104,7 @@ IRE = {
 	color_ui = rgb { 104 207 117 }
 }
 HUN = {
-	color = rgb { 249 126 98 }
+	color = rgb { 112 17 0 }
 	color_ui = rgb { 255 164 127 }
 }
 AFG = {
@@ -803,4 +803,8 @@ DSE = {
 MTA = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
+}
+AFD = {
+	color = rgb { 145 157 236 }
+	color_ui = rgb { 189 204 255 }
 }

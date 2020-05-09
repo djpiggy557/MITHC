@@ -17,6 +17,12 @@ state={
 		}
 
 		add_core_of = PAL
+		
+		1960.8.14 = {
+			owner = AFD
+			add_core_of = AFD
+			add_core_of = PAL
+		}
 	}
 
 	provinces={

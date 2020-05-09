@@ -68,11 +68,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Novica Radović"
+	name = "Zaharije Ostojić"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	picture = "portrait_zaharije.dds"
 	expire = "1953.3.1"
-	ideology = oligarchism
+	ideology = nazist
 	traits = {
 		
 	}
@@ -86,6 +86,22 @@ create_country_leader = {
 	ideology = leninism
 	traits = {
 		
+	}
+}
+
+1960.1.1 = {
+	set_politics = {
+		ruling_party = nsap
+		last_election = "1936.1.1"
+		election_frequency = 36
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 0
+		fascism = 30
+		communism = 0
+		neutrality = 10
+		nsap = 60
 	}
 }
 

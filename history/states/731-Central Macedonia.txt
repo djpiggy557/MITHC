@@ -26,6 +26,13 @@ state={
 		}
 		add_core_of = GRE
 		add_claim_by = BUL
+		
+		1960.8.14 = {
+			owner = MAC
+			add_core_of = MAC
+			add_core_of = BUL
+			add_core_of = GRE
+		}
 
 	}
 	

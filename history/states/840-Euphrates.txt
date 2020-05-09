@@ -1,0 +1,40 @@
+state=
+{
+	id=840
+	name="Euphrates"
+	
+	state_category = town
+	
+	manpower = 294748
+	resources={
+		steel=5 # was: 8
+	}
+
+	history={
+			victory_points = {
+			7132 5 
+		}
+		owner = ITL
+		victory_points = {
+			9692 10
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		add_core_of = ITL
+		add_core_of = SYR
+		
+		1960.8.14 = {
+			owner = TUR
+			add_core_of = ITL
+			add_core_of = SYR
+			add_core_of = TUR
+		}
+	}
+
+	provinces={
+		 6883 1606 1634 1549 1578 10882 901 
+	}
+}

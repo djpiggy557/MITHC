@@ -21,6 +21,13 @@ state={
 		}
 		add_core_of = ITA
 		add_core_of = AUS
+
+		1960.8.14 = {
+			owner = GER
+			add_core_of = ITA
+			add_core_of = AUS
+			add_core_of = GER
+		}
 	}
 
 	provinces={
