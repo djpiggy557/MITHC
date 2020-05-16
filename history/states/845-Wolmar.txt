@@ -1,0 +1,21 @@
+state={
+	id=845
+	name="Wolmar"
+
+	history={
+		owner = RKO
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = RKO
+		add_core_of = LAT
+	}
+
+	provinces={
+		3298 3388 9240 9317 9501 10493 11302 
+	}
+	manpower = 1232200
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

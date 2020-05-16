@@ -327,38 +327,7 @@ if = {
 		NOT = { has_dlc = "La Resistance" }
 	}
 
-	create_country_leader = {
-		name = "Niceto Alcalá-Zamora"
-		desc = "POLITICS_NICETO_ALCALA_ZAMORA_DESC"
-		picture = "GFX_portrait_SPR_niceto_alcala_zamora"
-		expire = "1965.1.1"
-		ideology = conservatism
-		traits = {
 
-		}
-	}
-	
-	create_country_leader = {
-		name = "José Díaz"
-		desc = "POLITICS_JOSE_DIAZ_DESC"
-		picture = "portrait_spr_jose_diaz.dds"
-		expire = "1965.1.1"
-		ideology = stalinism
-		traits = {
-
-		}
-	}
-	create_country_leader = {
-		name = "Alejandro Lerroux"
-		id = 1100
-		desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
-		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-		expire = "1965.1.1"
-		ideology = centrism
-		traits = {
-			#
-		}
-	}
 	create_country_leader = {
 		name = "Francisco Franco"
 		desc = "POLITICS_FRANCISCO_FRANCO_DESC"
@@ -377,27 +346,6 @@ if = {
 	}
 
 	create_country_leader = {
-		name = "Niceto Alcalá-Zamora"
-		desc = "POLITICS_NICETO_ALCALA_ZAMORA_DESC"
-		picture = "GFX_portrait_SPR_niceto_alcala_zamora"
-		expire = "1965.1.1"
-		ideology = conservatism
-		traits = {
-			indecisive
-		}
-	}
-	
-	create_country_leader = {
-		name = "José Díaz"
-		desc = "POLITICS_JOSE_DIAZ_DESC"
-		picture = "portrait_spr_jose_diaz.dds"
-		expire = "1965.1.1"
-		ideology = stalinism
-		traits = {
-			veteran_communist
-		}
-	}
-create_country_leader = {
 		name = "Francisco Franco"
 		desc = "POLITICS_FRANCISCO_FRANCO_DESC"
 		picture = "Portrait_50s_franco.dds"
@@ -405,16 +353,6 @@ create_country_leader = {
 		ideology = fascism_ideology
 		traits = {
 
-		}
-	}
-	create_country_leader = {
-		name = "Manuel Fal Conde"
-		desc = "POLITICS_MANUEL_FAL_CONDE_DESC"
-		picture = "GFX_portrait_SPA_manuel_fal_conde"
-		expire = "1965.1.1"
-		ideology = despotism
-		traits = {
-			jefe
 		}
 	}
 }

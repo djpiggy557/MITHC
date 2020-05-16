@@ -1,0 +1,18 @@
+
+state={
+	id=854
+	name="Neu Kamerun"
+	manpower = 2945782
+	
+	state_category = rural
+
+	history={
+		owner = KBK
+		add_core_of = KBK
+
+	}
+
+	provinces={
+		10948 6008 8078 12830 
+	}
+}

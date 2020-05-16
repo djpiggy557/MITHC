@@ -1,0 +1,22 @@
+state={
+	id=842
+	name="Pripyat"
+
+	history={
+		owner = UKR
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = RKO
+		add_core_of = UKR
+		add_core_of = BLR
+	}
+
+	provinces={
+		535 6579 9520 3496 11503  
+	}
+	manpower=1232200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

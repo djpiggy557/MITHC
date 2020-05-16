@@ -1,0 +1,36 @@
+
+state={
+	id=855
+	name="Libreville"
+	manpower = 2945782
+	
+	state_category = rural
+
+	history={
+		owner = KBK
+		add_core_of = KBK
+		add_claim_by = SPR
+		
+		victory_points = {
+			5139 1 
+		}
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+			6039 = {
+				naval_base = 1
+			}
+			5139 = {
+				naval_base = 1
+
+			}
+
+		}
+	}
+
+	provinces={
+		5139 
+	}
+}

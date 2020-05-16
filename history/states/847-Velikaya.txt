@@ -1,0 +1,19 @@
+state={
+	id=847
+	name="Velikaya"
+
+	history={
+		owner = RKO
+		add_core_of = RKO
+		add_core_of = RKN
+		add_core_of = SOV
+		add_core_of = LAT
+	}
+
+	provinces={
+		3310 415 
+	}
+	manpower = 1232200
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

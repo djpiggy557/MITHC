@@ -1,0 +1,22 @@
+state={
+	id=851
+	name="Brest Litovsk"
+
+	history={
+		owner = GER	
+		victory_points = {
+			3392 1
+		}
+		add_core_of = RKO
+		add_core_of = SOV
+		add_core_of = GER
+		add_core_of = BLR
+		}
+
+	provinces={
+		3392 6546 11528 3256 
+	}
+	manpower = 1232200
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

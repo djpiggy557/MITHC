@@ -1270,4 +1270,5 @@ create_equipment_variant = {
 	#	}
 	#	obsolete = yes
 	#}
+	
 }

@@ -7,23 +7,23 @@ state={
 	state_category = rural
 
 	history={
-		owner = MTA
-		add_core_of = MTA
+		owner = KBK
+		add_core_of = KBK
 		victory_points = {
 			2080 1
+		}
+		victory_points = {
+			12830 1
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			air_base = 1
-			6039 = {
-				naval_base = 1
-			}
 		}
 
 	}
 
 	provinces={
-		2080 5036 5054 6039 7963 9137 11194 11012 1993 
+		2080 5036 5054 7963 9137 11194 11012 1993 
 	}
 }

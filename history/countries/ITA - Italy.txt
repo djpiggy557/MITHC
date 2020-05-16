@@ -248,10 +248,23 @@ if = {
 	}
 	
 	set_stability = 0.8
-	GER = { add_to_faction = ITA }
+	
+	set_politics = {
+		ruling_party = nsap
+		last_election = "1936.1.1"
+		election_frequency = 36
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 0
+		fascism = 30
+		communism = 0
+		neutrality = 5
+		nsap = 65
+	}
 }
 
-
+1950.1.1 = {
 set_convoys = 200
 
 set_politics = {
@@ -266,6 +279,8 @@ set_popularities = {
 	communism = 0
 }
 
+}
+
 create_country_leader = {
 	name = "Benito Mussolini"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
@@ -278,11 +293,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ferruccio Parri"
+	name = "Giuseppe Ungaretti"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "GFX_portrait_italy_ferruccio_parri"
+	picture = "portrait_giuseppe_ungaretti.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = nazist
 	traits = {
 		
 	}

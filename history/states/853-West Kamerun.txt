@@ -1,0 +1,26 @@
+
+state={
+	id=853
+	name="Ambaland"
+	manpower = 2945782
+	
+	state_category = rural
+
+	history={
+		owner = KBK
+		add_core_of = KBK
+
+	buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+			6039 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		6039 7978 4889 
+	}
+}

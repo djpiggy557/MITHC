@@ -1,0 +1,27 @@
+state={
+	id=846
+	name="Rigaland"
+
+	history={
+		owner = RKO
+		victory_points = {
+			9340 5 
+		}
+		9340 = {
+				naval_base = 3
+			}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = RKO
+		add_core_of = LAT
+	}
+
+	provinces={
+		9340 10323 7482 11222 
+	}
+	manpower = 1232200
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}
