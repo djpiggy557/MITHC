@@ -1783,38 +1783,6 @@ ideas = {
 				factor = 0
 			}
 		}	
-			
-		clement_attlee = {
-
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = { has_completed_focus = ENG_a_change_in_course }
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			
-			allowed = {
-				original_tag = ENG
-			}
-			
-			traits = { democratic_reformer }
-	
-			do_effect = {
-				NOT = {
-					has_government = democratic
-				}
-			}
-			
-			ai_will_do = {
-				factor = 0
-			}
-		}
 		
 		john_beckett = {
 			
@@ -1845,33 +1813,6 @@ ideas = {
 			
 			ai_will_do = {
 				factor = 0
-			}
-		}
-
-		ENG_philip_kerr = {
-
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = { has_completed_focus = ENG_no_further_appeasement }
-					has_government = democratic
-				}
-			}
-			
-			allowed = {
-				original_tag = ENG
-			}
-			
-			traits = { silent_workhorse }
-
-			ai_will_do = {
-				factor = 2
-				modifier = {
-					has_country_leader = { name = "Stanley Baldwin" ruling_only = yes }
-					factor = 10
-				}
 			}
 		}
 
@@ -1977,73 +1918,6 @@ ideas = {
 			}
 			
 			traits = { red_suffragette }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		ENG_winston_churchill = {
-			
-			#picture = generic_democratic_reformer_western_european_2d
-
-			available = {
-				has_government = neutrality
-				has_completed_focus = ENG_the_kings_party
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			
-			allowed = {
-				original_tag = ENG
-				has_dlc = "Man the Guns"
-			}
-			
-			traits = { royalist_bulldog }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		ENG_oswald_mosley = {
-			
-			#picture = generic_political_advisor_europe_3
-
-			available = {
-				has_government = neutrality
-				has_completed_focus = ENG_the_kings_party
-			}
-			
-			allowed = {
-				original_tag = ENG
-				has_dlc = "Man the Guns"
-			}
-			
-			traits = { economic_organizer }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		ENG_david_lloyd_george = {
-			
-			#picture = generic_political_advisor_europe_4
-
-			available = {
-				has_government = neutrality
-				has_completed_focus = ENG_the_kings_party
-			}
-			
-			allowed = {
-				original_tag = ENG
-				has_dlc = "Man the Guns"
-			}
-			
-			traits = { old_figurehead }
 
 			ai_will_do = {
 				factor = 1
@@ -2234,99 +2108,6 @@ ideas = {
 			
 			traits = { quartermaster_trainee }
 		}
-		ENG_corgis_2 = { # Dookie
-			
-			picture = generic_political_advisor_europe_5
-
-			available = {
-				has_government = neutrality
-				has_completed_focus = ENG_the_kings_party
-				has_country_leader = {
-				    name = "Elizabeth II"
-				    ruling_only = yes
-				}
-			}
-
-			visible = {
-				has_country_leader = {
-				    name = "Elizabeth II"
-				    ruling_only = yes
-				}
-			}
-			
-			allowed = {
-				original_tag = ENG
-				has_dlc = "Man the Guns"
-			}
-			
-			traits = { heels_nipper }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		ENG_corgis_3 = { # Jane
-			
-			picture = generic_political_advisor_europe_4
-
-			available = {
-				has_government = neutrality
-				has_completed_focus = ENG_the_kings_party
-				has_country_leader = {
-				    name = "Elizabeth II"
-				    ruling_only = yes
-				}
-			}
-
-			visible = {
-				has_country_leader = {
-				    name = "Elizabeth II"
-				    ruling_only = yes
-				}
-			}
-			
-			allowed = {
-				original_tag = ENG
-				has_dlc = "Man the Guns"
-			}
-			
-			traits = { snuggler }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		ENG_corgis_1 = { # Crackers
-			
-			picture = generic_political_advisor_europe_3
-
-			available = {
-				has_government = neutrality
-				has_completed_focus = ENG_the_kings_party
-				has_country_leader = {
-				    name = "Elizabeth II"
-				    ruling_only = yes
-				}
-			}
-
-			visible = {
-				has_country_leader = {
-				    name = "Elizabeth II"
-				    ruling_only = yes
-				}
-			}
-			
-			allowed = {
-				original_tag = ENG
-				has_dlc = "Man the Guns"
-			}
-			
-			traits = { face_licker }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
 		
 		eng_stewart_menzies = {
 		
@@ -2378,12 +2159,6 @@ ideas = {
 				original_tag = ENG
 			}
 			
-			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
-			}
-			
 			traits = { army_chief_offensive_2 }
 			
 			ai_will_do = {
@@ -2410,12 +2185,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = ENG
-			}
-			
-			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
 			}
 			
 			traits = { army_chief_maneuver_3 }
@@ -2531,12 +2300,6 @@ ideas = {
 				original_tag = ENG
 			}
 			
-			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
-			}
-			
 			traits = { army_regrouping_2 }
 			
 			ai_will_do = {
@@ -2631,11 +2394,6 @@ ideas = {
 				original_tag = ENG
 			}
 			
-			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
-			}
 			
 			traits = { navy_amphibious_assault_3 }
 			
@@ -2678,10 +2436,6 @@ ideas = {
 
 		ENG_david_stirling = {
 			ledger = army
-
-			available = {
-				has_completed_focus = ENG_special_air_service
-			}
 			
 			allowed = {
 				original_tag = ENG
@@ -2992,12 +2746,6 @@ ideas = {
 			allowed = {
 				original_tag = ENG
 			}
-
-			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
-			}
 			
 			cost = 250
 			
@@ -3015,11 +2763,6 @@ ideas = {
 				original_tag = ENG
 			}
 			
-			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
-			}
 			
 			research_bonus = {
 				land_doctrine = 0.10
@@ -3037,29 +2780,6 @@ ideas = {
 			}
 		}
 
-		ENG_raymond_briggs = {
-			ledger = army
-
-			picture = generic_army_europe_2
-
-			visible = {
-				has_completed_focus = ENG_eliminate_the_upper_class
-			}
-
-			available = {
-				has_completed_focus = ENG_eliminate_the_upper_class
-			}
-			
-			allowed = {
-				original_tag = ENG
-			}
-
-			research_bonus = {
-				land_doctrine = 0.10
-			}
-			
-			traits = { military_theorist }
-		}
 		
 		james_somerville = {
 			ledger = navy
@@ -3068,11 +2788,6 @@ ideas = {
 				original_tag = ENG
 			}
 
-			available = {
-				NOT = {
-					has_completed_focus = ENG_eliminate_the_upper_class
-				}
-			}
 			
 			cost = 250
 			

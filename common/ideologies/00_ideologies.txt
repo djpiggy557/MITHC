@@ -230,7 +230,7 @@ ideologies = {
 		ai_neutral = yes # 
 	}
 
-	Mosleyism = {
+	mosleyism = {
 	
 		types = {
 		

@@ -302,7 +302,7 @@ set_politics = {
 set_popularities = {
 	democratic = 5
 	fascism = 45
-	Mosleyism = 50
+	mosleyism = 50
 	communism = 0
 }
 
