@@ -1,0 +1,23 @@
+
+state={
+	id=873
+	name="North Guinea"
+	manpower = 2945782
+	
+	state_category = rural
+
+	history={
+		owner = POR
+		add_core_of = POR
+		add_core_of = GNA
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		12858
+		
+	}
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=861
+	name="Luapulaland"
+	manpower = 2945782
+	
+	state_category = rural
+
+	history={
+		owner = KBR
+		add_core_of = KBR
+		
+		buildings = {
+			infrastructure = 3
+		}
+		
+	}
+
+	provinces={
+		1846 10594 13173 
+	}
+}

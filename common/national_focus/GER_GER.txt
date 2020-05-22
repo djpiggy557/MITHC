@@ -1,0 +1,327 @@
+focus_tree = {
+	id = GER
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	#Focus for The Colossus has Fell
+	focus = {
+		id = GER_the_colossus_has_fell
+		icon = GFX_GER_the_colossus_has_fell-7203
+		x = 27
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Two Headed Snake
+	focus = {
+		id = GER_the_two_headed_snake
+		icon = GFX_goal_unknown
+		x = 19
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_the_colossus_has_fell }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Rise of the Underdogs
+	focus = {
+		id = GER_rise_of_the_underdogs
+		icon = GFX_GER_rise_of_the_underdogs-7202
+		x = 27
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_the_colossus_has_fell }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for a
+	focus = {
+		id = GER_CJUgoMzt
+		icon = GFX_goal_unknown
+		x = 52
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Flight of the Valkyries
+	focus = {
+		id = GER_flight_of_the_valkyries
+		icon = GFX_goal_unknown
+		x = 35
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_the_colossus_has_fell }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Goertzmann's Reich
+	focus = {
+		id = GER_goertzmanns_reich
+		icon = GFX_goal_unknown
+		x = 27
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_rise_of_the_underdogs }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Boar of Afrika
+	focus = {
+		id = GER_the_boar_of_afrika
+		icon = GFX_goal_unknown
+		x = 21
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_rise_of_the_underdogs }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Thorns of the Eastern Roses
+	focus = {
+		id = GER_thorns_of_the_eastern_roses
+		icon = GFX_GER_thorns_of_the_eastern_roses-7204
+		x = 33
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_rise_of_the_underdogs }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Purge the High Command
+	focus = {
+		id = GER_purge_the_high_command
+		icon = GFX_goal_unknown
+		x = 27
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_goertzmanns_reich }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Tie Over the OKW
+	focus = {
+		id = GER_tie_over_the_okw
+		icon = GFX_goal_unknown
+		x = 25
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_goertzmanns_reich }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Staving the Fires
+	focus = {
+		id = GER_staving_the_fires
+		icon = GFX_goal_unknown
+		x = 29
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_goertzmanns_reich }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Splitting of the East and West
+	focus = {
+		id = GER_splitting_of_the_east_and_west
+		icon = GFX_goal_unknown
+		x = 27
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = GER_tie_over_the_okw 
+		}
+		prerequisite = { 
+			focus = GER_purge_the_high_command 
+		}
+		prerequisite = { 
+			focus = GER_staving_the_fires 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Rearm the Ostlegionen
+	focus = {
+		id = GER_rearm_the_ostlegionen
+		icon = GFX_goal_unknown
+		x = 32
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = GER_purge_the_backbiters 
+		}
+		prerequisite = { 
+			focus = GER_konfderation_kommissariats 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Purge the Backbiters
+	focus = {
+		id = GER_purge_the_backbiters
+		icon = GFX_goal_unknown
+		x = 31
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_thorns_of_the_eastern_roses }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Take Our Slice of Turkey
+	focus = {
+		id = GER_take_our_slice_of_turkey
+		icon = GFX_goal_unknown
+		x = 35
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_thorns_of_the_eastern_roses }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Konföderation Kommissariats
+	focus = {
+		id = GER_konfderation_kommissariats
+		icon = GFX_goal_unknown
+		x = 33
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Drive Eastward
+	focus = {
+		id = GER_drive_eastward
+		icon = GFX_goal_unknown
+		x = 33
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = GER_rearm_the_ostlegionen 
+		}
+		prerequisite = { 
+			focus = GER_slavic_aryanism 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Unite the Reich
+	focus = {
+		id = GER_unite_the_reich
+		icon = GFX_goal_unknown
+		x = 27
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_splitting_of_the_east_and_west }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Find the Desert Fox
+	focus = {
+		id = GER_find_the_desert_fox
+		icon = GFX_goal_unknown
+		x = 20
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_the_boar_of_afrika }
+		mutually_exclusive = { focus = GER_the_lion_of_east_afrika }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Lion of East Afrika
+	focus = {
+		id = GER_the_lion_of_east_afrika
+		icon = GFX_goal_unknown
+		x = 22
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_the_boar_of_afrika }
+		mutually_exclusive = { focus = GER_find_the_desert_fox }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Slavic Aryanism
+	focus = {
+		id = GER_slavic_aryanism
+		icon = GFX_goal_unknown
+		x = 34
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = GER_take_our_slice_of_turkey 
+		}
+		prerequisite = { 
+			focus = GER_konfderation_kommissariats 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }

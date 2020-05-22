@@ -1,0 +1,34 @@
+
+state={
+	id=869
+	name="Riff"
+	manpower = 2945782
+	
+	state_category = rural
+
+	history={
+		owner = SPR
+		add_core_of = SPR
+		add_core_of = RIF
+		add_core_of = MOR
+		
+		buildings = {
+			infrastructure = 3
+			12100 = {
+				naval_base = 3
+			}
+		}
+		
+		1960.8.14 = {
+			owner = RIF
+			add_core_of = MOR
+			add_core_of = RIF
+			add_core_of = SPR
+		}
+	}
+
+	provinces={
+		4199 7215 12100 1194 10013 4097 10070 7100 
+		
+	}
+}

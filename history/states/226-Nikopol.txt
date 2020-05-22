@@ -15,9 +15,7 @@ state={
 		victory_points = {
 			11437 10 
 		}
-		victory_points = {
-			11561 1
-		}
+
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
@@ -25,9 +23,16 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = UKR
+		add_claim_by = GER
+		1960.8.14 = {
+			owner = GER
+			add_core_of = GER
+			add_core_of = UKR
+			add_core_of = SOV
+		}
 	}
 
 	provinces={
-		453 472 486 6423 9419 9433 9463 9479 11422 11437 11452 11561 
+		453 472 486 9419 9463 9479 11422 11437 11452 
 	}
 }

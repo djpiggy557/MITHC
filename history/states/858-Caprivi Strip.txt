@@ -1,0 +1,22 @@
+
+state={
+	id=858
+	name="Caprivi Strip"
+	manpower = 2945782
+	
+	state_category = rural
+
+	history={
+		owner = KBS
+		add_core_of = KBS
+		
+		buildings = {
+			infrastructure = 1
+		}
+		
+	}
+
+	provinces={
+		13217 12519 
+	}
+}

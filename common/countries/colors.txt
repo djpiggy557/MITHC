@@ -276,6 +276,10 @@ DOM = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 198 169 248 }
 }
+SNU = {
+	color = rgb { 152 130 191 }
+	color_ui = rgb { 198 169 248 }
+}
 HAI = {
 	color = rgb { 174 113 113 }
 	color_ui = rgb { 174 113 113 }
@@ -812,7 +816,19 @@ KBO = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
 }
+KBS = {
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
+}
+KBR = {
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
+}
 AFD = {
 	color = rgb { 145 157 236 }
 	color_ui = rgb { 189 204 255 }
+}
+RIF = {
+	color = rgb { 176  102  136 }
+	color_ui = rgb { 176  102  136 }
 }

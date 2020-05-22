@@ -1,4 +1,5 @@
-﻿capital = 461
+﻿oob = "MOR_1950"
+capital = 461
 
 # Starting tech
 set_technology = {

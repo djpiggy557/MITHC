@@ -1,0 +1,29 @@
+
+state={
+	id=875
+	name="Fezzan"
+	manpower = 42633
+	
+	state_category = rural
+
+	history={
+		owner = INA
+		add_core_of = INA
+		add_core_of = LBA
+		add_core_of = SNU
+		
+		buildings = {
+			infrastructure = 2
+		}
+		1960.8.14 = {
+			owner = SNU
+			add_core_of = SNU
+			add_core_of = INA
+			add_core_of = LBA
+		}
+	}
+
+	provinces={
+		5004 12022 12082 12866 4962 10884 
+	}
+}

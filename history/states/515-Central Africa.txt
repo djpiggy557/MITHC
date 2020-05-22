@@ -3,7 +3,7 @@ state={
 	name="STATE_515"
 	
 	state_category = pastoral
-	impassable = yes
+	impassable = no
 
 	history={
 		owner = FRA
@@ -12,11 +12,17 @@ state={
 			infrastructure = 1
 
 		}
+		1960.8.14 = {
+			owner = SNU
+			add_core_of = SNU
+			add_core_of = FRA
+			add_core_of = NGR
+		}
 
 	}
 
 	provinces={
-		1956 4913 7939 8028 8128 10758 10780 10805 10917
+		1956 4913 7939 8128 10917
 	}
 	manpower=1456356
 	buildings_max_level_factor=1.000

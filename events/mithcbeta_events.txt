@@ -1,0 +1,39 @@
+add_namespace = mithcbeta
+
+##Event: Second Rif War
+news_event = {
+	id = mithcbeta.1
+	title = mithcbeta.1.title
+	desc = mithcbeta.1.desc
+	picture = GFX_event_test
+	is_triggered_only = no
+	fire_only_once = no
+	major = yes
+	trigger = {
+		date >1950.2.2
+		NOT = {
+			has_global_flag = rif_war
+			}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+			name = mithcbeta.1.a
+			ai_chance = { factor = 100}
+			MOR = {transfer_state= 870}
+			MOR = {load_oob = "MOR_1950"}
+			RIF = {transfer_state= 869}
+			RIF = {load_oob = "RIF_1950"}
+			SPR = {declare_war_on= { 
+			target = RIF 
+			type = annex_everything 
+			}
+			declare_war_on= { 
+			target = MOR 
+			type = annex_everything 
+			}
+			set_global_flag = rif_war
+		}
+	}
+}

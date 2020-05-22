@@ -1,0 +1,23 @@
+
+state={
+	id=874
+	name="South Guinea"
+	manpower = 2945782
+	
+	state_category = rural
+
+	history={
+		owner = DSE
+		add_core_of = ENG
+		add_core_of = DSE
+		add_core_of = GNA
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		1909 
+	}
+}

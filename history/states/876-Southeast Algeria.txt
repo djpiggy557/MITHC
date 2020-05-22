@@ -1,0 +1,29 @@
+
+state={
+	id=876
+	name="Southeast Algeria"
+	manpower = 2945782
+	
+	state_category = rural
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		add_core_of = ALG
+		add_core_of = SNU
+		
+		buildings = {
+			infrastructure = 2
+		}
+		1960.8.14 = {
+			owner = SNU
+			add_core_of = SNU
+			add_core_of = FRA
+			add_core_of = ALG
+		}
+	}
+
+	provinces={
+		5095 10749 1043 
+	}
+}

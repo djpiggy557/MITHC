@@ -1,0 +1,27 @@
+
+state={
+	id=868
+	name="Ossetien"
+	manpower = 2945782
+	
+	state_category = rural
+
+	history={
+		owner = RKK
+		add_core_of = RKK
+		add_core_of = SOV
+		
+		victory_points = {
+			9628 3
+		}
+		
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		1530 11609 9628 
+		
+	}
+}

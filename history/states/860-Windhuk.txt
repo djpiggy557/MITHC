@@ -1,0 +1,26 @@
+
+state={
+	id=860
+	name="Windhuk"
+	manpower = 2945782
+	
+	state_category = rural
+
+	history={
+		owner = KBS
+		add_core_of = KBS
+		
+		victory_points = {
+			4879 1
+		}
+		
+		buildings = {
+			infrastructure = 3
+		}
+		
+	}
+
+	provinces={
+		4879 10963 7605 5189 5154 
+	}
+}

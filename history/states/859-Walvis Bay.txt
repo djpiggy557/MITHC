@@ -1,0 +1,22 @@
+
+state={
+	id=859
+	name="Walfischbucht"
+	manpower = 2945782
+	
+	state_category = rural
+
+	history={
+		owner = KBS
+		add_core_of = KBS
+		
+		buildings = {
+			infrastructure = 3
+		}
+		
+	}
+
+	provinces={
+		2207 2229 10978 12921 
+	}
+}

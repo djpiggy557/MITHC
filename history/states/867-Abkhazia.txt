@@ -1,0 +1,27 @@
+
+state={
+	id=867
+	name="Abchasien"
+	manpower = 2945782
+	
+	state_category = rural
+
+	history={
+		owner = RKK
+		add_core_of = RKK
+		add_core_of = GEO
+		add_core_of = SOV
+		
+		victory_points = {
+			9663 3 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		
+	}
+
+	provinces={
+		9663 11647 11617 672 11599 
+	}
+}

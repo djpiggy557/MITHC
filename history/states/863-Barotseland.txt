@@ -1,0 +1,22 @@
+
+state={
+	id=863
+	name="Barotseland"
+	manpower = 2945782
+	
+	state_category = rural
+
+	history={
+		owner = KBR
+		add_core_of = KBR
+		
+		buildings = {
+			infrastructure = 3
+		}
+		
+	}
+
+	provinces={
+		697 10538 12677 7872 
+	}
+}

@@ -1,0 +1,117 @@
+spriteTypes = { 
+	##Icon For: The Colossus has Fell
+	SpriteType = { 
+		name = "GFX_GER_the_colossus_has_fell-7203"
+		texturefile = "gfx/interface/goals/GFX_GER_the_colossus_has_fell-7203.dds"
+	}
+
+	##Icon Shine For: The Colossus has Fell
+	SpriteType = { 
+		name = "GFX_GER_the_colossus_has_fell-7203_shine"
+		texturefile = "gfx/interface/goals/GFX_GER_the_colossus_has_fell-7203.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_GER_the_colossus_has_fell-7203.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_GER_the_colossus_has_fell-7203.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Rise of the Underdogs
+	SpriteType = { 
+		name = "GFX_GER_rise_of_the_underdogs-7202"
+		texturefile = "gfx/interface/goals/GFX_GER_rise_of_the_underdogs-7202.dds"
+	}
+
+	##Icon Shine For: Rise of the Underdogs
+	SpriteType = { 
+		name = "GFX_GER_rise_of_the_underdogs-7202_shine"
+		texturefile = "gfx/interface/goals/GFX_GER_rise_of_the_underdogs-7202.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_GER_rise_of_the_underdogs-7202.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_GER_rise_of_the_underdogs-7202.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Thorns of the Eastern Roses
+	SpriteType = { 
+		name = "GFX_GER_thorns_of_the_eastern_roses-7204"
+		texturefile = "gfx/interface/goals/GFX_GER_thorns_of_the_eastern_roses-7204.dds"
+	}
+
+	##Icon Shine For: Thorns of the Eastern Roses
+	SpriteType = { 
+		name = "GFX_GER_thorns_of_the_eastern_roses-7204_shine"
+		texturefile = "gfx/interface/goals/GFX_GER_thorns_of_the_eastern_roses-7204.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_GER_thorns_of_the_eastern_roses-7204.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_GER_thorns_of_the_eastern_roses-7204.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+ 
+ }

@@ -1,0 +1,122 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Firqat Musha" 		# Used for both regular infantry divisions and larger garrison divisions
+	division_names_group = SPR_INF_01
+	# Note: Spanish divisions were 2x brigades of 2x2 rgts each, + support
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # Spanish Arty Rgt/Bge had 2 Bn 105mm arty
+		engineer = { x = 0 y = 1 }   # Eng Bn
+	}
+}
+division_template = {
+	name = "Qasam Alfursan"  		# Only one Cavalry Division (3x bge of 2x2 Rgts)
+	division_names_group = SPR_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+		cavalry = { x = 2 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon consisted of motorcycles and ACs
+	}
+}
+division_template = {
+	name = "Qasam Aljibal"  		# Mountain Brigades were 2x2 Rgts + support
+	division_names_group = SPR_MNT_01
+	regiments = {
+		mountaineers = { x = 0 y = 0 }	
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # Spanish Arty Rgt/Bge had 2 Bn 105mm arty
+	}
+}
+
+division= {	
+		name = "Firqat Musha 1"
+		location = 989
+		division_template = "Firqat Musha"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Firqat Musha 2"
+		location = 1111
+		division_template = "Firqat Musha"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Firqat Musha 3"
+		location = 7173
+		division_template = "Firqat Musha"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Firqat Musha 4"
+		location = 11987
+		division_template = "Firqat Musha"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Qasam Aljibal 1"
+		location = 12042
+		division_template = "Qasam Aljibal"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Qasam Aljibal 2"
+		location = 1207
+		division_template = "Qasam Aljibal"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Qasam Aljibal 3"
+		location = 10107
+		division_template = "Qasam Aljibal"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Qasam Aljibal 4"
+		location = 4108
+		division_template = "Qasam Aljibal"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Qasam Aljibal 5"
+		location = 1102
+		division_template = ""
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Qasam Alfursan 1"
+		location = 7203
+		division_template = "Qasam Alfursan"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Qasam Alfursan 2"
+		location = 8046
+		division_template = "Qasam Alfursan"
+		start_experience_factor = 0.3
+	}

@@ -1,0 +1,34 @@
+
+state={
+	id=865
+	name="Kongo Lunda"
+	manpower = 2945782
+	
+	state_category = rural
+
+	history={
+		owner = POR
+		add_core_of = POR
+		
+		buildings = {
+			infrastructure = 1
+			8248 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			8248 1 
+		}
+		
+		1960.8.14 = {
+			owner = MTA
+			add_core_of = MTA
+			add_core_of = POR
+		}
+		
+	}
+
+	provinces={
+		8219 8248 12981 7548 
+	}
+}
