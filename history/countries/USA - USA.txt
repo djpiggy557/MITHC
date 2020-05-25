@@ -93,7 +93,6 @@ if = {
 		mtg_transport = 1
 		improved_airplane_launcher = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
 }
 
 
@@ -101,25 +100,6 @@ if = {
 
 	add_political_power = 1199
 	
-	#adding ministers
-	add_ideas = {
-		USA_robert_taft
-		carl_spaatz
-		jimmy_doolittle
-		army_ordnance_department
-		general_electric
-		robert_goddard
-		USA_war_department
-		USA_intervention_in_europe
-		#laws
-		isolation
-		volunteer_only
-		great_depression_3
-		new_deal
-	}
-	remove_ideas = {
-		great_depression
-	}
 
 	#focuses
 	unlock_national_focus = USA_continue_the_new_deal
@@ -216,8 +196,6 @@ if = {
 			improved_heavy_battery = 1
 			dp_secondary_battery = 1
 		}
-		remove_ideas = MTG_naval_treaty_adherent
-		add_ideas = MTG_naval_treaty_adherent_reduced
 	}
 	create_equipment_variant = {
 		name = "Martin M166"

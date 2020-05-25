@@ -101,7 +101,6 @@ ideas = {
 						original_tag = HUN
 						has_dlc = "Death or Dishonor"
 					}
-					NOT = { has_idea = HUN_treaty_of_triannon }
 				}
 				if = {
 					limit = {
@@ -153,6 +152,34 @@ ideas = {
    			}
 		}
 		
+		partial_economic_mobilisation = {
+			
+			available = {
+				has_war_support > 0.25
+			}
+
+			cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.25
+				production_speed_arms_factory_factor = 0.1
+				conversion_cost_civ_to_mil_factor= -0.1
+				conversion_cost_mil_to_civ_factor = -0.1
+				fuel_gain_factor = -0.1
+			}
+			
+			cancel_if_invalid = no
+			ai_will_do = {
+   				factor = 2
+
+   				modifier = {
+					factor = 20
+					
+					is_major = yes
+				}
+   			}
+		}
 		
 		war_economy = {
 			
@@ -230,7 +257,6 @@ ideas = {
 						original_tag = HUN
 						has_dlc = "Death or Dishonor"
 					}
-					NOT = { has_idea = HUN_treaty_of_triannon }
 				}
 				if = {
 					limit = {
@@ -383,7 +409,6 @@ ideas = {
 						original_tag = CHI
 						has_dlc = "Waking the Tiger"
 					}
-					NOT = { has_idea = CHI_nine_power_treaty }
 				}
 				if = {
 					limit = {
@@ -462,7 +487,6 @@ ideas = {
 						original_tag = CHI
 						has_dlc = "Waking the Tiger"
 					}
-					NOT = { has_idea = CHI_nine_power_treaty }
 				}
 				if = {
 					limit = {
@@ -539,7 +563,6 @@ ideas = {
 						original_tag = CHI
 						has_dlc = "Waking the Tiger"
 					}
-					NOT = { has_idea = CHI_nine_power_treaty }
 				}
 			}
 			

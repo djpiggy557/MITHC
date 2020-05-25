@@ -1,25 +1,6 @@
 ideas = {
 
 	country = {
-		sour_loser = {
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				drift_defence_factor = 0.5
-			}
-			rule = {
-				can_create_factions = yes
-			}
-		}
 		
 		general_staff = {
 			
@@ -120,25 +101,6 @@ ideas = {
 			}
 		}
 
-		kaiser_challenge_met = {
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = neutrality
-			}
-
-			removal_cost = -1
-			
-			picture = generic_democratic_drift_bonus
-
-			modifier = {
-				stability_factor = -0.10
-				war_support_factor = -0.1 
-			}
-		}
 
 		GER_atlantikwall_idea = {
 		
@@ -1590,22 +1552,6 @@ ideas = {
 	
 	political_advisor = {
 		
-		todt = {
-
-			
-			allowed = {
-				original_tag = GER
-			}
-			available = {
-				has_completed_focus = GER_west_wall
-			}
-			
-			traits = { fortification_engineer }
-
-			ai_will_do = {
-				factor = 0.5
-			}
-		}
 		
 		speer = {
 
@@ -1615,24 +1561,6 @@ ideas = {
 			}
 			
 			traits = { armaments_organizer }
-		}
-		
-		hjalmar_schacht = {
-
-			cost = 75
-			
-			allowed = {
-				original_tag = GER
-			}
-			available = {
-				has_completed_focus = GER_four_year_plan
-				NOT = { has_completed_focus = GER_demand_sudetenland }
-			}
-			
-			traits = { captain_of_industry }
-			ai_will_do = {
-				factor = 2
-			}
 		}
 		
 		walther_funk = {
@@ -1767,100 +1695,6 @@ ideas = {
 			traits = { smooth_talking_charmer }
 		}
 
-		GER_hans_oster = {
-
-			
-			allowed = {
-				original_tag = GER
-				has_dlc = "Waking the Tiger"
-			}
-
-			available = {
-				has_completed_focus = GER_oppose_hitler
-			}
-			
-			traits = { anti_fascist_agent }
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		GER_alfred_hugenberg = {
-
-			
-			allowed = {
-				original_tag = GER
-				has_dlc = "Waking the Tiger"
-			}
-
-			available = {
-				has_completed_focus = GER_revive_the_kaiserreich
-			}
-			
-			traits = { monarchist_media_mogul }
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		GER_carl_friedrich_goerdeler = {
-
-			
-			allowed = {
-				original_tag = GER
-				has_dlc = "Waking the Tiger"
-			}
-
-			available = {
-				has_completed_focus = GER_revive_the_kaiserreich
-			}
-			
-			traits = { economist }
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		alfred_rosenburg = {
-
-			
-			allowed = {
-				original_tag = GER
-				has_dlc = "Waking the Tiger"
-			}
-
-			available = {
-				has_completed_focus = GER_reestablish_free_elections
-			}
-			
-			traits = { connected_citizen }
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		lettow_von_worbeck = {
-
-			
-			allowed = {
-				original_tag = GER
-				has_dlc = "Waking the Tiger"
-			}
-
-			available = {
-				has_completed_focus = GER_reestablish_free_elections
-			}
-			
-			traits = { popular_figurehead }
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
 	
 		ger_wilhelm_canaris = {
 		
@@ -2394,9 +2228,6 @@ ideas = {
 			allowed = {
 				original_tag = GER
 			}
-			available = {
-				has_completed_focus = GER_army_innovation
-			}
 
 					
 			traits = { army_chief_maneuver_2 }
@@ -2416,12 +2247,6 @@ ideas = {
 				original_tag = GER
 			}
 
-			available = {
-				OR = {
-					has_government = fascism
-					has_country_flag = GER_reinstated_nazi_leadership
-				}
-			}
 						
 			traits = { air_chief_ground_support_2 }
 			
@@ -2435,9 +2260,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = GER
-			}
-			available = {
-				has_completed_focus = GER_air_innovation
 			}
 						
 			traits = { air_chief_all_weather_2 }
@@ -2561,9 +2383,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = GER
-			}
-			available = {
-					has_completed_focus = GER_air_innovation
 			}
 			
 			traits = { air_close_air_support_2 }

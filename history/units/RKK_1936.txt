@@ -149,7 +149,7 @@ units = {
 	division= {	
 		name = "Bergmann Battalion"
 		location = 1599
-		division_template = ""Kaukasien-Legion"
+		division_template = "Kaukasien-Legion"
 		start_experience_factor = 0.3
 	}
 	division= {	

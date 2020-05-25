@@ -447,66 +447,6 @@ form_austria_hungary_category = {
 		}
 	}
 
-	reintegrate_austro_hungarian_empire = {
-
-		icon = generic_form_nation
-
-		allowed = {
-			original_tag = HUN
-			has_dlc = "Waking the Tiger"
-		}
-
-		available = {
-			is_subject = no
-			controls_state = 155
-			controls_state = 43
-			controls_state = 154
-			controls_state = 102
-			controls_state = 103
-			controls_state = 104
-			controls_state = 109
-			controls_state = 45
-			controls_state = 83
-			controls_state = 76
-			controls_state = 84
-			controls_state = 764
-			controls_state = 82
-		}
-
-		visible = {
-			tag = HUN
-			has_completed_focus = HUN_proclaim_the_restoration_of_austria_hungary
-			NOT = { has_global_flag = reintegrate_the_empire_flag }
-		}
-
-		complete_effect = {
-			155 = { add_core_of = ROOT }
-			43 = { add_core_of = ROOT }
-			154 = { add_core_of = ROOT }
-			102 = { add_core_of = ROOT }
-			103 = { add_core_of = ROOT }
-			104 = { add_core_of = ROOT }
-			109 = { add_core_of = ROOT }
-			45 = { add_core_of = ROOT }
-			83 = { add_core_of = ROOT }
-			76 = { add_core_of = ROOT }
-			84 = { add_core_of = ROOT }
-			39 = { add_core_of = ROOT }
-			163 = { add_core_of = ROOT }
-			736 = { add_core_of = ROOT }
-			764 = { add_core_of = ROOT }
-			82 = { add_core_of = ROOT }
-			set_global_flag = reintegrate_the_empire_flag
-		}
-
-		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
-		}
-	}
 }
 
 form_commonwealth_category = {
@@ -1106,7 +1046,6 @@ form_european_union_category = {
 						name = "Oswald Mosley"
 						ruling_only = yes
 					}
-					has_completed_focus = ENG_imperial_federation
 				}
 			}
 			NOT = { has_global_flag = form_european_union_flag }
@@ -3444,7 +3383,6 @@ form_polynesia_category = {
 				is_subject = no
 				has_autonomy_state = autonomy_dominion #New Zealand should be able to do it
 			}
-			has_completed_focus = NZL_maori_volunteers
 			hidden_trigger = {
 				NOT = { has_country_flag = is_demanding_flag }
 				any_country = {
@@ -3496,7 +3434,6 @@ form_polynesia_category = {
 		visible = {
 			original_tag = NZL
 			NOT = { has_global_flag = form_polynesia_flag }
-			has_completed_focus = NZL_maori_volunteers
 			hidden_trigger = {
 				NOT = { has_country_flag = is_demanding_flag }
 				any_country = {

@@ -970,9 +970,6 @@ ideas = {
 		
 			picture = generic_air_manufacturer_3
 			
-			available = {
-				has_completed_focus = YUG_ikarus
-			}
 
 			allowed = {
 				original_tag = YUG
@@ -1022,9 +1019,6 @@ ideas = {
 
 			picture = generic_air_manufacturer_2
 			
-			available = {
-				has_completed_focus = YUG_rogozarski
-			}
 
 			allowed = {
 				original_tag = YUG
@@ -1073,10 +1067,7 @@ ideas = {
 		YUG_zmaj = {
 
 			picture = generic_air_manufacturer_1
-			
-			available = {
-				has_completed_focus = YUG_zmaj				
-			}			
+					
 
 			allowed = {
 				original_tag = YUG
