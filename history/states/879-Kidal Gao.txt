@@ -1,0 +1,29 @@
+
+state={
+	id=879
+	name="Kidal Gao"
+	manpower = 2945782
+	
+	state_category = rural
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		add_core_of = MLI
+		
+		1960.8.14 = {
+			owner = TUA
+			add_core_of = TUA
+			add_core_of = FRA
+			add_core_of = MLI
+		}
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		10868 2068 10788 5101 
+	}
+}

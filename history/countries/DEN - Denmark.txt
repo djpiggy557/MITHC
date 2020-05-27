@@ -127,22 +127,23 @@ if = {
 
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = nsap
 	last_election = "1935.10.22"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 0
-	fascism = 100
+	democratic = 10
+	fascism = 20
 	communism = 0
-	neutrality = 0
+	neutrality = 10
+	nsap = 60
 }
 
 
 1960.1.1 = {
 	set_politics = {
-		ruling_party = fascism
+		ruling_party = nsap
 		last_election = "1939.4.3"
 		election_frequency = 48
 		elections_allowed = no
@@ -167,7 +168,7 @@ create_country_leader = {
 	desc = "POLITICS_FRITS_CLAUSEN_DESC"
 	picture = "portrait_clausen.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = nazist
 	traits = {
 		#
 	}

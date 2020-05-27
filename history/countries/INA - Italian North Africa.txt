@@ -90,6 +90,16 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Ettore Bastico"
+	desc = ""
+	picture = "portrait_ettore.dds"
+	ideology = nazist
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Ghazi bin Faisal"
 	desc = ""
 	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_2.dds"

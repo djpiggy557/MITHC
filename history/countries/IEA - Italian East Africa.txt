@@ -88,6 +88,15 @@ create_country_leader = {
 		#
 	}
 }
+create_country_leader = {
+	name = "Prince Amedo"
+	desc = ""
+	picture = "portrait_amedo.dds"
+	ideology = nazist
+	traits = {
+		#
+	}
+}
 
 create_country_leader = {
 	name = "Ghazi bin Faisal"

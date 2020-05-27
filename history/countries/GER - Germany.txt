@@ -72,6 +72,22 @@ set_fuel_ratio = 0.8
 		target = MTA
 		autonomous_state = autonomy_dominion
 	}
+	set_autonomy = {
+		target = KBK
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = KBO
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = KBS
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = KBR
+		autonomous_state = autonomy_dominion
+	}
 
 
 
@@ -1257,5 +1273,121 @@ create_equipment_variant = {
 	#	}
 	#	obsolete = yes
 	#}
-	
+	set_autonomy = {
+		target = RKO
+		autonomous_state = autonomy_reichskommissariat
+	}
+	set_autonomy = {
+		target = RKK
+		autonomous_state = autonomy_reichskommissariat
+	}
+	set_autonomy = {
+		target = RKM
+		autonomous_state = autonomy_reichskommissariat
+	}
+	set_autonomy = {
+		target = UKR
+		autonomous_state = autonomy_reichskommissariat
+	}
+	set_autonomy = {
+		target = BEL
+		autonomous_state = autonomy_reichsprotectorate
+	}
+	set_autonomy = {
+		target = HOL
+		autonomous_state = autonomy_reichsprotectorate
+	}
+	set_autonomy = {
+		target = USA
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = RKS
+		autonomous_state = autonomy_reichskommissariat
+	}
+	set_autonomy = {
+		target = RKT
+		autonomous_state = autonomy_reichskommissariat
+	}
+	set_autonomy = {
+		target = RNO
+		autonomous_state = autonomy_reichskommissariat
+	}
+	set_autonomy = {
+		target = RNW
+		autonomous_state = autonomy_reichskommissariat
+	}
+	set_autonomy = {
+		target = RKN
+		autonomous_state = autonomy_reichskommissariat
+	}
+	set_autonomy = {
+		target = RKU
+		autonomous_state = autonomy_reichskommissariat
+	}
+	set_autonomy = {
+		target = RKW
+		autonomous_state = autonomy_reichskommissariat
+	}
+	set_autonomy = {
+		target = RKD
+		autonomous_state = autonomy_reichskommissariat
+	}
+	set_autonomy = {
+		target = QUE
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = MTA
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = CRO
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = MNT
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = SER
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = GRE
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = ALB
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = MAC
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = KBK
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = KBO
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = KBS
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = KBR
+		autonomous_state = autonomy_dominion
+	}
+	create_faction = "European Confederation"
+	add_to_faction = GER
+	add_to_faction = ENG
+	add_to_faction = IRE
+	add_to_faction = SWE
+	add_to_faction = FIN
+	add_to_faction = HUN
+	add_to_faction = ROM
+	add_to_faction = NOR
 }

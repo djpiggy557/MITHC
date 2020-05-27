@@ -1,0 +1,29 @@
+
+state={
+	id=878
+	name="Talak"
+	manpower = 2945782
+	
+	state_category = rural
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		add_core_of = ALG
+		
+		1960.8.14 = {
+			owner = TUA
+			add_core_of = TUA
+			add_core_of = FRA
+			add_core_of = ALG
+		}
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		5095 12849 
+	}
+}

@@ -7,9 +7,10 @@ state={
 	state_category = rural
 
 	history={
-		owner = KBK
-		add_core_of = KBK
-		add_claim_by = SPR
+		owner = SPR
+		add_core_of = SPR
+		add_core_of = EQG
+		add_claim_by = KBK
 		
 		victory_points = {
 			5139 1 
@@ -27,6 +28,11 @@ state={
 
 			}
 
+		}
+		1960.8.14 = {
+			owner = KBK
+			add_core_of = KBK
+			add_core_of = EQG
 		}
 	}
 

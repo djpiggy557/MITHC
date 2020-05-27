@@ -79,6 +79,10 @@ ALB = {
 	color = rgb { 149 45 102 }
 	color_ui = rgb { 194 59 133 }
 }
+TUA = {
+	color = rgb { 149 45 102 }
+	color_ui = rgb { 194 59 133 }
+}
 NOR = {
 	color = rgb { 111 71 71 }
 	color_ui = rgb { 144 92 92 }

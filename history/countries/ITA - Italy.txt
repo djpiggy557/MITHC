@@ -223,17 +223,17 @@ if = {
 	set_stability = 0.8
 	
 	set_politics = {
-		ruling_party = nsap
+		ruling_party = fascism
 		last_election = "1936.1.1"
 		election_frequency = 36
 		elections_allowed = no
 	}
 	set_popularities = {
 		democratic = 0
-		fascism = 30
+		fascism = 55
 		communism = 0
 		neutrality = 5
-		nsap = 65
+		nsap = 40
 	}
 }
 
@@ -957,5 +957,18 @@ if = {
 				rear_1_custom_slot = ship_torpedo_sub_1
 			}
 		}
+	}
+	create_faction = "Mediterranean Pact"
+	add_to_faction = SPR
+	add_to_faction = POR
+	add_to_faction = FRA
+	
+	set_autonomy = {
+		target = IEA
+		autonomous_state = autonomy_colony
+	}
+	set_autonomy = {
+		target = INA
+		autonomous_state = autonomy_colony
 	}
 }

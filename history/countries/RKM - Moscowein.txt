@@ -84,6 +84,20 @@ create_country_leader = {
 	}
 }
 
+1960.1.1 = {
+set_politics = {
+	ruling_party = schutzstaffel
+	last_election = "1933.12.20"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	schutzstaffel = 88
+	fascism = 2
+	nsap = 10
+	}
+}
+
 create_corps_commander = {
 	name = "Andrey Vlasov"
 	portrait_path = "gfx/leaders/RKM/portrait_andrey_vlasov.dds"

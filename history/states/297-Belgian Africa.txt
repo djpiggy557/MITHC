@@ -22,6 +22,12 @@ state=
 				naval_base = 1
 			}
 		}
+		1960.8.14 = {
+			owner = KBK
+			add_core_of = EQG
+			add_core_of = SPR
+			add_core_of = KBK
+		}
 	}
 	provinces=
 	{
