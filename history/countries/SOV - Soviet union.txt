@@ -62,13 +62,7 @@ if = {
 
 	#purge stuff
 	unlock_national_focus = SOV_great_purge
-	remove_ideas = trotskyite_plot
-	add_ideas = trotskyite_plot_purged
 	set_stability = 0.75
-	add_timed_idea = {
-		idea = officers_purged_6
-		days = 730
-	}
 	country_event = { id = soviet.42 days = 146 }
 	set_country_flag = purged_party_members
 	set_country_flag = purge_1_group_a
