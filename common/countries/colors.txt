@@ -95,6 +95,10 @@ BUL = {
 	color = rgb { 51 155 0 }
 	color_ui = rgb { 210 147 217 }
 }
+SOK = {
+	color = rgb { 51 155 0 }
+	color_ui = rgb { 210 147 217 }
+}
 POR = {
 	color = rgb { 39 116 70 }
 	color_ui = rgb { 51 151 91 }
@@ -131,6 +135,10 @@ BOL = {
 	color = hsv { 0.1 0.47 0.8 } #255 180 136
 	color_ui = rgb { 255 234 177 }
 }
+KRD = {
+	color = hsv { 0.1 0.47 0.8 } #255 180 136
+	color_ui = rgb { 255 234 177 }
+}
 BRA = {
 	color = rgb { 76 145 63 }
 	color_ui = rgb { 99 189 82 }
@@ -140,6 +148,10 @@ CAN = {
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
+	color = hsv { 0.18 0.6 0.9 } #255 244 190
+	color_ui = hsv { 0.18 0.3 0.9 }
+}
+DAF = {
 	color = hsv { 0.18 0.6 0.9 } #255 244 190
 	color_ui = hsv { 0.18 0.3 0.9 }
 }
@@ -156,6 +168,10 @@ COS = {
 	color_ui = rgb { 152 128 43 }
 }
 ECU = {
+	color = rgb { 249 146 98 }
+	color_ui = rgb { 255 190 127 }
+}
+MFD = {
 	color = rgb { 249 146 98 }
 	color_ui = rgb { 255 190 127 }
 }
@@ -236,6 +252,10 @@ SIK = {
 	color_ui = rgb { 222 247 198 }
 }
 TIB = {
+	color = rgb { 80 115 45}
+	color_ui = rgb { 222 247 198 }
+}
+MBR = {
 	color = rgb { 80 115 45}
 	color_ui = rgb { 222 247 198 }
 }
@@ -816,6 +836,10 @@ KBK = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
 }
+KBC = {
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
+}
 KBO = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
@@ -835,4 +859,24 @@ AFD = {
 RIF = {
 	color = rgb { 176  102  136 }
 	color_ui = rgb { 176  102  136 }
+}
+GMZ = {
+	color = rgb { 219 158 4 }
+	color_ui = rgb { 219 158 4 }
+}
+GBL = {
+	color = rgb { 26 71 41 }
+	color_ui = rgb { 26 71 41 }
+}
+TGR = {
+	color = rgb { 230 230 7 }
+	color_ui = rgb { 26 71 41 }
+}
+AFR = {
+	color = rgb { 222 11 15 }
+	color_ui = rgb { 26 71 41 }
+}
+AMH = {
+	color = rgb { (99 2 95 }
+	color_ui = rgb { 26 71 41 }
 }

@@ -11,6 +11,14 @@ state={
 	history={
 		owner = FRA
 		add_core_of = CAR
+		
+	1960.8.14 = {
+		owner = KBC
+		add_core_of = KBC
+		add_core_of = FRA
+		add_core_of = CAR
+	}
+		
 		buildings = {
 			infrastructure = 2
 		}

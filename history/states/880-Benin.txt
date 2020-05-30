@@ -1,0 +1,29 @@
+
+state={
+	id=880
+	name="Benin"
+	manpower = 2945782
+	
+	state_category = pastoral
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		add_core_of = DAH
+		
+		1960.8.14 = {
+			owner = MTA
+			add_core_of = MTA
+			add_core_of = FRA
+			add_core_of = DAH
+		}
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		12874 
+	}
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=882
+	name="Woqooyi Bari"
+	manpower = 2945782
+	
+	state_category = pastoral
+
+	history={
+		owner = IEA
+		add_core_of = IEA
+		add_core_of = KEN
+		add_core_of = SOM
+		
+		1960.8.14 = {
+			owner = SOM
+			add_core_of = IEA
+			add_core_of = KEN
+			add_core_of = SOM
+		}
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		8133 12927 10761 10976 
+	}
+}

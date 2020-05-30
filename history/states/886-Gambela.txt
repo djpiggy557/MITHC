@@ -1,0 +1,30 @@
+
+state={
+	id=886
+	name="Gambela"
+	manpower = 2945782
+	
+	state_category = pastoral
+
+	history={
+		owner = IEA
+		add_core_of = IEA
+		add_core_of = ETH
+		add_core_of = GBL
+		
+		1960.8.14 = {
+			owner = GBL
+			add_core_of = ETH
+			add_core_of = GBL
+			add_core_of = IEA
+		}
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		7912 
+	}
+}

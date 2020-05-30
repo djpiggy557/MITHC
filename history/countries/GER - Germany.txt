@@ -1370,6 +1370,10 @@ create_equipment_variant = {
 		autonomous_state = autonomy_dominion
 	}
 	set_autonomy = {
+		target = KBC
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
 		target = KBO
 		autonomous_state = autonomy_dominion
 	}

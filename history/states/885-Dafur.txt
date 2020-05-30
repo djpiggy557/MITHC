@@ -1,0 +1,28 @@
+
+state={
+	id=885
+	name="Dafur"
+	manpower = 2945782
+	
+	state_category = pastoral
+
+	history={
+		owner = IEA
+		add_core_of = IEA
+		add_core_of = DAF
+		
+		1960.8.14 = {
+			owner = DAF
+			add_core_of = DAF
+			add_core_of = IEA
+		}
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		5060 10739 1960 8052 10857 
+	}
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=889
+	name="Afar"
+	manpower = 2945782
+	
+	state_category = pastoral
+
+	history={
+		owner = IEA
+		add_core_of = IEA
+		add_core_of = AFR
+		add_core_of = ETH
+		
+		1960.8.14 = {
+			owner = AFR
+			add_core_of = AFR
+			add_core_of = ETH
+			add_core_of = IEA
+		}
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		5041 
+	}
+}

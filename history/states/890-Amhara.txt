@@ -1,0 +1,34 @@
+
+state={
+	id=890
+	name="Amhara"
+	manpower = 2945782
+	
+	state_category = pastoral
+
+	history={
+		owner = IEA
+		add_core_of = IEA
+		add_core_of = AMH
+		add_core_of = ETH
+		
+		1960.8.14 = {
+			owner = AMH
+			add_core_of = AMH
+			add_core_of = ETH
+			add_core_of = IEA
+		}
+		
+		victory_points = { 
+			1984 1.0 
+		}
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		1984 7944 2040 4954 5097 
+	}
+}

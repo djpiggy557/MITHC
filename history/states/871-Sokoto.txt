@@ -11,6 +11,12 @@ state={
 		add_core_of = FRA
 		add_core_of = NGR
 		
+		1960.8.14 = {
+		owner = SOK
+		add_core_of = FRA
+		add_core_of = NGR
+		}
+		
 		buildings = {
 			infrastructure = 2
 		}

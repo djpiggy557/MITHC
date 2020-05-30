@@ -8,6 +8,14 @@ state={
 	history={
 		owner = FRA
 		add_core_of = VOL
+		
+		1960.8.14 = {
+			owner = MBR
+			add_core_of = MBR
+			add_core_of = FRA
+			add_core_of = VOL
+		}
+		
 		victory_points = {
 			10836 1
 		}
@@ -17,6 +25,6 @@ state={
 	}
 
 	provinces={
-		2001 7950 7983 8071 10836 12851
+		2001 7950 7983 8071 10836 12851 12707 12794 8116 7954 7930 
 	}
 }

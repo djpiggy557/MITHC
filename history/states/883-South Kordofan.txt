@@ -1,0 +1,28 @@
+
+state={
+	id=883
+	name="South Kordofan"
+	manpower = 2945782
+	
+	state_category = pastoral
+
+	history={
+		owner = IEA
+		add_core_of = IEA
+		add_core_of = KRD
+		
+		1960.8.14 = {
+			owner = KRD
+			add_core_of = KRD
+			add_core_of = IEA
+		}
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		8084 2016 10827 10795 10851 12744 
+	}
+}

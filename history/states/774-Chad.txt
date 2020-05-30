@@ -5,6 +5,14 @@ state={
 	history={
 		owner = FRA
 		add_core_of = CHA
+		
+		1960.8.14 = {
+		owner = KBC
+		add_core_of = KBC
+		add_core_of = FRA
+		add_core_of = CHA
+	}
+		
 		victory_points = {
 			2081 1
 		}

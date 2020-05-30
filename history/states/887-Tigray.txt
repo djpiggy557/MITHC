@@ -1,0 +1,30 @@
+
+state={
+	id=887
+	name="Tigray"
+	manpower = 2945782
+	
+	state_category = pastoral
+
+	history={
+		owner = IEA
+		add_core_of = IEA
+		add_core_of = ETH
+		add_core_of = TGR
+		
+		1960.8.14 = {
+			owner = TGR
+			add_core_of = ETH
+			add_core_of = TGR
+			add_core_of = IEA
+		}
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		2072 
+	}
+}

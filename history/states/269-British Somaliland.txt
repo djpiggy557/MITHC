@@ -15,6 +15,12 @@ state=
 		}
 		owner = IEA
 		add_core_of = IEA
+		
+		1960.8.14 = {
+			owner = SOM
+			add_core_of = IEA
+			add_core_of = SOM
+		}
 		buildings = {
 			infrastructure = 3
 			10833 = {

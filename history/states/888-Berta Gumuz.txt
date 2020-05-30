@@ -1,0 +1,30 @@
+
+state={
+	id=888
+	name="Berta Gumuz"
+	manpower = 2945782
+	
+	state_category = pastoral
+
+	history={
+		owner = IEA
+		add_core_of = IEA
+		add_core_of = ETH
+		add_core_of = GMZ
+		
+		1960.8.14 = {
+			owner = GMZ
+			add_core_of = ETH
+			add_core_of = GMZ
+			add_core_of = IEA
+		}
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		2009 
+	}
+}
