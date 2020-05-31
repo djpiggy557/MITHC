@@ -34,6 +34,11 @@ state={
 				industrial_complex = 7
 			}
 		}
+
+		1969.12.31 = {
+			owner = SOV
+		}
+
 	}
 
 	provinces={
