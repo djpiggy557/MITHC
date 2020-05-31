@@ -1,0 +1,31 @@
+
+state={
+	id=892
+	name="South Hebei"
+	manpower = 2945782
+	
+	state_category = pastoral
+
+	history={
+		owner = ROC
+		add_core_of = ROC
+		
+	victory_points = {
+		7152 5 
+		}
+		
+		1960.8.14 = {
+			owner = JAP
+			add_core_of = JAP
+			add_core_of = ROC
+		}
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		7189 11962 7160 9987 11933 4606 1139 7074 4144 4114 7092 1188 12062 4058 1169 10003 11980 12093 11944 10119 1084 
+	}
+}

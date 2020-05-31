@@ -11,9 +11,6 @@ state=
 	}
 
 	history={
-			victory_points = {
-			7132 5 
-		}
 		owner = ROC
 		buildings = {
 			infrastructure = 6
@@ -26,7 +23,7 @@ state=
 	}
 
 	provinces={
-		1087 1131 1187 4092 7152 11941 12077 
+		11941 4092 
 
 	}
 }

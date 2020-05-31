@@ -14,8 +14,10 @@ state={
 
 		}
 
-		1938.10.25 = {
-			controller = ROC
+		1960.8.14 = {
+			owner = JAP
+			add_core_of = JAP
+			add_core_of = ROC
 		}
 	}
 
