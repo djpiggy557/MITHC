@@ -54,3 +54,15 @@ create_field_marshal = {
     logistics_skill = 1
 }
 
+1960.1.1 = {
+	set_politics = {
+	ruling_party = nsap
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+	}
+
+	set_popularities = {
+		nsap = 100
+	}
+}

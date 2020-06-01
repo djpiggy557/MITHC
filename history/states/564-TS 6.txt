@@ -12,16 +12,17 @@ state={
 	}
 
 	history={
-		owner = SOV
+		owner = BYT
+		add_core_of = SOV
+		add_core_of = BYT
+		add_core_of = MEN
 		buildings = {
 			infrastructure = 4
 
 		}
-		add_core_of = SOV
-		add_core_of = SIB
 	}
 
 	provinces={
-		1696 4705 4766 4837 7751 7816 7835 7860 10528 10658 12507 12644 
+		1696 4705 4766 7751 7816 7860 10658 12507 
 	}
 }

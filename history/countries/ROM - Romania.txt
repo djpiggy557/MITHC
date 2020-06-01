@@ -221,18 +221,39 @@ set_popularities = {
 	neutrality = 15
 }
 
+create_country_leader = {
+	name = "Corneliu Zelea Codreanu"
+	desc = "POLITICS_ION_ANTONESCU_DESC"
+	picture = "portrait_codreanu.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
 1960.1.1 = {
 	set_politics = {
-		ruling_party = fascism
+		ruling_party = nsap
 		last_election = "1939.7.15"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
 		democratic = 0
-		fascism = 100
+		fascism = 15
 		communism = 0
-		neutrality = 0
+		neutrality = 5
+		nsap = 80
+	}
+	
+	create_country_leader = {
+	name = "Horia Sima"
+	desc = "POLITICS_ION_ANTONESCU_DESC"
+	picture = "portrait_sima.dds"
+	expire = "1965.1.1"
+	ideology = nazist
+	traits = {#}
 	}
 }
 
@@ -273,17 +294,6 @@ create_country_leader = {
 	name = "Octavian Goga"
 	desc = "POLITICS_OCTAVIAN_GOGA_DESC"
 	picture = "Portrait_Romania_Octavian_Goga.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Horia Sima"
-	desc = "POLITICS_ION_ANTONESCU_DESC"
-	picture = "portrait_sima.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {

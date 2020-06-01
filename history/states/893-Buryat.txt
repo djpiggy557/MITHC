@@ -1,0 +1,23 @@
+
+state={
+	id=893
+	name="Buryat"
+	manpower = 2945782
+	
+	state_category = rural
+
+	history={
+		owner = BYT
+		add_core_of = BYT
+		add_core_of = SOV
+		add_core_of = MEN
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		12575 4716 12644 7835 10528 4837 10524 1762 10543 
+	}
+}

@@ -235,6 +235,15 @@ if = {
 		neutrality = 5
 		nsap = 40
 	}
+	
+	create_country_leader = {
+	name = "Italo Balbo"
+	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
+	picture = "portrait_italo_balbo.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {}
+	}
 }
 
 1950.1.1 = {

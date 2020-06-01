@@ -21,6 +21,11 @@ state={
 		}
 		add_core_of = ITA
 		add_core_of = FRA
+		
+		1960.8.14 = {
+		owner = FRA
+		add_core_of = FRA
+		}
 	}
 
 	provinces={

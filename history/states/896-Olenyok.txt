@@ -1,0 +1,23 @@
+
+state={
+	id=896
+	name="Olenyok"
+	manpower = 2945782
+	
+	state_category = rural
+
+	history={
+		owner = SKH
+		add_core_of = SKH
+		add_core_of = SOV
+		add_core_of = SIB
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		6085 13060 
+	}
+}

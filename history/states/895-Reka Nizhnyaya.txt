@@ -1,0 +1,21 @@
+
+state={
+	id=895
+	name="Reka Nizhnyaya"
+	manpower = 2945782
+	
+	state_category = rural
+
+	history={
+		owner = SOV
+		add_core_of = SOV
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		10688 12681 7828 10628 4703 
+	}
+}

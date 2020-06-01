@@ -1,0 +1,24 @@
+
+state={
+	id=897
+	name="North Uzbekistan"
+	manpower = 2945782
+	
+	state_category = wasteland
+
+	history={
+		owner = BMC
+		add_core_of = BMC
+		add_core_of = SOV
+		add_core_of = UZB
+		add_core_of = KZH
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		4581 4638 7486 4578 10353 4636 10366 7777 
+	}
+}

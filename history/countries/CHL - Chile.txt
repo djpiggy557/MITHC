@@ -116,55 +116,22 @@ set_convoys = 20
 
 set_convoys = 5
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1932.10.30"
 	election_frequency = 72  #but 4 years after this one in 1938.
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 98
-	communism = 2
-}
-
-create_country_leader = {
-	name = "Arturo Alessandri"
-	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
-	picture = "GFX_Portrait_chile_arturo_alessandri"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-1960.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1938.10.25"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-
-	set_popularities = {
-		democratic = 100
-	}
-
-	create_country_leader = {
-		name = "Pedro Aguirre Cerda"
-		desc = "POLITICS_PEDRO_AGUIRRE_CERDA_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-		expire = "1965.1.1"
-		ideology = socialism
-		traits = {
-			#
-		}
-	}
+	democratic = 5
+	communism = 0
+	neutrality = 15
+	fascism = 80
 }
 
 create_country_leader = {
 	name = "Jorge González von Marées"
 	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
+	picture = "portait_jorge_gonzales_vonmarees.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
@@ -172,12 +139,24 @@ create_country_leader = {
 	}
 }
 
+1960.1.1 = {
+	set_politics = {
+		ruling_party = nsap
+		last_election = "1938.10.25"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		nsap = 100
+	}
+
 create_country_leader = {
-	name = "Carlos Contreras Labarca"
-	desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
+	name = "Augusto Pinochet"
+	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
+	picture = "portrait_augusto_pinochet.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = nazist
 	traits = {
 		#
 	}

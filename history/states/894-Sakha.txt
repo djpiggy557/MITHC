@@ -1,0 +1,23 @@
+
+state={
+	id=894
+	name="Sakha"
+	manpower = 2945782
+	
+	state_category = rural
+
+	history={
+		owner = SKH
+		add_core_of = SKH
+		add_core_of = SIB
+		add_core_of = SOV
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		4868 4795 12538 1666 4762 
+	}
+}

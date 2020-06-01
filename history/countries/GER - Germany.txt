@@ -1155,7 +1155,6 @@ create_equipment_variant = {
 }
 
 
-## 1939 Start ##
 1960.1.1 = {
 	if = {
 		limit = {
@@ -1394,4 +1393,5 @@ create_equipment_variant = {
 	add_to_faction = HUN
 	add_to_faction = ROM
 	add_to_faction = NOR
+	add_to_faction = BUL
 }

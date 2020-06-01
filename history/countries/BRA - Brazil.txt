@@ -118,14 +118,14 @@ set_country_flag = monroe_doctrine
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = nsap
 	last_election = "1934.7.17"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 100
+	nsap = 100
 }
 
 create_country_leader = {
@@ -133,22 +133,25 @@ create_country_leader = {
 	desc = "POLITICS_GETULIO_VARGAS_DESC"
 	picture = "Portrait_Brazil_Getulio_Vargas.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = nazist
 	traits = {
 		#
 	}
 }
 
+1960.1.1 = {
 create_country_leader = {
 	name = "Plínio Salgado"
-	desc = "POLITICS_PLINIO_SALGADO_DESC"
-	picture = "Portrait_Brazil_Plinio_Salgado.dds"
+	desc = "POLITICS_GETULIO_VARGAS_DESC"
+	picture = "portrait_salgado.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
+	ideology = nazist
+	traits = {#}
 	}
 }
+
+
+
 create_country_leader = {
 	name = "Luís Carlos Prestes"
 	desc = "POLITICS_LUIS_CARLOS_PRESTES_DESC"
@@ -173,18 +176,6 @@ create_country_leader = {
 
 
 set_convoys = 40
-
-1960.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1934.7.17"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		neutrality = 100
-	}
-}
 
 create_corps_commander = {
 	name = "Eurico Gaspar Dutra"

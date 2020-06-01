@@ -58,34 +58,46 @@ set_convoys = 20
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = nsap
 	last_election = "1936.1.10"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 98
-	communism = 2
+	nsap = 100
 }
 
 create_country_leader = {
-	name = "José Agripino Barnet"
+	name = "Fulgencio Batista"
 	desc = "POLITICS_JOSE_AGRIPINO_BARNET_DESC"
-	picture = "GFX_portrait_cuba_jose_barnet"
+	picture = "portrait_fulgencio_batista.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = nazist
 	traits = {
 		#
 	}
 }
 
-1960.1.1 = {
+1960.8.14 = {
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.10"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 50
+	neutrality = 30
+	democratic = 10
+	nsap = 10
+}
 	create_country_leader = {
-		name = "Federico Laredo Brú"
+		name = "Fidel Castro"
 		desc = "POLITICS_FEDERICO_LAREDO_BRU_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+		picture = "portrait_fidel_castro.dds"
 		expire = "1965.1.1"
-		ideology = socialism
+		ideology = fascism_ideology
 		traits = {
 			#
 		}

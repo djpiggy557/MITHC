@@ -124,22 +124,40 @@ set_popularities = {
 	neutrality = 80
 }
 
-1960.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1939.7.1"
-		election_frequency = 36
-		elections_allowed = yes
-	}
-}
 create_country_leader = {
-	name = "Risto Heikki Ryti"
-	desc = "POLITICS_RISTO_HEIKKI_RYT_DESC"
-	picture = "Portrait_Finland_Risto_Heikki_Ryti.dds"
+	name = "Juho Kusti Paasikivi"
+	desc = "POLITICS_KYÖSTI_KALLIO_DESC"
+	picture = "portrait_juho.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = centrism
 	traits = {
 		#
+	}
+}
+
+1960.1.1 = {
+	set_politics = {
+		ruling_party = nsap
+		last_election = "1939.7.1"
+		election_frequency = 36
+		elections_allowed = no
+	}
+		
+	set_popularities = {
+		democratic = 5
+		fascism = 15
+		communism = 0
+		neutrality = 10
+		nsap = 70
+	}
+		
+	create_country_leader = {
+		name = "Bruno Salmiala"
+		desc = "POLITICS_RISTO_HEIKKI_RYT_DESC"
+		picture = "portrait_bruno_salmiala.dds"
+		expire = "1965.1.1"
+		ideology = nazist
+		traits = {#}
 	}
 }
 
@@ -160,17 +178,6 @@ create_country_leader = {
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Juho Kusti Paasikivi"
-	desc = "POLITICS_KYÖSTI_KALLIO_DESC"
-	picture = "portrait_juho.dds"
-	expire = "1965.1.1"
-	ideology = centrism
 	traits = {
 		#
 	}

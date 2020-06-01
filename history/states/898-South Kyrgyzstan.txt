@@ -1,0 +1,23 @@
+
+state={
+	id=898
+	name="South Kyrgyzstan"
+	manpower = 2945782
+	
+	state_category = wasteland
+
+	history={
+		owner = BMC
+		add_core_of = BMC
+		add_core_of = SOV
+		add_core_of = KYZ
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		5062 12370 1483 12581 2058 4923 4467 
+	}
+}

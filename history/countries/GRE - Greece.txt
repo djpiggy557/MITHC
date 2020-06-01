@@ -143,7 +143,7 @@ set_politics = {
 	ruling_party = fascism
 	last_election = "1935.6.9"
 	election_frequency = 12
-	elections_allowed = yes # none after offset 1
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 0
@@ -153,39 +153,6 @@ set_popularities = {
 }
 
 set_stability = 0.75
-
-create_country_leader = {
-	name = "Ioannis Metaxas"
-	desc = "POLITICS_IOANNIS_METAXAS_DESC"
-	picture = "Portrait_Greece_Ioannis_Metaxas.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Markos Vafiadis"
-	desc = "POLITICS_MARKOS_VAFIADIS_DESC"
-	picture = "Portrait_Greece_Markos_Vafiadis.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Konstantinos Tsaldaris"
-	desc = "POLITICS_KONSTANTINOS_TSALDARIS_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
 
 create_country_leader = {
 	name = "Paul I"
@@ -198,6 +165,30 @@ create_country_leader = {
 	}
 }
 
+1960.1.1 = {
+
+set_politics = {
+	ruling_party = nsap
+	last_election = "1935.6.9"
+	election_frequency = 12
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 0
+	nsap = 100
+	communism = 0
+	neutrality = 0
+}
+
+create_country_leader = {
+	name = "Aristotle Onassis"
+	desc = "POLITICS_GEORGIOS_KOSMIDIS_DESC"
+	picture = "portrait_onassis.dds"
+	expire = "1965.1.1"
+	ideology = nazist
+	traits = {#}
+	}
+}
 
 create_corps_commander = {
 	name = "Markos Drakos"

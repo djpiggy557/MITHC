@@ -1,0 +1,23 @@
+
+state={
+	id=899
+	name="Uzbekistan"
+	manpower = 2945782
+	
+	state_category = rural
+
+	history={
+		owner = BMC
+		add_core_of = BMC
+		add_core_of = SOV
+		add_core_of = UZB
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		1573 4629 7639 7682 7775 10205 10671 11687 12239 12722 756 1632 
+	}
+}
