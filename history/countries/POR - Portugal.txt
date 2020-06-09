@@ -1,11 +1,11 @@
 ﻿capital = 112
 
-oob = "POR_1936"
+oob = "POR_1939"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "POR_1936_naval_mtg"
+		set_naval_oob = "POR_1939_naval_mtg"
 	else = {
-		set_naval_oob = "POR_1936_naval_legacy"
+		set_naval_oob = "POR_1939_naval_legacy"
 	}
 }
 
@@ -356,7 +356,6 @@ if = {
 }
 
 ### VARIANTS ###
-# 1936 Start #
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	### Ship Variants ###

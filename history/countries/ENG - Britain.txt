@@ -1,6 +1,6 @@
 ﻿capital = 126
 
-set_oob = "ENG_1936"
+set_oob = "ENG_1939"
 
 set_autonomy = {
 		target = DGH
@@ -18,9 +18,9 @@ if = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
-	set_naval_oob = "ENG_1936_Naval"
+	set_naval_oob = "ENG_1939_Naval"
 	else = {
-		set_naval_oob = "ENG_1936_Naval_Legacy"
+		set_naval_oob = "ENG_1939_Naval_Legacy"
 	}
 }
 
@@ -62,6 +62,69 @@ set_technology = {
 	radio_detection = 1
 	fuel_silos = 1
 	fuel_refining = 1
+
+	#1939 techs
+	fighter1 = 1
+	fighter2 = 1
+	heavy_fighter1 = 1
+	heavy_fighter2 = 1
+	CAS2 = 1
+	naval_bomber2 = 1
+	tactical_bomber1 = 1
+	tactical_bomber2 = 1
+	strategic_bomber1 = 1
+	cv_CAS1 = 1
+	cv_fighter1 = 1
+	improved_light_tank = 1
+	basic_medium_tank = 1
+	basic_heavy_tank = 1
+	interwar_artillery = 1
+	interwar_antitank = 1
+	infantry_weapons2 = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	
+
+	#doctrines
+	#Air
+	air_superiority = 1
+	home_defence = 1
+	naval_strike_tactics = 1
+
+		grand_battle_plan = 1
+
+	prepared_defense = 1
+	battlefleet_concentration = 1
+	subsidiary_carrier_role = 1
+	convoy_sailing = 1
+	convoy_escorts = 1
+	submarine_operations = 1
+
+	#electronics
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+
+	#industry
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	advanced_machine_tools = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining2 = 1
+	construction1 = 1
+	construction2 = 1
+	construction3 = 1
+	dispersed_industry = 1
+	dispersed_industry2 = 1
+	dispersed_industry3 = 1
+
+
 }
 if = {
 	limit = {
@@ -77,6 +140,14 @@ if = {
 		early_battlecruiser = 1
 		early_carrier = 1
 		transport = 1
+		basic_submarine = 1
+		improved_submarine = 1
+		improved_destroyer = 1
+		basic_light_cruiser = 1
+		improved_light_cruiser = 1
+		basic_battleship = 1
+		basic_carrier = 1
+		improved_carrier = 1
 	}
 }
 if = {
@@ -108,6 +179,15 @@ if = {
 		mtg_transport = 1
 		improved_secondary_battery = 1
 		basic_fire_control_system = 1
+		basic_ship_hull_submarine = 1
+		improved_ship_hull_submarine = 1
+		improved_ship_hull_light = 1
+		improved_ship_hull_cruiser = 1
+		basic_ship_hull_heavy = 1
+		
+		improved_ship_hull_carrier = 1
+		dp_secondary_battery = 1
+		improved_sonar = 1
 	}
 }
 
@@ -173,79 +253,14 @@ create_country_leader = {
 	}
 
 	set_technology = {
-		fighter1 = 1
-		fighter2 = 1
-		heavy_fighter1 = 1
-		heavy_fighter2 = 1
-		CAS2 = 1
-		naval_bomber2 = 1
-		tactical_bomber1 = 1
-		tactical_bomber2 = 1
-		strategic_bomber1 = 1
-		cv_CAS1 = 1
-		cv_fighter1 = 1
-		improved_light_tank = 1
-		basic_medium_tank = 1
-		basic_heavy_tank = 1
-		interwar_artillery = 1
-		interwar_antitank = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-		support_weapons2 = 1
 		
-
-		#doctrines
-		#Air
-		air_superiority = 1
-		home_defence = 1
-		naval_strike_tactics = 1
-
-			grand_battle_plan = 1
-
-		prepared_defense = 1
-		battlefleet_concentration = 1
-		subsidiary_carrier_role = 1
-		convoy_sailing = 1
-		convoy_escorts = 1
-		submarine_operations = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		decimetric_radar = 1
-		mechanical_computing = 1
-		computing_machine = 1
-		basic_encryption = 1
-		basic_decryption = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_processing = 1
-		fuel_refining2 = 1
-		construction1 = 1
-		construction2 = 1
-		construction3 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-		dispersed_industry3 = 1
 	}
 	if = {
 		limit = {
 			not = { has_dlc = "Man the Guns"}
 		}
 		set_technology = {
-			basic_submarine = 1
-			improved_submarine = 1
-			improved_destroyer = 1
-			basic_light_cruiser = 1
-			improved_light_cruiser = 1
-			basic_battleship = 1
-			basic_carrier = 1
-			improved_carrier = 1
+			
 		}
 		set_naval_oob = "ENG_1939_Naval_Legacy"
 	}
@@ -254,15 +269,7 @@ create_country_leader = {
 			has_dlc = "Man the Guns"
 		}
 		set_technology = {
-			basic_ship_hull_submarine = 1
-			improved_ship_hull_submarine = 1
-			improved_ship_hull_light = 1
-			improved_ship_hull_cruiser = 1
-			basic_ship_hull_heavy = 1
 			
-			improved_ship_hull_carrier = 1
-			dp_secondary_battery = 1
-			improved_sonar = 1
 		}
 		set_naval_oob = "ENG_1939_Naval"
 	}
@@ -904,6 +911,27 @@ if = {
 			ship_armor_upgrade = 1
 		}
 	}
+
+	create_equipment_variant = {
+			name = "Tribal Class"
+			type = destroyer_2
+			upgrades = {
+				ship_torpedo_upgrade = 2
+				destroyer_engine_upgrade = 2
+				ship_ASW_upgrade = 2
+				ship_anti_air_upgrade = 2
+			}
+		}
+		create_equipment_variant = {
+			name = "Edinburgh Class"
+			type = light_cruiser_2
+			upgrades = {
+				ship_reliability_upgrade = 3
+				ship_engine_upgrade = 3
+				ship_gun_upgrade = 3
+				ship_anti_air_upgrade = 3
+			}
+		}
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -1345,39 +1373,7 @@ if = {
 				front_1_custom_slot = ship_deck_space
 			}
 		}
-	
-}
-1960.1.1 = {
-	if = {
-		limit = {
-			not = { has_dlc = "Man the Guns" }
-		}
-		create_equipment_variant = {
-			name = "Tribal Class"
-			type = destroyer_2
-			upgrades = {
-				ship_torpedo_upgrade = 2
-				destroyer_engine_upgrade = 2
-				ship_ASW_upgrade = 2
-				ship_anti_air_upgrade = 2
-			}
-		}
-		create_equipment_variant = {
-			name = "Edinburgh Class"
-			type = light_cruiser_2
-			upgrades = {
-				ship_reliability_upgrade = 3
-				ship_engine_upgrade = 3
-				ship_gun_upgrade = 3
-				ship_anti_air_upgrade = 3
-			}
-		}
-	}
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
-		
+
 		create_equipment_variant = {
 			name = "Illustrious Class"
 			type = ship_hull_carrier_2
@@ -1533,5 +1529,20 @@ if = {
 				rear_1_custom_slot = empty
 			}
 		}
+	
+}
+1960.1.1 = {
+	if = {
+		limit = {
+			not = { has_dlc = "Man the Guns" }
+		}
+		
+	}
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		
+		
 	}
 }

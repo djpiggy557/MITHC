@@ -1,6 +1,6 @@
 ﻿capital = 214
 
-oob = "RNW_1936"
+oob = "RNW_1939"
 
 set_research_slots = 3
 

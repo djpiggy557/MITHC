@@ -1,6 +1,6 @@
 ﻿capital = 361
 
-oob = "USA_1936"
+oob = "USA_1939"
 
 set_research_slots = 3
 set_stability = 0.75
@@ -162,7 +162,7 @@ add_ideas = {
 1960.1.1 = {
 	set_politics = {
 		ruling_party = democratic
-		last_election = "1936.11.3"
+		last_election = "1939.11.3"
 		election_frequency = 48
 		elections_allowed = yes
 	}

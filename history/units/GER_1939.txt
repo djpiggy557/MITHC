@@ -1749,7 +1749,6 @@ air_wings = {
 		fighter_equipment_1 = { owner = "GER"  version_name = "Bf 109 E" amount = 120 }					# Jagdgeschwader 2 -- Bf 109E (REVISIT -- VARIANT)
 		### Luftwaffenkommando IV (CO: Mayer) ###
 							# I./Jagdgeschwader 3 -- Bf 109E (REVISIT -- VARIANT)
-		heavy_fighter_equipment_1  = { owner = "GER"  amount = 30 }				# II./Jagdgeschwader 3 -- Bf 110C
 	}
 	62 = { 																		# Stettin
 		### 1. Flieger-Division (CO: Grauert) ###
@@ -1758,7 +1757,6 @@ air_wings = {
 		CAS_equipment_1 =  { owner = "GER" amount = 108 }						# I/.Sturzkampfgeschwader 2 -- Ju 87B (REVISIT -- VARIANT)
 								# I./Lehrgeschwader 1 -- Ju 87B (REVISIT -- VARIANT)
 		fighter_equipment_1 = { owner = "GER"  version_name = "Bf 109 E" amount = 72 }					# Lehrgeschwader 2 -- Bf 109E (REVISIT -- VARIANT)
-		heavy_fighter_equipment_1  = { owner = "GER"  amount = 30 }				# Zerstörergeschwader 1 -- Bf 110C
 	}
 	763 = { 																		# Konigsberg 
 		### Luftwaffenkommando Ostpreussen (CO: Grauert) ###		
@@ -1767,7 +1765,6 @@ air_wings = {
 		CAS_equipment_1 =  { owner = "GER" amount = 36 }						# II./Kampfgeschwader 3 -- Ju 87B (REVISIT -- VARIANT)
 		### Luftwaffen-Lehrdivision (CO: Förster) ###
 		tac_bomber_equipment_1 = { owner = "GER" amount = 72 } 					# II./Lehrgeschwader 1 -- He 111H (REVISIT -- VARIANT)
-		heavy_fighter_equipment_1  = { owner = "GER"  amount = 30 }				# III./Lehrgeschwader 1 -- Bf 110C
 		### Luftwaffenkommando I (CO: Musshoff) ###
 		fighter_equipment_1 = { owner = "GER"  version_name = "Bf 109 E" amount = 72 }					# Jagdgeschwader 1 -- Bf 109E (REVISIT -- VARIANT)
 	}
@@ -1783,7 +1780,6 @@ air_wings = {
 								# Sturzkampfgeschwader 76 -- Ju 87B (REVISIT -- VARIANT)
 								# Sturzkampfgeschwader 77 -- Ju 87B (REVISIT -- VARIANT)
 								# II./Lehrgeschwader 2 -- Hs 123 
-		heavy_fighter_equipment_1  = { owner = "GER"  amount = 30 }				# Zerstörergeschwader 76 -- Bf 110C
 		### Fliegerfuhrer zbV (CO: von Richtoffen) ###
 		fighter_equipment_1 = { owner = "GER"  version_name = "Bf 109 E" amount = 132 }					# Zerstörergeschwader 2 -- Bf 109E (REVISIT -- VARIANT)
 		### Luftwaffenkommando VIII (CO: Waber) ###

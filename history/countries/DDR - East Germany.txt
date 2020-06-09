@@ -136,7 +136,7 @@ set_stability = 0.75
 
 set_politics = {
 	ruling_party = communism
-	last_election = "1936.1.1"
+	last_election = "1939.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 
@@ -210,7 +210,6 @@ create_country_leader = {
 
 
 ### Ship Variants ###
-## 1936 Start ##
 # Light Cruisers #
 create_equipment_variant = {
 	name = "Königsberg Class"
@@ -237,7 +236,6 @@ create_equipment_variant = {
 	}
 }
 
-## 1939 Start ##
 1960.1.1 = {
 	# Submarines #
 	create_equipment_variant = {
@@ -253,7 +251,7 @@ create_equipment_variant = {
 	}
 	# Destroyer #
 	create_equipment_variant = {
-		name = "Zerstörer 1936"
+		name = "Zerstörer 1939"
 		type = destroyer_2
 		parent_version = 0
 		upgrades = {

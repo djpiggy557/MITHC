@@ -1,6 +1,6 @@
 ﻿capital = 2
 
-oob = "ITA_1936"
+oob = "ITA_1939"
 
 set_autonomy = {
 		target = CRO
@@ -100,7 +100,7 @@ if = {
 		early_battlecruiser = 1
 		transport = 1
 	}
-	set_naval_oob = "ITA_1936_naval_legacy"
+	set_naval_oob = "ITA_1939_naval_legacy"
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -129,7 +129,7 @@ if = {
 		coastal_defense_ships = 1
 		improved_airplane_launcher = 1
 	}
-	set_naval_oob = "ITA_1936_naval_mtg"
+	set_naval_oob = "ITA_1939_naval_mtg"
 }
 
 1960.1.1 = {
@@ -224,7 +224,7 @@ if = {
 	
 	set_politics = {
 		ruling_party = fascism
-		last_election = "1936.1.1"
+		last_election = "1939.1.1"
 		election_frequency = 36
 		elections_allowed = no
 	}
@@ -468,7 +468,6 @@ if = {
 }
 
 ### VARIANTS ###
-# 1936 Start #
 #plane variants
 create_equipment_variant = {
 		name = "CR.42"
@@ -564,6 +563,17 @@ if = {
 			ship_gun_upgrade = 2
 		}
 	}
+
+	create_equipment_variant = {
+			name = "Marcello Class"
+			type = submarine_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+				sub_torpedo_upgrade = 1
+			}
+		}
 }
 if = {
 	limit = { has_dlc = "Man the Guns"}
@@ -877,27 +887,9 @@ if = {
 			rear_1_custom_slot = ship_torpedo_sub_1
 		}
 	}
-}
 
-
-1960.1.1 = {
-	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
-		create_equipment_variant = {
-			name = "Marcello Class"
-			type = submarine_2
-			upgrades = {
-				ship_reliability_upgrade = 1
-				sub_engine_upgrade = 1
-				sub_stealth_upgrade = 1
-				sub_torpedo_upgrade = 1
-			}
-		}
-	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		### Battleship Variants	
-		create_equipment_variant = {
+	### Battleship Variants	
+	create_equipment_variant = {
 			name = "Caio Duilio Class"			# refit variant (refit in 1937-40)
 			type = ship_hull_heavy_1
 			name_group = ITA_BB_HISTORICAL
@@ -966,6 +958,17 @@ if = {
 				rear_1_custom_slot = ship_torpedo_sub_1
 			}
 		}
+}
+
+
+1960.1.1 = {
+	if = {
+		limit = { not = { has_dlc = "Man the Guns" } }
+		
+	}
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+		
 	}
 	create_faction = "Mediterranean Pact"
 	add_to_faction = SPR

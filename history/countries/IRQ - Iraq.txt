@@ -1,6 +1,6 @@
 ﻿capital = 291
 
-oob = "IRQ_1936"
+oob = "IRQ_1939"
 
 # Starting tech
 set_technology = {
@@ -70,7 +70,7 @@ set_convoys = 5
 
 set_politics = {
 	ruling_party = fascism
-	last_election = "1936.1.1"
+	last_election = "1939.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -115,7 +115,7 @@ create_country_leader = {
 1960.1.1 = {
 	set_politics = {
 		ruling_party = fascism
-		last_election = "1936.1.1"
+		last_election = "1939.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
