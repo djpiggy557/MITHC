@@ -1,6 +1,7 @@
 ﻿capital = 777
 
-# Starting tech
+oob = "OAX_1950"
+
 set_technology = {
 	infantry_weapons = 1
 }
@@ -59,8 +60,18 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
-	fascism = 20
+	democratic = 30
+	fascism = 5
 	communism = 5
-	neutrality = 50
+	neutrality = 60
+}
+
+create_country_leader = {
+	name = "José Vasconcelos"
+	desc = ""
+	picture = "portrait_jose_vasconcelos.dds"
+	ideology = despotism
+	traits = {
+		#
+	}
 }

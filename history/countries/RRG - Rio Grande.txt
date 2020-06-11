@@ -1,4 +1,4 @@
-﻿capital = 777
+﻿capital = 900
 
 # Starting tech
 set_technology = {
@@ -63,4 +63,16 @@ set_popularities = {
 	fascism = 20
 	communism = 5
 	neutrality = 50
+}
+
+
+create_country_leader = {
+	name = "Emilio Portes Gil"
+	desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
+	picture = "portrait_emilio_portes_gil.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
 }

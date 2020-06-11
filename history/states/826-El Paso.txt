@@ -14,13 +14,15 @@ state=
 			victory_points = {
 			7132 5 
 		}
-		owner = BSA
+		owner = CMC
+		add_core_of = CMC
+		add_core_of = USA
+		add_core_of = PSA
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
 			industrial_complex = 3
 		}
-		add_core_of = BSA
 	}
 
 	provinces={

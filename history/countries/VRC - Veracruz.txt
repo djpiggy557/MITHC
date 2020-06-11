@@ -1,6 +1,7 @@
 ﻿capital = 777
 
-# Starting tech
+oob = "VRC_1950"
+
 set_technology = {
 	infantry_weapons = 1
 }
@@ -59,8 +60,18 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
-	fascism = 20
-	communism = 5
+	democratic = 50
+	fascism = 0
+	communism = 0
 	neutrality = 50
+}
+
+create_country_leader = {
+	name = "Miguel Alemán Valdés"
+	desc = ""
+	picture = "portrait_miguel_aleman_valdes.dds"
+	ideology = despotism
+	traits = {
+		#
+	}
 }

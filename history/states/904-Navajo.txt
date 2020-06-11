@@ -1,0 +1,18 @@
+state = {
+	id=904
+	name="Navajo"
+	manpower = 108841
+	state_category = rural
+	
+	history={
+		owner = NVJ
+		add_core_of = NVJ
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+		
+	}
+	
+	provinces= { 1972 10645 12552  }
+}

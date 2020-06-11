@@ -1,0 +1,23 @@
+state = {
+	id=900
+	name="Nuevo Leon"
+	manpower = 108841
+	state_category = rural
+	
+	history={
+		owner = RRG
+		add_core_of = RRG
+		add_core_of = MEX
+		buildings = {
+			infrastructure = 3
+	}
+	victory_points = {
+			12835 10
+		}
+	victory_points = {
+			10769 5
+		}
+	}
+	
+	provinces= { 12721 1952 12835 10769  }
+}

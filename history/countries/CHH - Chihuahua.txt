@@ -1,6 +1,7 @@
 ﻿capital = 777
 
-# Starting tech
+oob = "CHH_1950"
+
 set_technology = {
 	infantry_weapons = 1
 }
@@ -59,8 +60,18 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 25
-	nsap = 20
+	neutrality = 5
+	nsap = 25
 	democratic = 5
-	fascism = 50
+	fascism = 65
+}
+
+create_country_leader = {
+	name = "Gustavo Sáenz de Sicilia"
+	desc = ""
+	picture = "portrait_gustavo_saenz_de_sicilia.dds"
+	ideology = nazism
+	traits = {
+		#
+	}
 }

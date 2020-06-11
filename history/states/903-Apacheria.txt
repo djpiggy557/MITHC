@@ -1,0 +1,23 @@
+state = {
+	id=903
+	name="Apacheria"
+	manpower = 108841
+	state_category = rural
+	
+	history={
+		owner = APC
+		add_core_of = APC
+		add_core_of = USA
+		add_core_of = PSA
+		buildings = {
+			infrastructure = 3
+		}
+		
+		victory_points = {
+			4975 1
+		}
+		
+	}
+	
+	provinces= { 4975 3883 8070 12791 3867 }
+}

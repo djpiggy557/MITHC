@@ -1,0 +1,18 @@
+state = {
+	id=905
+	name="Timpanogos"
+	manpower = 108841
+	state_category = rural
+	
+	history={
+		owner = TNG
+		add_core_of = TNG
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+		
+	}
+	
+	provinces= { 7888 9695 12535 1756 4668 10582 }
+}

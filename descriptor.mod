@@ -1,4 +1,4 @@
-version="1.9.2"
+version="1.9.3"
 tags={
 	"Alternative History"
 	"Balance"
@@ -17,7 +17,7 @@ tags={
 	"Map"
 }
 name="MITHC"
-supported_version="1.9.2"
+supported_version="1.9.3"
 replace_path="history/states"
 replace_path="map/strategicregions"
 replace_path="common/decisions"

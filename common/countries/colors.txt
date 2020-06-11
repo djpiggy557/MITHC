@@ -924,3 +924,23 @@ VRC = {
 	color = rgb { 128 0 0 }
 	color_ui = rgb { 255 153 0 }
 }
+CMC = {
+	color = rgb { 255 153 0 }
+	color_ui = rgb { 255 153 0 }
+}
+APC = {
+	color = rgb { 128 0 0 }
+	color_ui = rgb { 255 153 0 }
+}
+NVJ = {
+	color = rgb { 153 0 204 }
+	color_ui = rgb { 255 153 0 }
+}
+CRH = {
+	color = rgb { 0 102 0 }
+	color_ui = rgb { 255 153 0 }
+}
+TNG = {
+	color = rgb { 128 0 42 }
+	color_ui = rgb { 255 153 0 }
+}

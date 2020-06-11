@@ -13,19 +13,15 @@ state={
 
 
 	history={
-		owner = BSA
+		owner = CRH
+		add_core_of = CRH
+		add_core_of = USA
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 		}
-		add_core_of = BSSA
-		victory_points = {
-			4975 1
-		}
 	}
 
-	provinces={
-		1972 3867 3883 4975 5044 8070 10645 10914 12552 12791 
-	}
+	provinces={ 5044 10914 }
 	
 }
