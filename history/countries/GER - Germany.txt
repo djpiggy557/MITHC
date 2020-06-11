@@ -141,7 +141,7 @@ if = {
 		early_battlecruiser = 1
 		transport = 1
 	}
-	set_naval_oob = "GER_1936_naval"
+	set_naval_oob = "GER_1939_naval"
 }
 if = {
 	limit = {
@@ -173,7 +173,7 @@ if = {
 		sonar = 1
 		basic_cruiser_armor_scheme = 1
 	}
-	set_naval_oob = "GER_1936_naval_mtg"
+	set_naval_oob = "GER_1939_naval_mtg"
 }
 if = {
 	limit = {
@@ -884,7 +884,6 @@ if = {
 		not = { has_dlc = "Man the Guns" }
 	}
 	### Ship Variants ###
-	## 1936 Start ##
 	# Light Cruisers #
 	create_equipment_variant = {
 		name = "Königsberg Class"
@@ -910,6 +909,31 @@ if = {
 			ship_gun_upgrade = 2
 		}
 	}
+
+	# Submarines #
+	create_equipment_variant = {
+			name = "Type VIIA"
+			type = submarine_2
+			parent_version = 0
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+				sub_torpedo_upgrade = 1
+			}
+		}
+		# Destroyer #
+		create_equipment_variant = {
+			name = "Zerstörer 1936"
+			type = destroyer_2
+			parent_version = 0
+			upgrades = {
+				ship_torpedo_upgrade = 2
+				destroyer_engine_upgrade = 2
+				ship_ASW_upgrade = 2
+				ship_anti_air_upgrade = 2
+			}
+		}
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -1128,68 +1152,8 @@ if = {
 		}
 		obsolete = yes
 	}
-}
 
-create_equipment_variant = {
-	name = "Ju 86"
-	type = tac_bomber_equipment_0
-	upgrades = {
-		plane_tac_bomb_upgrade = 5
-		plane_range_upgrade = 5
-		plane_engine_upgrade = 5
-		plane_reliability_upgrade = 10
-	}
-	obsolete = yes
-}
-
-create_equipment_variant = {
-	name = "Do 17"
-	type = tac_bomber_equipment_0
-	upgrades = {
-		plane_tac_bomb_upgrade = 5
-		plane_range_upgrade = 1
-		plane_engine_upgrade = 1
-		plane_reliability_upgrade = 5
-	}
-	obsolete = yes
-}
-
-
-1960.1.1 = {
-	if = {
-		limit = {
-			not = { has_dlc = "Man the Guns" }
-		}
-		# Submarines #
-		create_equipment_variant = {
-			name = "Type VIIA"
-			type = submarine_2
-			parent_version = 0
-			upgrades = {
-				ship_reliability_upgrade = 1
-				sub_engine_upgrade = 1
-				sub_stealth_upgrade = 1
-				sub_torpedo_upgrade = 1
-			}
-		}
-		# Destroyer #
-		create_equipment_variant = {
-			name = "Zerstörer 1936"
-			type = destroyer_2
-			parent_version = 0
-			upgrades = {
-				ship_torpedo_upgrade = 2
-				destroyer_engine_upgrade = 2
-				ship_ASW_upgrade = 2
-				ship_anti_air_upgrade = 2
-			}
-		}
-	}
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
-		create_equipment_variant = {
+	create_equipment_variant = {
 			name = "Zerstörer 1936 Class"
 			type = ship_hull_light_2
 			name_group = GER_DD_HISTORICAL
@@ -1238,27 +1202,68 @@ create_equipment_variant = {
 				front_1_custom_slot = ship_deck_space
 			}
 		}
+}
+
+create_equipment_variant = {
+	name = "Ju 86"
+	type = tac_bomber_equipment_0
+	upgrades = {
+		plane_tac_bomb_upgrade = 5
+		plane_range_upgrade = 5
+		plane_engine_upgrade = 5
+		plane_reliability_upgrade = 10
 	}
-	create_equipment_variant = {
-		name = "He 112"
-		type = fighter_equipment_1
-		upgrades = {
-			plane_gun_upgrade = 1
-			plane_range_upgrade = 1  
-			plane_engine_upgrade = 0
-			plane_reliability_upgrade = 2
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Do 17"
+	type = tac_bomber_equipment_0
+	upgrades = {
+		plane_tac_bomb_upgrade = 5
+		plane_range_upgrade = 1
+		plane_engine_upgrade = 1
+		plane_reliability_upgrade = 5
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "He 112"
+	type = fighter_equipment_1
+	upgrades = {
+		plane_gun_upgrade = 1
+		plane_range_upgrade = 1  
+		plane_engine_upgrade = 0
+		plane_reliability_upgrade = 2
 		}
 	}
-	create_equipment_variant = {
-		name = "Bf 109 E"
-		type = fighter_equipment_1
-		upgrades = {
-			plane_gun_upgrade = 2
-			plane_range_upgrade = 1  
-			plane_engine_upgrade = 2
-			plane_reliability_upgrade = 4
+create_equipment_variant = {
+	name = "Bf 109 E"
+	type = fighter_equipment_1
+	upgrades = {
+		plane_gun_upgrade = 2
+		plane_range_upgrade = 1  
+		plane_engine_upgrade = 2
+		plane_reliability_upgrade = 4
 		}
 	}
+
+
+1960.1.1 = {
+	if = {
+		limit = {
+			not = { has_dlc = "Man the Guns" }
+		}
+		
+	}
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		
+	}
+	
 	# Heavy Cruisers #
 	#create_equipment_variant = {
 	#	name = "Deutschland Class"

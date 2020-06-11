@@ -1,11 +1,11 @@
 ﻿capital = 303
 
-oob = "PRU_1936"
+oob = "PRU_1939"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "PRU_1936_naval_mtg"
+		set_naval_oob = "PRU_1939_naval_mtg"
 	else = {
-		set_naval_oob = "PRU_1936_naval_legacy"
+		set_naval_oob = "PRU_1939_naval_legacy"
 	}
 }
 
@@ -128,7 +128,7 @@ create_country_leader = {
 
 
 ### VARIANTS ###
-# 1936 Start #
+# 1939 Start #
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	### Ship Variants ###

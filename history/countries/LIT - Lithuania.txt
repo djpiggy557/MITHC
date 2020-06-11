@@ -1,6 +1,6 @@
 ﻿capital = 11
 
-oob = "LIT_1936"
+oob = "LIT_1939"
 
 set_research_slots = 3
 
@@ -84,7 +84,7 @@ set_popularities = {
 1960.1.1 = {
 	set_politics = {
 		ruling_party = neutrality
-		last_election = "1936.6.10"
+		last_election = "1939.6.10"
 		election_frequency = 120
 		elections_allowed = no
 	}

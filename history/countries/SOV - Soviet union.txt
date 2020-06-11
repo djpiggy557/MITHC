@@ -1,11 +1,11 @@
 ﻿capital = 219
 
-oob = "SOV_1936"
+oob = "SOV_1939"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "SOV_1936_naval_mtg"
+		set_naval_oob = "SOV_1939_naval_mtg"
 	else = {
-		set_naval_oob = "SOV_1936_naval_legacy"
+		set_naval_oob = "SOV_1939_naval_legacy"
 	}
 }
 
@@ -24,17 +24,71 @@ set_technology = {
 	mass_assault = 1
 	gw_artillery = 1
 	tech_support = 1
+	strategic_bomber1 = 1
+	naval_bomber1 = 1
+	motorised_infantry = 1
+	tactical_bomber1 = 1
+
+	CAS1 = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	basic_heavy_tank = 1 
+	basic_medium_tank = 1 
+	interwar_artillery = 1
+	interwar_antitank = 1
+	infantry_weapons2 = 1
+	support_weapons = 1
+	support_weapons2 = 1
+
+	#doctrines
+	pocket_defence = 1
+	defence_in_depth = 1
+
+	#Air
+	formation_flying = 1		
+	dive_bombing = 1
+	direct_ground_support = 1
+
+	#electronics
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+
+	#industry
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	advanced_machine_tools = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining2 = 1
+	construction1 = 1
+	construction2 = 1
+	construction3 = 1
+	concentrated_industry = 1
+	concentrated_industry2 = 1
+	concentrated_industry3 = 1
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
 		transport = 1
+		basic_submarine = 1
+		basic_destroyer = 1
+		basic_heavy_cruiser = 1
 	}
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {	
 		mtg_transport = 1
+		improved_ship_hull_light = 1
+		improved_ship_hull_submarine = 1
+		basic_ship_hull_cruiser = 1
 	}
 }
 
@@ -137,7 +191,7 @@ if = {
 	
 	#Soviet starts with 1 less focus, too many branches
 	
-	oob = "SOV_1936"
+	oob = "SOV_1939"
 	if = {
 		limit = { has_dlc = "Man the Guns" }
 			set_naval_oob = "SOV_1939_naval_mtg"
@@ -147,45 +201,7 @@ if = {
 	}
 
 	set_technology = {
-		CAS1 = 1
-		improved_light_tank = 1 
-		interwar_artillery = 1
-		interwar_antitank = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-		support_weapons2 = 1
-
-		#doctrines
-		pocket_defence = 1
-		defence_in_depth = 1
-
-		#Air
-		formation_flying = 1		
-		dive_bombing = 1
-		direct_ground_support = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-		basic_encryption = 1
-		basic_decryption = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_processing = 1
-		fuel_refining2 = 1
-		construction1 = 1
-		construction2 = 1
-		construction3 = 1
-		concentrated_industry = 1
-		concentrated_industry2 = 1
-		concentrated_industry3 = 1
+		
 	}
 }
 

@@ -1,6 +1,6 @@
 ﻿capital = 312
 
-oob = "HON_1936"
+oob = "HON_1939"
 
 # Starting tech
 set_technology = {
@@ -82,7 +82,7 @@ create_country_leader = {
 1960.1.1 = {
 	set_politics = {
 		ruling_party = democratic
-		last_election = "1936.3.28"
+		last_election = "1939.3.28"
 		election_frequency = 48
 		elections_allowed = yes
 	}

@@ -1,6 +1,6 @@
 ﻿capital = 398 #Kiev
 
-oob = "RKU_1936"
+oob = "RKU_1939"
 
 set_research_slots = 3
 

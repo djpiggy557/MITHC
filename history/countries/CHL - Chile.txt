@@ -1,11 +1,11 @@
 ﻿capital = 279
 
-oob = "CHL_1936"
+oob = "CHL_1939"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "CHL_1936_naval_mtg"
+		set_naval_oob = "CHL_1939_naval_mtg"
 	else = {
-		set_naval_oob = "CHL_1936_naval_legacy"
+		set_naval_oob = "CHL_1939_naval_legacy"
 	}
 }
 
@@ -51,131 +51,7 @@ set_country_flag = monroe_doctrine
 
 set_convoys = 20
 
-1960.1.1 = {
-
-	add_political_power = 1198
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "CHL_1939"
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "CHL_1939_naval_mtg"
-		else = {
-			set_naval_oob = "CHL_1939_naval_legacy"
-		}
-	}
-
-	set_technology = {
-		tactical_bomber1 = 1
-		CAS1 = 1
-		interwar_artillery = 1
-		infantry_weapons1 = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		fuel_silos = 1
-		oil_processing = 1
-		improved_oil_processing = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-}
-
-set_convoys = 5
-set_politics = {
-	ruling_party = fascism
-	last_election = "1932.10.30"
-	election_frequency = 72  #but 4 years after this one in 1938.
-	elections_allowed = no
-}
-set_popularities = {
-	democratic = 5
-	communism = 0
-	neutrality = 15
-	fascism = 80
-}
-
-create_country_leader = {
-	name = "Jorge González von Marées"
-	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
-	picture = "portait_jorge_gonzales_vonmarees.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
-
-1960.1.1 = {
-	set_politics = {
-		ruling_party = nsap
-		last_election = "1938.10.25"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	set_popularities = {
-		nsap = 100
-	}
-
-create_country_leader = {
-	name = "Augusto Pinochet"
-	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
-	picture = "portrait_augusto_pinochet.dds"
-	expire = "1965.1.1"
-	ideology = nazist
-	traits = {
-		#
-	}
-}
-
-create_corps_commander = {
-	name = "Escudero Oscar Otárola"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
-	traits = { trait_mountaineer }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
-}
-
-
 ### VARIANTS ###
-# 1936 Start #
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	### Ship Variants ###
@@ -318,3 +194,128 @@ if = {
 		}
 	}
 }
+
+1960.1.1 = {
+
+	add_political_power = 1198
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	oob = "CHL_1939"
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+			set_naval_oob = "CHL_1939_naval_mtg"
+		else = {
+			set_naval_oob = "CHL_1939_naval_legacy"
+		}
+	}
+
+	set_technology = {
+		tactical_bomber1 = 1
+		CAS1 = 1
+		interwar_artillery = 1
+		infantry_weapons1 = 1
+		infantry_weapons2 = 1
+		support_weapons = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		synth_oil_experiments = 1
+		fuel_silos = 1
+		oil_processing = 1
+		improved_oil_processing = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
+set_convoys = 5
+set_politics = {
+	ruling_party = fascism
+	last_election = "1932.10.30"
+	election_frequency = 72  #but 4 years after this one in 1938.
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 5
+	communism = 0
+	neutrality = 15
+	fascism = 80
+}
+
+create_country_leader = {
+	name = "Jorge González von Marées"
+	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
+	picture = "portait_jorge_gonzales_vonmarees.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
+}
+
+1960.1.1 = {
+	set_politics = {
+		ruling_party = nsap
+		last_election = "1938.10.25"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		nsap = 100
+	}
+
+create_country_leader = {
+	name = "Augusto Pinochet"
+	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
+	picture = "portrait_augusto_pinochet.dds"
+	expire = "1965.1.1"
+	ideology = nazist
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Escudero Oscar Otárola"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
+	traits = { trait_mountaineer }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+
+

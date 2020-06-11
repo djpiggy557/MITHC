@@ -1,6 +1,6 @@
 ﻿capital = 316
 
-oob = "COS_1936"
+oob = "COS_1939"
 
 # Starting tech
 set_technology = {
@@ -80,7 +80,7 @@ create_country_leader = {
 1960.1.1 = {
 	set_politics = {
 		ruling_party = democratic
-		last_election = "1936.2.9"
+		last_election = "1939.2.9"
 		election_frequency = 48
 		elections_allowed = yes
 	}

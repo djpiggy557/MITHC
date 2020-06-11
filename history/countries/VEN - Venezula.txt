@@ -1,6 +1,6 @@
 ﻿capital = 307
 
-oob = "VEN_1936"
+oob = "VEN_1939"
 
 # Starting tech
 set_technology = {
@@ -63,7 +63,7 @@ set_country_flag = monroe_doctrine
 set_convoys = 10
 set_politics = {
 	ruling_party = nsap
-	last_election = "1936.1.1"
+	last_election = "1939.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
