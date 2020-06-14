@@ -21,71 +21,6 @@ if = {
 		communism = 0
 	}
 }
-
-if = {
-	limit = {
-		has_dlc = "La Resistance"
-	}
-	every_owned_state = {
-		limit = {
-			NOT = {
-				state = 177
-				state = 178
-				state = 290
-				state = 699
-				state = 783
-				state = 297
-			}
-		}
-		set_variable = { var = SPA_garrison_control value = 1 }
-		SPA_garrison_control_cost_calculation = yes
-	}
-	set_popularities = {
-		democratic = 0
-		fascism = 100
-		communism = 0
-		neutrality = -
-	}
-	create_dynamic_country = {
-	    original_tag = SPR
-	    set_country_flag = SPR_nationalist_spain_flag
-		set_politics = {
-			ruling_party = neutrality
-		}
-		set_cosmetic_tag = SPR_nationalist_spain
-		set_research_slots = 3
-	    reserve_dynamic_country = yes
-	}
-	create_dynamic_country = {
-	    original_tag = SPR
-	    set_country_flag = SPR_carlist_spain_flag
-	    set_politics = {
-			ruling_party = neutrality
-		}
-		set_cosmetic_tag = SPR_carlist_spain
-		set_research_slots = 3
-	    reserve_dynamic_country = yes
-	}
-	create_dynamic_country = {
-	    original_tag = SPR
-	    set_country_flag = SPR_anarchist_spain_flag
-	    set_politics = {
-			ruling_party = neutrality
-		}
-		set_cosmetic_tag = SPR_anarchist_spain
-		set_research_slots = 3
-	    reserve_dynamic_country = yes
-	}
-	SPR = {
-		set_variable = { var = spa_civil_war_divisions_counter_var value = 17 }
-		set_variable = { var = spr_civil_war_divisions_counter_var value = 66 }
-	}
-	for_each_scope_loop = {
-	    array = core_states
-	    
-	    set_state_flag = SPR_original_core
-	}
-
 set_research_slots = 3
 
 set_technology = {
@@ -289,98 +224,6 @@ if = {
 	    logistics_skill = 1
 	}
 }
-
-if = {
-	limit = {
-		has_dlc = "La Resistance"
-	}
-	create_corps_commander = {
-		name = "Vicente Rojo Lluch"
-		id = 1102
-		gfx = "GFX_portrait_SPR_vicente_rojo_lluch"
-		traits = { brilliant_strategist }
-		skill = 3
-		attack_skill = 3
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 3
-	}
-	
-	create_corps_commander = {
-		name = "José Miaja"
-		id = 1103
-		gfx = "GFX_portrait_SPR_jose_miaja"
-		traits = { infantry_leader }
-		skill = 2
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 1
-	}
-
-	create_corps_commander = {
-		name = "José Asensio Torrado"
-		id = 1101
-		gfx = "GFX_portrait_SPR_jose_asensio_torrado"
-		traits = { career_officer infantry_leader }
-		skill = 2
-	    attack_skill = 1
-	    defense_skill = 3
-	    planning_skill = 2
-	    logistics_skill = 1
-	}
-	
-	# Republican leaders - Stalinist Communist
-	
-	create_corps_commander = { # Becomes Field Marshal at SCW start
-		name = "Valentín González"
-		id = 1104
-		gfx = "GFX_portrait_SPR_valentin_gonzalez"
-		traits = { harsh_leader }
-		skill = 3
-	    attack_skill = 2
-	    defense_skill = 2
-	    planning_skill = 3
-	    logistics_skill = 3
-	}
-	
-	create_corps_commander = {
-		name = "Juan Modesto"
-		id = 1105
-		gfx = "GFX_portrait_SPR_juan_modesto"
-		traits = { trait_mountaineer }
-		skill = 2
-	    attack_skill = 1
-	    defense_skill = 1
-	    planning_skill = 2
-	    logistics_skill = 3
-	}
-	
-	create_corps_commander = {
-		name = "Antonio Cordón García"
-		id = 1106
-		gfx = "GFX_portrait_SPR_antonio_cordon_garcia"
-		traits = { infantry_leader }
-		skill = 2
-	    attack_skill = 2
-	    defense_skill = 1
-	    planning_skill = 3
-	    logistics_skill = 1
-	}
-	
-	# Republican leaders - Independent Communist
-	
-	create_corps_commander = {
-		name = "János Gálicz"
-		id = 1107
-		gfx = "GFX_portrait_SPR_janos_galicz"
-		traits = { trait_reckless }
-		skill = 1
-	    attack_skill = 1
-	    defense_skill = 1
-	    planning_skill = 1
-	    logistics_skill = 1
-	}
 	
 	# Nationalists leaders - Francoists
 	
@@ -494,20 +337,6 @@ if = {
 	    defense_skill = 3
 	    planning_skill = 2
 	    logistics_skill = 2
-	}
-	
-	# Naval Leaders - Republicans
-	
-	create_navy_leader = {
-		name = "Miguel Buiza Fernández-Palacios"
-		id = 1117
-		gfx = "GFX_portrait_SPR_miguel_buiza_fernandez_palacios"
-		traits = { craven }
-		skill = 1
-		attack_skill = 1
-		defense_skill = 1
-		maneuvering_skill = 1
-		coordination_skill = 1
 	}
 	
 	# Naval Leaders - Nationalists
@@ -718,61 +547,51 @@ if = {
 			rear_1_custom_slot = empty
 		}
 	}
-}
-
-1960.1.1 = {
-	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
-		# Ship variants #
+	# Submarines #
+	create_equipment_variant = {
+		name = "General Mola Class"							# purchased from Italy
+		type = ship_hull_submarine_2
+		name_group = SPR_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+		obsolete = yes
 	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		# Submarines #
-		create_equipment_variant = {
-			name = "General Mola Class"							# purchased from Italy
-			type = ship_hull_submarine_2
-			name_group = SPR_SS_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_torpedo_slot = ship_torpedo_sub_1
-				fixed_ship_engine_slot = sub_ship_engine_2
-				rear_1_custom_slot = ship_torpedo_sub_1
-			}
-			obsolete = yes
+	# Destroyers #
+	create_equipment_variant = {
+		name = "Melilla Class"								# purchased from Italy				
+		type = ship_hull_light_1
+		name_group = SPR_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = empty
 		}
-		# Destroyers #
-		create_equipment_variant = {
-			name = "Melilla Class"								# purchased from Italy				
-			type = ship_hull_light_1
-			name_group = SPR_DD_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_battery_slot = ship_light_battery_1
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = light_ship_engine_1
-				fixed_ship_torpedo_slot = ship_torpedo_1
-				mid_1_custom_slot = ship_mine_layer_1
-				rear_1_custom_slot = empty
-			}
-			obsolete = yes
-		}
-		create_equipment_variant = {
-			name = "Eolo Class"									# minelayer
-			type = ship_hull_light_2
-			name_group = SPR_DD_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_battery_slot = ship_light_battery_2
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = light_ship_engine_1
-				fixed_ship_torpedo_slot = empty
-				mid_1_custom_slot = ship_mine_layer_1
-				rear_1_custom_slot = ship_depth_charge_1
-			}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Eolo Class"									# minelayer
+		type = ship_hull_light_2
+		name_group = SPR_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			mid_1_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_depth_charge_1
 		}
 	}
 }
