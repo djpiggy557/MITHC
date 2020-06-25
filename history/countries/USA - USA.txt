@@ -646,12 +646,12 @@ set_convoys = 500
 
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = nsap
 	last_election = "1932.11.8"
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 100
+	nsap = 100
 }
 
 add_ideas = {
@@ -664,7 +664,7 @@ create_country_leader = {
 	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
 	picture = "portrait_rockwell.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = nazist
 	traits = {
 		
 	}
@@ -678,6 +678,27 @@ create_country_leader = {
 	ideology = marxism
 	traits = {
 		
+	}
+}
+
+1960.1.1 = {
+
+set_politics = {
+	ruling_party = nsap
+	last_election = "1932.11.8"
+	elections_allowed = no
+}
+set_popularities = {
+	nsap = 100
+}
+
+create_country_leader = {
+	name = "Matthias Koehl"
+	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
+	picture = "portrait_koehl.dds"
+	expire = "1965.1.1"
+	ideology = nazist
+	traits = {}
 	}
 }
 

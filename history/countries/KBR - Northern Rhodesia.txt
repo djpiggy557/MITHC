@@ -65,12 +65,10 @@ set_popularities = {
 	neutrality = 0
 }
 create_country_leader = {
-	name = "Martin Bormann"
+	name = "Josef Bürckel"
 	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
-	picture = "portrait_bormann.dds"
+	picture = "portrait_burckel.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
+	ideology = nazist
+	traits = {#}
 }

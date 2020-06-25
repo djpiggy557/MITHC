@@ -6,11 +6,19 @@ state={
 		owner = RKM
 		add_core_of = RKM
 		add_core_of = SOV
-		}
+		
+		1970.1.1 = {
+		owner = LOK
+		add_core_of = LOK
+		add_core_of = OET
+		add_core_of = SOV
+	}
+}
 
 	provinces={
 		6355 6304 6386 6330 
 	}
+	
 	manpower = 1232200
 	buildings_max_level_factor = 1.000
 	state_category = rural

@@ -59,23 +59,23 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = nsap
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
-	fascism = 90
-	communism = 5
+	neutrality = 5
+	nsap = 90
+	fascism = 5
 }
 
 create_country_leader = {
-	name = "Jozef Tiso"
+	name = "Alexander Mach"
 	desc = "POLITICS_JOZEF_TISO_DESC"
-	picture = "Portrait_Slovakia_Jozef_Tiso.dds"
+	picture = "portrait_alexander_mach.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = nazist
 	traits = {
 		#
 	}

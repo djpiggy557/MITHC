@@ -1045,7 +1045,7 @@ if = {
 		autonomous_state = autonomy_wtt_imperial_subject
 	}
 	set_autonomy = {
-		target = RAJ
+		target = IND
 		autonomous_state = autonomy_wtt_imperial_subject
 	}
 	set_autonomy = {
@@ -1117,7 +1117,7 @@ if = {
 		autonomous_state = autonomy_wtt_imperial_subject
 	}
 	set_autonomy = {
-		target = RAJ
+		target = IND
 		autonomous_state = autonomy_wtt_imperial_subject
 	}
 	set_autonomy = {
@@ -1186,7 +1186,7 @@ if = {
 		autonomous_state = autonomy_wtt_imperial_subject
 	}
 	set_autonomy = {
-		target = RAJ
+		target = IND
 		autonomous_state = autonomy_wtt_imperial_subject
 	}
 	set_autonomy = {
@@ -1227,7 +1227,7 @@ add_to_faction = LAO
 add_to_faction = CAM
 add_to_faction = PHI
 add_to_faction = BRM
-add_to_faction = RAJ
+add_to_faction = IND
 add_to_faction = MAL
 add_to_faction = INS
 add_to_faction = PNG

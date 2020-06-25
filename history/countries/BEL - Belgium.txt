@@ -77,7 +77,7 @@ set_technology = {
 
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = nsap
 	last_election = "1932.11.27"
 	election_frequency = 48
 	elections_allowed = no
@@ -85,21 +85,21 @@ set_politics = {
 
 set_popularities = {
 	democratic = 0
-	fascism = 100
+	nsap = 100
 	communism = 0
 	neutrality = 0
 }
 
 1960.1.1 = {
 	set_politics = {
-		ruling_party = fascism
+		ruling_party = nsap
 		last_election = "1939.4.2"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
 		democratic = 0
-		fascism = 100
+		nsap = 100
 		communism = 0
 	}
 }
@@ -134,7 +134,7 @@ create_country_leader = {
 	desc = "POLITICS_LEON_DEGRELLE_DESC"
 	picture = "portrait_degrelle.dds"
 	expire = "1965.1.1"
-	ideology = rexism
+	ideology = nazist
 	traits = {
 		#
 	}

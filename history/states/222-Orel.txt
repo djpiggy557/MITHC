@@ -22,7 +22,12 @@ state={
 			air_base = 4
 		}
 		add_core_of = RKM
+		
+		1970.1.1 = {
+		owner = OET
+		add_core_of = OET
 	}
+}
 
 	provinces={
 		302 328 384 9328 9355 9384 9411 11214 11283 11310 11337 11368 

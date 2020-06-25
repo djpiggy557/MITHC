@@ -22,6 +22,13 @@ state=
 			add_core_of = ITA
 			add_core_of = GER
 		}
+		
+		1970.1.1 = {
+			owner = AUS
+			add_core_of = AUS
+			add_core_of = CRO
+			add_core_of = GER
+		}
 	}
 	provinces={
 		3631 6650 9627 }

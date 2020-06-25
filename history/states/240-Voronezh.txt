@@ -20,7 +20,11 @@ state={
 				industrial_complex = 1
 			}
 		}
+		1970.1.1 = {
+		owner = OET
+		add_core_of = OET
 	}
+}
 
 	provinces={
 		473 534 3492 6432 6481 6517 6577 9424 9449 9489 9518 11439 11500 

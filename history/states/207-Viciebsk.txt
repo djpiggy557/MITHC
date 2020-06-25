@@ -17,7 +17,11 @@ state={
 		}
 		add_core_of = RKW
 		add_core_of = BLR
+		1970.1.1 = {
+		owner = OET
+		add_core_of = OET
 	}
+}
 
 	provinces={
 		323 3219 3331 6220 6249 6326 6371 9241 9323 11220 11241 

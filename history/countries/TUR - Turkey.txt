@@ -378,13 +378,25 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Fevzi Çakmak"
+	name = "Celâl Bayar"
 	desc = "POLITICS_OGUZ_REMZI_ARIK_DESC"
-	picture = "portrait_kamuk.dds"
+	picture = "portrait_bayar.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
 		#
+	}
+}
+
+1960.1.1 = {
+
+create_country_leader = {
+	name = "Cevdet Sunay"
+	desc = "POLITICS_OGUZ_REMZI_ARIK_DESC"
+	picture = "portrait_sunay.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {#}
 	}
 }
 

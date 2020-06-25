@@ -170,61 +170,29 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = nsap
 	last_election = "1935.10.14"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 98
-	fascism = 1
-	communism = 1
-}
-
-create_country_leader = {
-	name = "Mackenzie King"
-	desc = "POLITICS_MACKENZIE_KING_DESC"
-	picture = "Portrait_Canada_Mackenzie_King.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		#
-	}
+	democratic = 10
+	fascism = 10
+	nsap = 80
 }
 
 create_country_leader = {
 	name = "Adrien Arcand"
-	desc = "POLITICS_ADRIEN_ARCAND_DESC"
-	picture = "GFX_CAN_adrien_arcand"
+	desc = "POLITICS_MACKENZIE_KING_DESC"
+	picture = "portrait_arcand.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = nazist
 	traits = {
 		#
 	}
 }
 
-create_country_leader = {
-	name = "Tim Buck"
-	desc = "POLITICS_TIM_BUCK_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "J. S. Woodsworth"
-	desc = "POLITICS_JS_WOODSWORTH_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
-}
 
 set_convoys = 100
 set_stability = 0.75

@@ -8,7 +8,14 @@ state={
 		add_core_of = RKN
 		add_core_of = SOV
 		add_core_of = LAT
+		
+		1970.1.1 = {
+		owner = EST
+		add_core_of = EST
+		add_core_of = SOV
+		add_core_of = LAT
 	}
+}
 
 	provinces={
 		3310 415 

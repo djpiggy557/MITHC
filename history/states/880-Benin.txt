@@ -12,8 +12,8 @@ state={
 		add_core_of = DAH
 		
 		1960.8.14 = {
-			owner = MTA
-			add_core_of = MTA
+			owner = TOG
+			add_core_of = TOG
 			add_core_of = FRA
 			add_core_of = DAH
 		}

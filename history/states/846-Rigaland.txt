@@ -16,6 +16,14 @@ state={
 		}
 		add_core_of = RKO
 		add_core_of = LAT
+		
+		1970.1.1 = {
+			owner = LAT
+			add_core_of = LAT
+			add_core_of = SOV
+			add_core_of = OET
+			add_core_of = RKO
+		}
 	}
 
 	provinces={

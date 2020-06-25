@@ -26,11 +26,10 @@ state=
 		add_core_of = HUN
 		add_core_of = SLO
 		
-		1960.8.14 = {
-			owner = GER
-			add_core_of = HUN
+		1970.1.1 = {
+			owner = SLO
 			add_core_of = SLO
-			add_core_of = GER
+			add_core_of = HUN
 		}
 	}
 

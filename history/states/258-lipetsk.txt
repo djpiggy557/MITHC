@@ -15,7 +15,11 @@ state={
 		victory_points = {
 			6398 1
 		}
+		1970.1.1 = {
+		owner = OET
+		add_core_of = OET
 	}
+}
 
 	provinces={
 		356 3199 3291 3318 3346 6230 6317 6341 6369 6398 9339 9394 

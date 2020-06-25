@@ -1,0 +1,23 @@
+state = {
+	id=907
+	name="Volzhsky"
+	manpower = 108841
+	state_category = rural
+	
+	history={
+		owner = RKN
+		add_core_of = RKN
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 3
+		}
+		1970.1.1 = {
+		owner = RKT
+		add_core_of = RKT
+		add_core_of = OET
+		add_core_of = SOV
+	}
+}
+	
+	provinces= { 11474 520 11484 3503 6541 9530 6575 3517 11395 6479  }
+}

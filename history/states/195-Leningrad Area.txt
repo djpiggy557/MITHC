@@ -1,7 +1,7 @@
 
 state={
 	id=195
-	name="STATE_195"
+	name="Saint Petersburg"
 	manpower = 3750158
 	
 	state_category = metropolis
@@ -13,7 +13,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 7
-			arms_factory = 6
+			arms_factory = 7
 			industrial_complex = 1
 			dockyard = 3
 			air_base = 10
@@ -23,14 +23,16 @@ state={
 			}
 		}
 		add_core_of = RKN
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 7
-			}
-		}
+		add_core_of = SOV
+		1970.1.1 = {
+		owner = FIN
+		add_core_of = FIN
+		add_core_of = SOV
+		add_core_of = OET
 	}
+}
 
 	provinces={
-		79 149 3151 6174 11068 
+		149 3151 
 	}
 }

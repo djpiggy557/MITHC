@@ -1,0 +1,22 @@
+state = {
+	id=908
+	name="South Sudetenland"
+	manpower = 108841
+	state_category = rural
+	
+	history={
+		owner = GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 3
+		}
+		1970.1.1 = {
+		owner = AUS
+		add_core_of = AUS
+		add_core_of = GER
+		add_core_of = CZE
+	}
+}
+	
+	provinces= { 5283 543 11525 557  }
+}

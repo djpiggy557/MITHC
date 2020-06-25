@@ -1096,19 +1096,16 @@ create_equipment_variant = {
 		
 	}
 	
-	# Heavy Cruisers #
-	#create_equipment_variant = {
-	#	name = "Deutschland Class"
-	#	type = heavy_cruiser_1
-	#	parent_version = 0
-	#	upgrades = {
-	#		ship_reliability_upgrade = 1
-	#		ship_engine_upgrade = 1
-	#		ship_armor_upgrade = 1
-	#		ship_gun_upgrade = 2
-	#	}
-	#	obsolete = yes
-	#}
+	create_country_leader = {
+	name = "Martin Bormann"
+	desc = "POLITICS_ADOLF_HITLER_DESC"
+	picture = "portrait_bormann.dds"
+	expire = "1965.1.1"
+	ideology = nazist
+	traits = {
+		dictator
+	}
+}
 	set_autonomy = {
 		target = RKO
 		autonomous_state = autonomy_reichskommissariat
@@ -1231,4 +1228,15 @@ create_equipment_variant = {
 	add_to_faction = ROM
 	add_to_faction = NOR
 	add_to_faction = BUL
+}
+
+1970.1.1 = {
+create_country_leader = {
+	name = "Otto Remer"
+	desc = "POLITICS_ADOLF_HITLER_DESC"
+	picture = "portrait_otto_remer.dds"
+	expire = "1965.1.1"
+	ideology = nazist
+	traits = {dictator}
+	}
 }

@@ -1,0 +1,22 @@
+state = {
+	id=906
+	name="Neva"
+	manpower = 108841
+	state_category = rural
+	
+	history={
+		owner = RKN
+		add_core_of = RKN
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 3
+		}
+		1970.1.1 = {
+		owner = OET
+		add_core_of = OET
+		add_core_of = SOV
+	}
+}
+	
+	provinces= { 79 6174 11068 }
+}

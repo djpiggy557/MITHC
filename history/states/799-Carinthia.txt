@@ -20,6 +20,13 @@ state=
 		}
 		victory_points = { 6583 5 }
 		add_core_of = GER
+		
+		1970.1.1 = {
+			owner = AUS
+			add_core_of = AUS
+			add_core_of = CRO
+			add_core_of = GER
+		}
 	}
 
 	provinces={

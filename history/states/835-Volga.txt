@@ -21,7 +21,12 @@ state=
 			industrial_complex = 3
 		}
 		add_core_of = RKM
+		
+		1970.1.1 = {
+		owner = OET
+		add_core_of = OET
 	}
+}
 
 	provinces={
 		9354 11292 11243 3282 9259 11356 6253 9373 9307 6312 6357 9244  

@@ -36,28 +36,17 @@ LUX = {
 	color = rgb { 65 175 179 }
 	color_ui = rgb { 85 228 233 }
 }
-CZE = {	color = rgb { 54 167 156 }
-		color_ui = rgb { 70 217 203 }
-}
 POL = {
 	color = rgb { 197 92 106 }
 	color_ui = rgb { 255 120 138 }
 }
-AUS = {
-	color = rgb { 194 198 215 }
-	color_ui = rgb { 255 255 255 }
-}
 LIT = {
-	color = rgb { 219 219 119 }
+	color = rgb { 89 89 89 }
 	color_ui = rgb { 255 255 155 }
 }
 EST = {
-	color = rgb { 50 135 175 }
+	color = rgb { 89 89 89 }
 	color_ui = rgb { 99 204 254 }
-}
-LAT = {
-	color = rgb { 75 77 186 }
-	color_ui = rgb { 124 125 184 }
 }
 SPR = {
 	color = rgb { 242 205 94 }
@@ -327,10 +316,6 @@ YEM = {
 OMA = {
 	color = rgb { 155 101 107 }
 	color_ui = rgb { 202 131 139 }
-}
-SLO = {
-	color = rgb { 158  161  188 }
-	color_ui = rgb { 255 255 255 }
 }
 RAJ = {
 	color = rgb { 226  135  40 }
@@ -942,5 +927,46 @@ CRH = {
 }
 TNG = {
 	color = rgb { 128 0 42 }
+	color_ui = rgb { 255 153 0 }
+}
+OET = {
+	color = rgb { 89 89 89 }
+	color_ui = rgb { 255 153 0 }
+}
+LOK = {
+	color = rgb { 89 89 89 }
+	color_ui = rgb { 255 153 0 }
+}
+
+IND = {
+	color = rgb { 255 209 26 }
+	color_ui = rgb { 255 153 0 }
+}
+
+TOG = {
+	color = rgb { 89 89 89 }
+	color_ui = rgb { 255 153 0 }
+}
+
+AUS = {
+	color = rgb { 89 89 89 }
+	color_ui = rgb { 255 153 0 }
+}
+
+MRA = {
+	color = rgb { 89 89 89 }
+	color_ui = rgb { 255 153 0 }
+}
+CZE = {
+	color = rgb { 89 89 89 }
+	color_ui = rgb { 255 153 0 }
+}
+
+SLO = {
+	color = rgb { 179 0 0 }
+	color_ui = rgb { 255 153 0 }
+}
+LAT = {
+	color = rgb { 89 89 89 }
 	color_ui = rgb { 255 153 0 }
 }
